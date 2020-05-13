@@ -4,6 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewpoint" content="width=device-width, initial-scale=1" />
 
+    <title>Karen Kwok</title>
+
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link
       rel="android-chrome"
@@ -22,20 +24,24 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
 
-    <title>Karen Kwok</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&amp;display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="hover.css" />
   </head>
 
   <body>
     <!-- HEADER -->
     <header>
       <nav class="row">
-        <span><a href="#home">Home</a></span>
-        <span><a href="#about">About</a></span>
-        <span><a href="#resume">Resume</a></span>
-        <span><a href="#projects">Projects</a></span>
-        <span><a href="#contact">Contact</a></span>
+        <a href="#home"><img id="logo" src="android-chrome-512x512.png"></a>
+        <span id="header-about" class="hvr-grow"><a href="#about">About</a></span>
+        <span id="header-resume" class="hvr-grow"><a href="#resume">Resume</a></span>
+        <span id="header-projects" class="hvr-grow"><a href="#projects">Projects</a></span>
+        <span id="header-contact" class="hvr-grow"><a href="#contact">Contact</a></span>
       </nav>
     </header>
 
@@ -71,7 +77,7 @@
 
     <!-- FOOTER -->
     <footer class="row">
-      <span>Copyright &copy; Karen Kwok 2020</span>
+      <span>Copyright &copy; 2020 Karen Kwok. All rights reserved.</span>
     </footer>
   </body>
 </html>

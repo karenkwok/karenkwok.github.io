@@ -40,7 +40,7 @@ a:-webkit-any-link {
 }
 
 #footer-logo {
-  height: 25px;
+  height: 18px;
 }
 
 body {
@@ -87,6 +87,7 @@ footer {
   background: white;
   justify-content: center; /* every item in footer centred */
   align-items: center; /*centre items vertically for now */
+  font-size: 13px;
 }
 
 footer a {

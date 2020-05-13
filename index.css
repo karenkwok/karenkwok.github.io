@@ -23,9 +23,9 @@ header {
   top: 0;
   left: 0;
   background: white;
-  font-family: 'Roboto';
-  font-weight: 500; 
-  color: #000000 !important; 
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #000000 !important;
   text-transform: uppercase;
 }
 
@@ -39,9 +39,13 @@ a:-webkit-any-link {
   height: 75px;
 }
 
+#footer-logo {
+  height: 25px;
+}
+
 body {
-  font-family: 'Roboto';
-  color: #000000 !important; 
+  font-family: "Roboto";
+  color: #000000 !important;
 }
 
 .row {
@@ -81,8 +85,9 @@ footer {
   left: 0;
   background: white;
   justify-content: center; /* every item in footer centred */
+  align-items: center; /*centre items vertically for now */
 }
 
-footer span {
+footer a {
   margin-right: 0 !important;
 }

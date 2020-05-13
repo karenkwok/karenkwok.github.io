@@ -1,3 +1,19 @@
+body header nav span#header-about:hover a {
+  color: #99ffcc !important;
+}
+
+body header nav span#header-resume:hover a {
+  color: #99ccff !important;
+}
+
+body header nav span#header-projects:hover a {
+  color: #cc99ff !important;
+}
+
+body header nav span#header-contact:hover a {
+  color: #ffccff !important;
+}
+
 /* HEADER */
 header {
   width: 100%;
@@ -7,6 +23,25 @@ header {
   top: 0;
   left: 0;
   background: white;
+  font-family: 'Roboto';
+  font-weight: 500; 
+  color: #000000 !important; 
+  text-transform: uppercase;
+}
+
+a:-webkit-any-link {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#logo {
+  height: 75px;
+}
+
+body {
+  font-family: 'Roboto';
+  color: #000000 !important; 
 }
 
 .row {
@@ -16,6 +51,11 @@ header {
 
 nav {
   justify-content: flex-end; /* every item in nav on right */
+  align-items: center; /*centre items vertically for now */
+}
+
+a:first-child {
+  margin-right: auto;
 }
 
 span:first-child {

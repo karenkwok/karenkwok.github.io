@@ -1,3 +1,10 @@
 body header nav span#header-contact a {
     color: #ffccff !important;
   }
+
+  main img  {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 300px;
+  }

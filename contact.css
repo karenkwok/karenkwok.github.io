@@ -8,6 +8,7 @@ body header nav span#header-contact a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding-left: 0;
   }
 
   ul li {

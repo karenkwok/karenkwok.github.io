@@ -59,37 +59,19 @@ nav {
   align-items: center; /*centre items vertically for now */
 }
 
-a:first-child {
+nav a:first-child {
   margin-right: auto;
 }
 
-span:first-child {
+nav span:first-child {
   margin-right: auto;
 }
 
-span {
+nav span {
   margin-right: 50px;
 }
 
 /* HOME */
 section {
   margin-top: 100px;
-}
-
-/* FOOTER */
-footer {
-  width: 100%;
-  height: 8%;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  background: white;
-  justify-content: center; /* every item in footer centred */
-  align-items: center; /*centre items vertically for now */
-  font-size: 13px;
-}
-
-footer a {
-  margin-right: 0 !important;
 }

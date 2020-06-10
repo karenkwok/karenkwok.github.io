@@ -39,6 +39,8 @@
     <link rel="stylesheet" type="text/css" href="projects.css" />
     <link rel="stylesheet" type="text/css" href="index.css" />
     <link rel="stylesheet" type="text/css" href="hover.css" />
+
+    <script src="projects.js"></script>
   </head>
 
   <body>
@@ -69,7 +71,7 @@
     <!-- MAIN -->
     <main>
 
-      <!-- Button trigger modal -->
+      <!-- CAPTURE Button trigger modal -->
       <img
         id="capture"
         src="CAPTURE/Photo Manipulation Workshop_ Session 1.png"
@@ -77,7 +79,7 @@
         data-target="#exampleModalLong"
       />
 
-      <!-- Modal -->
+      <!-- CAPTURE Modal -->
       <div
         class="modal fade"
         id="exampleModalLong"
@@ -107,6 +109,62 @@
               <img src="CAPTURE/80's _ 90's Fashion Photoshoot.png" />
               <img src="CAPTURE/CAPTURE Halloween Party.png" />
               <img src="CAPTURE/Capture Spooky Film Project.PNG" />
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Musescore Button trigger modal -->
+      <img
+        id="musescore"
+        src="MUSESCORE/Jolly-Turtles-1.png"
+        data-toggle="modal"
+        data-target="#exampleModalLong2"
+      />
+
+      <!-- Musescore Modal -->
+      <div
+        class="modal fade"
+        id="exampleModalLong2"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">
+                Musescore
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div id="musescore-modal" class="modal-body">
+              <img src="MUSESCORE/Jolly-Turtles-1.png" onclick="playAudio('jolly')"/>
+              <img src="MUSESCORE/Jolly-Turtles-2.png" />
+              <audio id="jolly">
+                <source src="MUSESCORE/Jolly-Turtles.mp3" type="audio/mpeg">
+              </audio>
+              <img src="MUSESCORE/One-Little-Turtle-1.png" onclick="playAudio('little')"/>
+              <audio id="little">
+                <source src="MUSESCORE/One-Little-Turtle.mp3" type="audio/mpeg">
+              </audio>
             </div>
             <div class="modal-footer">
               <button

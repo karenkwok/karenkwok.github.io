@@ -5,12 +5,14 @@ body header nav span#header-projects a {
 #capture {
   height: 500px;
   cursor: pointer;
+  margin-right: 100px;
 }
 
 main {
   overflow: visible;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
 }
 
@@ -24,6 +26,18 @@ div.modal-body img {
 }
 
 #capture-modal {
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#musescore {
+  height: 500px;
+  cursor: pointer;
+}
+
+#musescore-modal {
   overflow: visible;
   display: flex;
   flex-direction: column;

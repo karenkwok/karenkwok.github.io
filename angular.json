@@ -126,7 +126,13 @@
         },
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
-          "options": {}
+          "options": {
+            "name": "Karen Kwok",
+            "email": "kkwok98@hotmail.com",
+            "cname": "karenkwok.me",
+            "message": "Deploy to GitHub Pages",
+            "branch": "master"
+          }
         }
       }
     }

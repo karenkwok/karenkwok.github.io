@@ -1,81 +1,86 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
 
-footer {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+body {
+  font-family: "Nunito", sans-serif;
 
-  ul {
+  footer {
     display: flex;
     justify-content: center;
-    padding-left: 0;
+    flex-direction: column;
 
-    li {
-      list-style: none;
+    ul {
+      display: flex;
+      justify-content: center;
+      padding-left: 0;
 
-      a {
-        width: 80px;
-        height: 80px;
-        background-color: #fff;
-        text-align: center;
-        line-height: 80px;
-        font-size: 35px;
-        margin: 0 10px;
-        display: block;
-        border-radius: 50%;
-        position: relative;
-        overflow: hidden;
-        border: 3px solid #fff;
-        z-index: 1;
+      li {
+        list-style: none;
 
-        .icon {
+        a {
+          width: 80px;
+          height: 80px;
+          background-color: #fff;
+          text-align: center;
+          line-height: 80px;
+          font-size: 35px;
+          margin: 0 10px;
+          display: block;
+          border-radius: 50%;
           position: relative;
-          color: #262626;
+          overflow: hidden;
+          border: 3px solid #fff;
+          z-index: 1;
+
+          .icon {
+            position: relative;
+            color: #262626;
+            transition: 0.5s;
+            z-index: 3;
+          }
+        }
+
+        a:hover .icon {
+          color: #fff;
+          transform: rotateX(360deg);
+        }
+
+        a:before {
+          content: "";
+          position: absolute;
+          top: 100%;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: #f00;
           transition: 0.5s;
-          z-index: 3;
+          z-index: 2;
+        }
+
+        a:hover:before {
+          top: 0;
         }
       }
 
-      a:hover .icon {
-        color: #fff;
-        transform: rotateX(360deg);
+      li:nth-child(1) a:before {
+        background: #000000;
       }
 
-      a:before {
-        content: "";
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: #f00;
-        transition: 0.5s;
-        z-index: 2;
+      li:nth-child(2) a:before {
+        background: #0077b5;
       }
 
-      a:hover:before {
-        top: 0;
+      li:nth-child(3) a:before {
+        background: #3b5999;
+      }
+
+      li:nth-child(4) a:before {
+        background: #c4318d;
       }
     }
 
-    li:nth-child(1) a:before {
-      background: #000000;
+    p {
+      text-align: center;
     }
-
-    li:nth-child(2) a:before {
-      background: #0077b5;
-    }
-
-    li:nth-child(3) a:before {
-      background: #3b5999;
-    }
-
-    li:nth-child(4) a:before {
-      background: #c4318d;
-    }
-  }
-
-  p {
-    text-align: center;
   }
 }

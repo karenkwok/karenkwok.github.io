@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
 
 $blue: #66ffff;
 $blue-green: #66ffcc;
@@ -15,7 +16,7 @@ body {
   padding: {
     left: 300px;
     right: 300px;
-    top: 20px;
+    top: 0px;
     bottom: 20px;
   }
   display: flex;
@@ -27,8 +28,20 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 
-    div {
+    button#logo {
+      font-weight: 900;
+      font-size: 60px;
+      color: #202124;
+      font-family: "Roboto", sans-serif;
+    }
+
+    div#tabs {
+      display: flex;
+      flex-direction: row;
+      height: fit-content;
+
       button {
         margin-left: 20px;
         font-size: 22px !important;

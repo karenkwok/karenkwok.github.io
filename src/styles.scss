@@ -29,54 +29,49 @@ body {
     justify-content: space-between;
 
     div {
+      button {
+        margin-left: 20px;
+        font-size: 22px !important;
+        border: none !important;
+        background-color: white !important;
+      }
+
       button#about {
         color: $dark-gray;
-        border-color: $dark-gray;
 
         &:active,
         &:hover {
-          color: white;
-          background-color: $blue;
-          border-color: $blue;
+          color: $blue;
         }
 
         &:focus {
           box-shadow: 0 0 0 0.2rem $blue;
-          border-color: white;
         }
       }
 
       button#skills {
         color: $dark-gray;
-        border-color: $dark-gray;
 
         &:active,
         &:hover {
-          color: white;
-          background-color: $blue-green;
-          border-color: $blue-green;
+          color: $blue-green;
         }
 
         &:focus {
           box-shadow: 0 0 0 0.2rem $blue-green;
-          border-color: white;
         }
       }
 
       button#projects {
         color: $dark-gray;
-        border-color: $dark-gray;
 
         &:active,
         &:hover {
-          color: white;
-          background-color: $green;
-          border-color: $green;
+          color: $green;
         }
 
         &:focus {
           box-shadow: 0 0 0 0.2rem $green;
-          border-color: white;
         }
       }
     }

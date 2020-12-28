@@ -1,19 +1,140 @@
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@import "~@angular/material/theming";
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat-core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$personal-website-primary: mat-palette($mat-indigo);
+$personal-website-accent: mat-palette($mat-pink, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$personal-website-warn: mat-palette($mat-red);
+
+// Create the theme object. A theme consists of configurations for individual
+// theming systems such as "color" or "typography".
+$personal-website-theme: mat-light-theme(
+  (
+    color: (
+      primary: $personal-website-primary,
+      accent: $personal-website-accent,
+      warn: $personal-website-warn,
+    ),
+  )
+);
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include angular-material-theme($personal-website-theme);
+
 /* You can add global styles to this file, and also import other style files */
+
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+
+$blue: #66ffff;
+$blue-green: #66ffcc;
+$green: #66ff99;
+$dark-gray: #262626;
+
+* {
+  font-family: "Nunito", sans-serif;
+}
 
 body {
-  font-family: "Nunito", sans-serif;
+  padding: {
+    left: 300px;
+    right: 300px;
+    top: 0px;
+    bottom: 20px;
+  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    button#logo {
+      font-weight: 900;
+      font-size: 60px;
+      color: #202124;
+      font-family: "Roboto", sans-serif;
+    }
+
+    div#tabs {
+      display: flex;
+      flex-direction: row;
+      height: fit-content;
+
+      button {
+        margin-left: 20px;
+        font-size: 22px !important;
+        border: none !important;
+        background-color: white !important;
+      }
+
+      button#about {
+        color: $dark-gray;
+
+        &:active,
+        &:hover {
+          color: $blue;
+        }
+
+        &:focus {
+          box-shadow: 0 0 0 0.2rem $blue;
+        }
+      }
+
+      button#skills {
+        color: $dark-gray;
+
+        &:active,
+        &:hover {
+          color: $blue-green;
+        }
+
+        &:focus {
+          box-shadow: 0 0 0 0.2rem $blue-green;
+        }
+      }
+
+      button#projects {
+        color: $dark-gray;
+
+        &:active,
+        &:hover {
+          color: $green;
+        }
+
+        &:focus {
+          box-shadow: 0 0 0 0.2rem $green;
+        }
+      }
+    }
+  }
 
   footer {
     width: 100%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    position: fixed;
-    bottom: 0;
+    justify-content: center;
 
     ul {
       display: flex;
+      flex-direction: row;
       justify-content: center;
       padding: 0;
       margin: 0;
@@ -41,44 +162,46 @@ body {
             transition: 0.5s;
             z-index: 3;
           }
-        }
 
-        a:hover .icon {
-          color: #fff;
-          transform: rotateX(360deg);
-        }
+          &:hover .icon {
+            color: #fff;
+            transform: rotateX(360deg);
+          }
 
-        a:before {
-          content: "";
-          position: absolute;
-          top: 100%;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background: #f00;
-          transition: 0.5s;
-          z-index: 2;
-        }
+          &:before {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #f00;
+            transition: 0.5s;
+            z-index: 2;
+          }
 
-        a:hover:before {
-          top: 0;
+          &:hover:before {
+            top: 0;
+          }
         }
       }
 
-      li:nth-child(1) a:before {
-        background: #000000;
-      }
+      li {
+        &:nth-child(1) a:before {
+          background: #000000;
+        }
 
-      li:nth-child(2) a:before {
-        background: #0077b5;
-      }
+        &:nth-child(2) a:before {
+          background: #0077b5;
+        }
 
-      li:nth-child(3) a:before {
-        background: #3b5999;
-      }
+        &:nth-child(3) a:before {
+          background: #3b5999;
+        }
 
-      li:nth-child(4) a:before {
-        background: #c4318d;
+        &:nth-child(4) a:before {
+          background: #c4318d;
+        }
       }
     }
 
@@ -87,4 +210,13 @@ body {
       text-align: center;
     }
   }
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
 }

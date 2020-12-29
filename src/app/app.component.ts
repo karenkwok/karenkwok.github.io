@@ -16,7 +16,7 @@ export class AppComponent {
     const fullLastName = ' Kwok';
     let firstNameIndex = 1;
     let lastNameIndex = 3;
-    interval(500)
+    interval(200)
       .pipe(
         take(4),
         tap(() => {

@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
 
 $blue: #00b3b3;
 $blue-green: #00b377;
@@ -20,6 +22,7 @@ $light-green: #ccffdd;
   flex-direction: row;
   width: 100%;
   justify-content: center;
+  margin-bottom: 50px;
 
   #karen {
     border-right: solid 3px rgba(0, 255, 0, 0.75);
@@ -54,6 +57,20 @@ $light-green: #ccffdd;
   display: flex;
   flex-direction: column;
 
+  h1 {
+    font-family: "Nunito", sans-serif;
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
   #blue-buttons button {
     color: $blue;
     font-weight: bold;
@@ -82,7 +99,13 @@ $light-green: #ccffdd;
     button {
       margin-right: 10px;
       border-radius: 8px;
-      height: 30px;
+      height: 35px;
+      cursor: default;
+      font-size: 18px;
+
+      &:focus {
+        outline: none;
+      }
     }
   }
 }

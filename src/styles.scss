@@ -350,6 +350,8 @@ body {
       }
 
       li {
+        margin-top: 30px;
+
         &:nth-child(1) a:before {
           background: #000000;
         }
@@ -371,6 +373,8 @@ body {
     p {
       font-size: 20px;
       text-align: center;
+      margin-top: 20px !important;
+      margin-bottom: 30px !important;
     }
   }
 }

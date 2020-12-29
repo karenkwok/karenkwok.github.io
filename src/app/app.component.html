@@ -1,3 +1,11 @@
+<div id="home-title">
+  <div id="karen">{{ firstName }}</div>
+  <div *ngIf="lastName === ' Kwok'" id="space-kwok">&nbsp;Kwok</div>
+  <div *ngIf="lastName !== ' Kwok'" id="space-kwok">
+    {{ lastName }}
+  </div>
+</div>
+
 <div id="skills-wrapper">
   <h1>Skills</h1>
   <div>

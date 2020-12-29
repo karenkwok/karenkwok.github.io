@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+
 $blue: #00b3b3;
 $blue-green: #00b377;
 $green: #00b33c;
@@ -6,9 +10,66 @@ $light-blue: #ccffff;
 $light-blue-green: #ccffee;
 $light-green: #ccffdd;
 
+:host {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#home-title {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 50px;
+
+  #karen {
+    border-right: solid 3px rgba(0, 255, 0, 0.75);
+    font-family: "Source Code Pro", monospace;
+    font-weight: 900;
+    font-size: 60px;
+    color: #202124;
+    line-height: 60px;
+    animation: animated-cursor 600ms steps(5, end) infinite;
+  }
+
+  /* cursor animations */
+  @keyframes animated-cursor {
+    from {
+      border-right-color: rgba(0, 255, 0, 0.75);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+
+  #space-kwok {
+    font-family: "Source Code Pro", monospace;
+    font-weight: 900;
+    font-size: 60px;
+    color: #202124;
+    line-height: 60px;
+  }
+}
+
 #skills-wrapper {
   display: flex;
   flex-direction: column;
+
+  h1 {
+    font-family: "Nunito", sans-serif;
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
 
   #blue-buttons button {
     color: $blue;
@@ -38,7 +99,13 @@ $light-green: #ccffdd;
     button {
       margin-right: 10px;
       border-radius: 8px;
-      height: 30px;
+      height: 35px;
+      cursor: default;
+      font-size: 18px;
+
+      &:focus {
+        outline: none;
+      }
     }
   }
 }

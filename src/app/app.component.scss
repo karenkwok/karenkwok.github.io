@@ -1,0 +1,44 @@
+$blue: #00b3b3;
+$blue-green: #00b377;
+$green: #00b33c;
+
+$light-blue: #ccffff;
+$light-blue-green: #ccffee;
+$light-green: #ccffdd;
+
+#skills-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  #blue-buttons button {
+    color: $blue;
+    font-weight: bold;
+    background-color: $light-blue;
+    border: none;
+  }
+
+  #blue-green-buttons button {
+    color: $blue-green;
+    font-weight: bold;
+    background-color: $light-blue-green;
+    border: none;
+  }
+
+  #green-buttons button {
+    color: $green;
+    font-weight: bold;
+    background-color: $light-green;
+    border: none;
+  }
+
+  .skills-buttons {
+    display: flex;
+    flex-direction: row;
+
+    button {
+      margin-right: 10px;
+      border-radius: 8px;
+      height: 30px;
+    }
+  }
+}

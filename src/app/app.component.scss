@@ -53,21 +53,22 @@ $light-green: #ccffdd;
   }
 }
 
+h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
 #skills-wrapper {
   display: flex;
   flex-direction: column;
-
-  h1 {
-    font-family: "Nunito", sans-serif;
-    font-size: 40px;
-    margin-bottom: 0;
-  }
+  margin-bottom: 50px;
 
   h2 {
     font-family: "Roboto", sans-serif;
     font-size: 27px;
     font-weight: 400;
-    margin-top: 30px;
+    margin-top: 0;
     margin-bottom: 10px;
   }
 
@@ -95,6 +96,7 @@ $light-green: #ccffdd;
   .skills-buttons {
     display: flex;
     flex-direction: row;
+    margin-bottom: 30px;
 
     button {
       margin-right: 10px;
@@ -107,5 +109,24 @@ $light-green: #ccffdd;
         outline: none;
       }
     }
+  }
+}
+
+#projects-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  img,
+  #outsidepianoblack {
+    height: 350px;
+    width: 350px;
+    border-radius: 32px;
+  }
+
+  #outsidepianoblack {
+    background-color: black;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
   }
 }

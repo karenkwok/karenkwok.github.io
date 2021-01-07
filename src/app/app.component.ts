@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { interval } from 'rxjs';
-import { take, tap } from 'rxjs/operators';
+import { delay, take, tap } from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',
@@ -11,6 +11,7 @@ export class AppComponent {
   title = 'personal-website';
   firstName = 'K';
   lastName = 'k';
+  showHover = false;
   ngOnInit(): void {
     const fullFirstName = 'Karen';
     const fullLastName = ' Kwok';
@@ -18,6 +19,7 @@ export class AppComponent {
     let lastNameIndex = 3;
     interval(200)
       .pipe(
+        delay(1000),
         take(4),
         tap(() => {
           this.firstName = this.firstName + fullFirstName[firstNameIndex];
@@ -27,5 +29,11 @@ export class AppComponent {
         })
       )
       .subscribe();
+  }
+  showHoverBlack(): void {
+    this.showHover = true;
+  }
+  hideHoverBlack(): void {
+    this.showHover = false;
   }
 }

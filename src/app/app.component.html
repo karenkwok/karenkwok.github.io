@@ -30,3 +30,20 @@
     </div>
   </div>
 </div>
+<div id="projects-wrapper">
+  <h1>Projects</h1>
+  <img
+    *ngIf="showHover === false"
+    id="outsidepiano"
+    (mouseenter)="showHoverBlack()"
+    src="../assets/outsidepiano.png"
+    [ngClass]="{ hover: showHover }"
+  />
+  <div
+    *ngIf="showHover === true"
+    id="outsidepianoblack"
+    (mouseleave)="hideHoverBlack()"
+  >
+    SenseTech NeuroRehab Piano Game
+  </div>
+</div>

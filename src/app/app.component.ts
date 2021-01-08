@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { interval } from 'rxjs';
 import { delay, take, tap } from 'rxjs/operators';
 
@@ -12,6 +13,9 @@ export class AppComponent {
   firstName = 'K';
   lastName = 'k';
   showHover = false;
+  constructor(public router: Router) {
+  
+  }
   ngOnInit(): void {
     const fullFirstName = 'Karen';
     const fullLastName = ' Kwok';

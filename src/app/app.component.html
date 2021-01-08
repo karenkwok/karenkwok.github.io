@@ -1,49 +1,106 @@
-<div id="home-title">
-  <div id="karen">{{ firstName }}</div>
-  <div *ngIf="lastName === ' Kwok'" id="space-kwok">&nbsp;Kwok</div>
-  <div *ngIf="lastName !== ' Kwok'" id="space-kwok">
-    {{ lastName }}
-  </div>
-</div>
+<div id="homepage-wrapper" *ngIf="router.url === '/'">
+  <header>
+    <button id="logo" class="btn">Kk</button>
+    <div id="tabs">
+      <button id="about" class="btn btn-outline-primary">about</button>
+      <button id="skills" class="btn btn-outline-primary">skills</button>
+      <button id="projects" class="btn btn-outline-primary">projects</button>
+    </div>
+    <div class="toggle-wrapper">
+      <div class="toggle dog-rollover">
+        <input id="doggo" type="checkbox" /><label
+          class="toggle-item"
+          for="doggo"
+        >
+          <div class="dog">
+            <div class="ear"></div>
+            <div class="ear right"></div>
+            <div class="face">
+              <div class="eyes"></div>
+              <div class="mouth"></div>
+            </div>
+          </div>
+        </label>
+      </div>
+    </div>
+  </header>
 
-<div id="skills-wrapper">
-  <h1>Skills</h1>
-  <div>
-    <h2>Languages</h2>
-    <div id="blue-buttons" class="skills-buttons">
-      <button>Python</button>
-      <button>C#</button>
-      <button>Java</button>
-      <button>C</button>
-      <button>R</button>
-    </div>
-    <h2>Web</h2>
-    <div id="blue-green-buttons" class="skills-buttons">
-      <button>HTML</button>
-      <button>CSS/SCSS</button>
-      <button>JavaScript</button>
-    </div>
-    <h2>Technologies</h2>
-    <div id="green-buttons" class="skills-buttons">
-      <button>Unity</button>
-      <button>Adobe Photoshop</button>
+  <div id="home-title">
+    <div id="karen">{{ firstName }}</div>
+    <div *ngIf="lastName === ' Kwok'" id="space-kwok">&nbsp;Kwok</div>
+    <div *ngIf="lastName !== ' Kwok'" id="space-kwok">
+      {{ lastName }}
     </div>
   </div>
-</div>
-<div id="projects-wrapper">
-  <h1>Projects</h1>
-  <img
-    *ngIf="showHover === false"
-    id="outsidepiano"
-    (mouseenter)="showHoverBlack()"
-    src="../assets/outsidepiano.png"
-    [ngClass]="{ hover: showHover }"
-  />
-  <div
-    *ngIf="showHover === true"
-    id="outsidepianoblack"
-    (mouseleave)="hideHoverBlack()"
-  >
-    SenseTech NeuroRehab Piano Game
+
+  <div id="skills-wrapper">
+    <h1>Skills</h1>
+    <div>
+      <h2>Languages</h2>
+      <div id="blue-buttons" class="skills-buttons">
+        <button>Python</button>
+        <button>C#</button>
+        <button>Java</button>
+        <button>C</button>
+        <button>R</button>
+      </div>
+      <h2>Web</h2>
+      <div id="blue-green-buttons" class="skills-buttons">
+        <button>HTML</button>
+        <button>CSS/SCSS</button>
+        <button>JavaScript</button>
+      </div>
+      <h2>Technologies</h2>
+      <div id="green-buttons" class="skills-buttons">
+        <button>Unity</button>
+        <button>Adobe Photoshop</button>
+      </div>
+    </div>
   </div>
+  <div id="projects-wrapper">
+    <h1>Projects</h1>
+    <img
+      *ngIf="showHover === false"
+      id="outsidepiano"
+      (mouseenter)="showHoverBlack()"
+      src="../assets/outsidepiano.png"
+      [ngClass]="{ hover: showHover }"
+    />
+    <div
+      *ngIf="showHover === true"
+      id="outsidepianoblack"
+      (mouseleave)="hideHoverBlack()"
+      [routerLink]="'/piano-game'"
+    >
+      SenseTech NeuroRehab Piano Game
+    </div>
+  </div>
+
+  <footer>
+    <ul>
+      <li>
+        <a href="https://github.com/karenkwok" target="_blank">
+          <i class="fab fa-github-alt icon"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/karen-kwok/" target="_blank"
+          ><i class="fab fa-linkedin-in icon"></i
+        ></a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/kwok.kwok.duck" target="_blank"
+          ><i class="fab fa-facebook-f icon"></i
+        ></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/karenkwokkkk/" target="_blank"
+          ><i class="fab fa-instagram icon"></i
+        ></a>
+      </li>
+    </ul>
+
+    <p>Copyright &#169; Karen Kwok 2020</p>
+  </footer>
 </div>
+<router-outlet></router-outlet>

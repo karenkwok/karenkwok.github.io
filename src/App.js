@@ -1,6 +1,6 @@
-import './App.scss';
-import Header from './Header/Header';
-import Footer from './Footer/Footer';
+import "./App.scss";
+import Header from "./Header/Header";
+import Footer from "./Footer/Footer";
 
 function App() {
   return (

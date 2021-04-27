@@ -72,4 +72,22 @@ footer {
       }
     }
   }
+
+  #hire-me-btn {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: black;
+    background-color: white;
+    color: black;
+    font-size: x-large;
+    text-decoration: none;
+
+    &:hover {
+      background-color: black;
+      color: white;
+      cursor: pointer;
+    }
+  }
 }

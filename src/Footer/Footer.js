@@ -26,14 +26,9 @@ function Footer() {
         </ul>
       </div>
       <div>
-        <button id="hire-me-btn">
-          <a
-            href="mailto:karenk.kwok@mail.utoronto.ca?subject=You're Hired!&body=Congratulations! You got the job!!"
-            id="hire-me"
-          >
-            hire me
-          </a>
-        </button>
+        <a href="mailto:karenk.kwok@mail.utoronto.ca?subject=You're Hired!&body=Congratulations! You got the job!!">
+          <button id="hire-me-btn">hire me</button>
+        </a>
       </div>
     </footer>
   );

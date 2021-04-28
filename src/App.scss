@@ -1,7 +1,22 @@
+$light-purple: rgba(187, 175, 253, 0.3);
+$dark-purple: #bbaffd;
+$light-gray: rgba(0, 0, 0, 0.2);
+$dark-gray: #1a1a1a;
+
 #App {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-left: 10vw;
   padding-right: 10vw;
+}
+.purple-highlight {
+  background-color: $light-purple;
+  border-bottom: 0.0625rem solid $light-gray;
+
+  &:hover {
+    background-color: $dark-purple;
+    border-bottom: 0.0625rem solid $dark-gray;
+    cursor: pointer;
+  }
 }

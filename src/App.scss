@@ -10,6 +10,30 @@ $dark-gray: #1a1a1a;
   padding-left: 10vw;
   padding-right: 10vw;
 }
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.6rem;
+  font-weight: lighter;
+}
+
+h5 {
+  font-size: 1.4rem;
+  font-weight: lighter;
+}
+
 .purple-highlight {
   background-color: $light-purple;
   border-bottom: 0.0625rem solid $light-gray;

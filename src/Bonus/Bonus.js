@@ -14,7 +14,15 @@ function Bonus() {
       </h4>
       <h4 className="no-margin-bottom yes-margin-top">
         My favourite foods are <b>sushi</b> 🍣, <b>ice cream</b> 🍦, and{" "}
-        <b>fried chicken</b> 🍗.
+        <a
+          href="https://www.popeyeschicken.ca"
+          target="_blank"
+          rel="noreferrer"
+          id="popeyes"
+        >
+          <b id="chicken">fried chicken</b> 🍗
+        </a>{" "}
+        .
       </h4>
       <h4 className="yes-margin-top">
         Did I mention I'm a huuuge <b>Pokémon fan</b>?? 🤪

@@ -16,9 +16,6 @@ function App() {
       <Skills></Skills>
       <Projects></Projects>
       <Bonus></Bonus>
-      <div>
-        <h4>Thanks for stopping by! ❤️</h4>
-      </div>
       <Footer></Footer>
     </div>
   );

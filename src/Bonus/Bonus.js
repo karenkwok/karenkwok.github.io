@@ -16,6 +16,9 @@ function Bonus() {
       <h4 className="yes-margin-top">
         Did I mention I'm a huuuge Pokémon fan?? 🤪
       </h4>
+      <div>
+        <h4>Thanks for stopping by! ❤️</h4>
+      </div>
     </div>
   );
 }

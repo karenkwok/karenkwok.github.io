@@ -6,6 +6,18 @@ $dark-dark-purple: #2504d6;
   flex-direction: row;
   justify-content: space-around;
 
+  #skill-web {
+    width: 35vw;
+  }
+
+  #skill-languages {
+    width: 25vw;
+  }
+
+  #skill-technologies {
+    width: 20vw;
+  }
+
   .skill-names {
     display: flex;
     flex-direction: row;

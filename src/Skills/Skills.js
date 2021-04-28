@@ -5,7 +5,7 @@ function Skills() {
     <div id="skills-section">
       <h2>I have experience with...</h2>
       <div id="skill-types">
-        <div>
+        <div id="skill-web">
           <h3>Web</h3>
           <div className="skill-names">
             <h5 className="skill-bubble">React</h5>
@@ -19,7 +19,7 @@ function Skills() {
             <h5 className="skill-bubble">CSS</h5>
           </div>
         </div>
-        <div>
+        <div id="skill-languages">
           <h3>Languages</h3>
           <div className="skill-names">
             <h5 className="skill-bubble">Python</h5>
@@ -29,7 +29,7 @@ function Skills() {
             <h5 className="skill-bubble">R</h5>
           </div>
         </div>
-        <div>
+        <div id="skill-technologies">
           <h3>Technologies</h3>
           <div className="skill-names">
             <h5 className="skill-bubble">Heroku</h5>

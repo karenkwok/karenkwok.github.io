@@ -1,5 +1,7 @@
 import "./Projects.scss";
 import Project from "./Project/Project";
+import idklmao from "./idklmao.png";
+import piano from "./piano.png";
 
 function Projects() {
   return (
@@ -7,8 +9,8 @@ function Projects() {
       <h2>Here is what I've been working on...</h2>
       <div id="projects-squares">
         <Project name="Coming Soon.."></Project>
-        <Project name="UTSearCh"></Project>
-        <Project name="NeuroRehab Project"></Project>
+        <Project name="UTSearCh" image={idklmao}></Project>
+        <Project name="NeuroRehab Project" image={piano}></Project>
       </div>
       <h4>
         For more details, please see{" "}

@@ -6,9 +6,9 @@ function Projects() {
     <div id="projects-section">
       <h2>Here is what I've been working on...</h2>
       <div id="projects-squares">
-        <Project></Project>
-        <Project></Project>
-        <Project></Project>
+        <Project name="Coming Soon.."></Project>
+        <Project name="UTSearCh"></Project>
+        <Project name="NeuroRehab Project"></Project>
       </div>
       <h4>
         For more details, please see{" "}

@@ -1,7 +1,7 @@
 import "./Project.scss";
 
-function Project() {
-    return(<div>project</div>);
+function Project(props) {
+    return(<div className="project-square">{props.name}</div>);
 }
 
 export default Project;

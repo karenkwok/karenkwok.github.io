@@ -19,7 +19,10 @@ function Projects() {
       </div>
       <h4>
         For more details, please see{" "}
-        <a className="purple-highlight">my resume</a>.
+        <a className="purple-highlight">
+          <Link to="/resume">my resume</Link>
+        </a>
+        .
       </h4>
     </div>
   );

@@ -6,6 +6,7 @@ import Skills from "./Skills/Skills";
 import Projects from "./Projects/Projects";
 import Utsearch from "./Projects/Project/Utsearch/Utsearch";
 import Neurorehab from "./Projects/Project/Neurorehab/Neurorehab";
+import Resume from "./Projects/Resume/Resume";
 import Bonus from "./Bonus/Bonus";
 import Footer from "./Footer/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -29,6 +30,9 @@ function App() {
           </Route>
           <Route exact path="/neurorehab-project">
             <Neurorehab></Neurorehab>
+          </Route>
+          <Route exact path="/resume">
+            <Resume></Resume>
           </Route>
         </Switch>
       </Router>

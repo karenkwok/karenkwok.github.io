@@ -14,7 +14,7 @@ function Bonus() {
         🐢
       </h4>
       <h4 className="no-margin-bottom yes-margin-top">
-        My favourite foods are <b>sushi</b> 🍣, <b>ice cream</b> 🍦, and{" "}
+        My favourite foods are <b>sushi</b> 🍣, <Link to="/icecream"><b>ice cream</b> 🍦</Link>, and{" "}
         <a
           href="https://www.popeyeschicken.ca"
           target="_blank"

@@ -9,6 +9,7 @@ import Neurorehab from "./Projects/Project/Neurorehab/Neurorehab";
 import Resume from "./Projects/Resume/Resume";
 import Bonus from "./Bonus/Bonus";
 import Art from "./Bonus/Art/Art";
+import Icecream from "./Bonus/Icecream/Icecream";
 import Footer from "./Footer/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -37,6 +38,9 @@ function App() {
           </Route>
           <Route exact path="/art">
             <Art></Art>
+          </Route>
+          <Route exact path="/icecream">
+            <Icecream></Icecream>
           </Route>
         </Switch>
       </Router>

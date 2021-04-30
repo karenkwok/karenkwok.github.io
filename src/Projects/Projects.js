@@ -11,7 +11,7 @@ function Projects() {
       <div id="projects-squares">
         <Project name="Coming Soon.."></Project>
         <Link to="/utsearch"><Project name="UTSearCh" image={idklmao}></Project></Link>
-        <Project name="NeuroRehab Project" image={piano}></Project>
+        <Link to="/neurorehab-project"><Project name="NeuroRehab Project" image={piano}></Project></Link>
       </div>
       <h4>
         For more details, please see{" "}

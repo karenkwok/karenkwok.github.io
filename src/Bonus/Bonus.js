@@ -1,4 +1,5 @@
 import "./Bonus.scss";
+import { Link } from "react-router-dom";
 
 function Bonus() {
   return (
@@ -6,7 +7,7 @@ function Bonus() {
       <h2>A little bit more about me...</h2>
       <h4 className="no-margin-bottom">
         I'm also an <b>amateur pianist</b> 🎹, <b>book lover</b> 📚, and{" "}
-        <b>retired painter</b> 🎨.
+        <Link to="/art"><b>retired painter</b> 🎨</Link>.
       </h4>
       <h4 className="no-margin-bottom yes-margin-top">
         I have a <b>pet turtle</b>. We've been together for <b>10 years</b> now!

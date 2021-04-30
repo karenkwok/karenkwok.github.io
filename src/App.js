@@ -8,6 +8,7 @@ import Utsearch from "./Projects/Project/Utsearch/Utsearch";
 import Neurorehab from "./Projects/Project/Neurorehab/Neurorehab";
 import Resume from "./Projects/Resume/Resume";
 import Bonus from "./Bonus/Bonus";
+import Art from "./Bonus/Art/Art";
 import Footer from "./Footer/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -33,6 +34,9 @@ function App() {
           </Route>
           <Route exact path="/resume">
             <Resume></Resume>
+          </Route>
+          <Route exact path="/art">
+            <Art></Art>
           </Route>
         </Switch>
       </Router>

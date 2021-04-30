@@ -10,8 +10,12 @@ function Projects() {
       <h2>Here is what I've been working on...</h2>
       <div id="projects-squares">
         <Project name="Coming Soon.."></Project>
-        <Link to="/utsearch"><Project name="UTSearCh" image={idklmao}></Project></Link>
-        <Link to="/neurorehab-project"><Project name="NeuroRehab Project" image={piano}></Project></Link>
+        <Link to="/utsearch">
+          <Project name="UTSearCh" image={idklmao}></Project>
+        </Link>
+        <Link to="/neurorehab-project">
+          <Project name="NeuroRehab Project" image={piano}></Project>
+        </Link>
       </div>
       <h4>
         For more details, please see{" "}

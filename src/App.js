@@ -27,7 +27,9 @@ function App() {
           <Route exact path="/utsearch">
             <Utsearch></Utsearch>
           </Route>
-          <Route exact path="/neurorehab-project"><Neurorehab></Neurorehab></Route>
+          <Route exact path="/neurorehab-project">
+            <Neurorehab></Neurorehab>
+          </Route>
         </Switch>
       </Router>
     </div>

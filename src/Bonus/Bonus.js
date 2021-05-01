@@ -28,9 +28,7 @@ function Bonus() {
       <h4 className="yes-margin-top">
         Did I mention I'm a huuuge <b>Pokémon fan</b>?? 🤪
       </h4>
-      <div>
-        <h4>Thanks for stopping by! ❤️</h4>
-      </div>
+      <h4 id="bonus-last-line">Thanks for stopping by! ❤️</h4>
     </div>
   );
 }

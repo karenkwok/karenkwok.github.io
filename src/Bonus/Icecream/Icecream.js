@@ -1,11 +1,13 @@
 import "./Icecream.scss";
-import { Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 function Icecream() {
+  const history = useHistory();
+
   return (
     <div>
       icecream!
-      <Link to="/">X</Link>
+      <button onClick={history.goBack}>X</button>
     </div>
   );
 }

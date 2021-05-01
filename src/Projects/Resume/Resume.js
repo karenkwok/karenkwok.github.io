@@ -1,11 +1,13 @@
 import "./Resume.scss";
-import { Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 function Resume() {
+  const history = useHistory();
+
   return (
     <div>
       resume!
-      <Link to="/">X</Link>
+      <button onClick={history.goBack}>X</button>
     </div>
   );
 }

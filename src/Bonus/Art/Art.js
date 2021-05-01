@@ -1,11 +1,13 @@
 import "./Art.scss";
-import { Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 function Art() {
+  const history = useHistory();
+
   return (
     <div>
       art!
-      <Link to="/">X</Link>
+      <button onClick={history.goBack}>X</button>
     </div>
   );
 }

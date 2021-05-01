@@ -1,13 +1,15 @@
 import "./Neurorehab.scss";
 import "../Projectpage.scss";
-import { Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 function Neurorehab() {
+  const history = useHistory();
+
   return (
     <div>
       <div className="project-page-title">
         <h2>NeuroRehab Project</h2>
-        <Link to="/">X</Link>
+        <button onClick={history.goBack}>X</button>
       </div>
       <h4>July 2020 - August 2020 (1 month)</h4>
       <div className="project-page-skills">

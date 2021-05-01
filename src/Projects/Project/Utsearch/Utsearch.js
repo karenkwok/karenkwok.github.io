@@ -1,12 +1,14 @@
 import "./Utsearch.scss";
 import "../Projectpage.scss";
-import { Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 function Utsearch() {
+  const history = useHistory();
+
   return (
     <div>
       utsearch!
-      <Link to="/">X</Link>
+      <button onClick={history.goBack}>X</button>
     </div>
   );
 }

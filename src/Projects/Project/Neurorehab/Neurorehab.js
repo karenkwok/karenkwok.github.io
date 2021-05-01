@@ -1,4 +1,5 @@
 import "./Neurorehab.scss";
+import "../Projectpage.scss";
 import { Link } from "react-router-dom";
 
 function Neurorehab() {

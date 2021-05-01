@@ -44,3 +44,9 @@ h5 {
     cursor: pointer;
   }
 }
+
+a:-webkit-any-link {
+  color: black;
+  text-decoration: none;
+  outline: none;
+}

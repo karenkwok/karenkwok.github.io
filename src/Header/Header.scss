@@ -7,6 +7,7 @@ header {
   position: sticky;
   top: 0;
   background-color: white;
+  z-index: 5; // the higher the z-index, the higher the priority to get shown (ex. so the image doesn't overlap the header)
 }
 
 #logo {

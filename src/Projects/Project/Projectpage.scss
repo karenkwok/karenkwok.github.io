@@ -1,10 +1,9 @@
-.project-page-title {
+.project-page-titles {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
 
-.project-page-skills {
-  display: flex;
-  flex-direction: row;
+  .project-page-title {
+    margin-bottom: 0rem;
+  }
 }

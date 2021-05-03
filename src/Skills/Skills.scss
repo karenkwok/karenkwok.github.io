@@ -1,6 +1,3 @@
-$light-purple: rgba(187, 175, 253, 0.3);
-$dark-dark-purple: #2504d6;
-
 #skill-types {
   display: flex;
   flex-direction: row;
@@ -16,25 +13,5 @@ $dark-dark-purple: #2504d6;
 
   #skill-technologies {
     width: 22vw;
-  }
-
-  .skill-names {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-    .skill-bubble {
-      margin-right: 0.7rem;
-      margin-top: 0.4rem;
-      margin-bottom: 0.4rem;
-      padding-left: 0.7rem;
-      padding-right: 0.7rem;
-      padding-top: 0.3rem;
-      padding-bottom: 0.3rem;
-
-      border-radius: 0.6rem;
-      background-color: $light-purple;
-      color: $dark-dark-purple;
-    }
   }
 }

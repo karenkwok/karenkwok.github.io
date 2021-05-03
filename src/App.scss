@@ -1,5 +1,6 @@
 $light-purple: rgba(187, 175, 253, 0.3);
 $dark-purple: #bbaffd;
+$dark-dark-purple: #2504d6;
 $light-gray: rgba(0, 0, 0, 0.2);
 $dark-gray: #1a1a1a;
 
@@ -36,6 +37,26 @@ h4 {
 h5 {
   font-size: 1.1rem;
   font-weight: bold;
+}
+
+.skill-names {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .skill-bubble {
+    margin-right: 0.7rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+
+    border-radius: 0.6rem;
+    background-color: $light-purple;
+    color: $dark-dark-purple;
+  }
 }
 
 .purple-highlight {

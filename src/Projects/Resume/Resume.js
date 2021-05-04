@@ -6,8 +6,8 @@ function Resume() {
 
   return (
     <div>
-      resume!
-      <button onClick={history.goBack}>X</button>
+      Page under construction. Check back soon!
+      <button onClick={history.goBack}>Back</button>
     </div>
   );
 }

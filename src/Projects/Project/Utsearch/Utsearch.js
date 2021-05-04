@@ -13,29 +13,40 @@ function Utsearch() {
         <button onClick={history.goBack}>Back</button>
       </div>
       <p>February 2021 - April 2021</p>
-      <div>
-        <Button variant="outlined">Default</Button>
-        <button><i className="fab fa-react"></i> App</button>
-        <button><i className="fab fa-youtube"></i> YouTube Demo</button>
-        <button><i className="fab fa-github"></i> GitHub Repo</button>
+      <div className="utsearch-btns">
+        <div className="utsearch-btn">
           <Button
             variant="contained"
             color="primary"
             size="large"
+            id="utsearch-app-btn"
           >
+            <i className="fab fa-react" id="utsearch-app"></i>
+            &nbsp;&nbsp;&nbsp;App
           </Button>
+        </div>
+        <div className="utsearch-btn">
           <Button
             variant="contained"
             color="primary"
             size="large"
+            id="utsearch-youtube-btn"
           >
+            <i className="fab fa-youtube" id="utsearch-youtube"></i>
+            &nbsp;&nbsp;&nbsp;YouTube Demo
           </Button>
+        </div>
+        <div className="utsearch-btn">
           <Button
             variant="contained"
             color="primary"
             size="large"
+            id="utsearch-github-btn"
           >
+            <i className="fab fa-github" id="utsearch-github"></i>
+            &nbsp;&nbsp;&nbsp;GitHub Repo
           </Button>
+        </div>
       </div>
       <div className="skill-names">
         <h5 className="skill-bubble">React</h5>

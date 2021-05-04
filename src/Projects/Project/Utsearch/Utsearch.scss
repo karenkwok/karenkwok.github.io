@@ -1,0 +1,32 @@
+.utsearch-btns {
+  display: flex;
+  flex-direction: row;
+
+  .utsearch-btn {
+    margin-right: 0.5rem;
+  }
+}
+
+#utsearch-app-btn {
+  &:hover {
+    #utsearch-app {
+      color: #61dafb;
+    }
+  }
+}
+
+#utsearch-youtube-btn {
+  &:hover {
+    #utsearch-youtube {
+      color: red;
+    }
+  }
+}
+
+#utsearch-github-btn {
+  &:hover {
+    #utsearch-github {
+      color: black;
+    }
+  }
+}

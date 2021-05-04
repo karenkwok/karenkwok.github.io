@@ -13,9 +13,10 @@ function Utsearch() {
       </div>
       <p>February 2021 - April 2021</p>
       <div>
-        <button><i class="fab fa-react"></i> App</button>
-        <button><i class="fab fa-youtube"></i> YouTube Demo</button>
-        <button><i class="fab fa-github"></i> GitHub Repo</button>
+        <Button variant="outlined">Default</Button>
+        <button><i className="fab fa-react"></i> App</button>
+        <button><i className="fab fa-youtube"></i> YouTube Demo</button>
+        <button><i className="fab fa-github"></i> GitHub Repo</button>
       </div>
       <div className="skill-names">
         <h5 className="skill-bubble">React</h5>

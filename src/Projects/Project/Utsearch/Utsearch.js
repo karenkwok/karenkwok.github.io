@@ -1,6 +1,7 @@
 import "./Utsearch.scss";
 import "../Projectpage.scss";
 import { useHistory } from "react-router-dom";
+import { Button } from "@material-ui/core";
 
 function Utsearch() {
   const history = useHistory();
@@ -17,6 +18,24 @@ function Utsearch() {
         <button><i className="fab fa-react"></i> App</button>
         <button><i className="fab fa-youtube"></i> YouTube Demo</button>
         <button><i className="fab fa-github"></i> GitHub Repo</button>
+          <Button
+            variant="contained"
+            color="primary"
+            size="large"
+          >
+          </Button>
+          <Button
+            variant="contained"
+            color="primary"
+            size="large"
+          >
+          </Button>
+          <Button
+            variant="contained"
+            color="primary"
+            size="large"
+          >
+          </Button>
       </div>
       <div className="skill-names">
         <h5 className="skill-bubble">React</h5>

@@ -1,4 +1,5 @@
 import "./Footer.scss";
+import { Button } from "@material-ui/core";
 
 function Footer() {
   return (
@@ -27,7 +28,7 @@ function Footer() {
       </div>
       <div>
         <a href="mailto:karenk.kwok@mail.utoronto.ca?subject=You're Hired!&body=Congratulations! You got the job!!">
-          <button id="hire-me-btn">hire me</button>
+          <Button variant="outlined" size="large" id="hire-me-btn">hire me</Button>
         </a>
       </div>
     </footer>

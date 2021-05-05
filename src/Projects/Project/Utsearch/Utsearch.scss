@@ -20,6 +20,10 @@
 }
 
 #utsearch-youtube-btn {
+  #utsearch-youtube {
+    color: #3B1CDF;
+  }
+  
   &:hover {
     #utsearch-youtube {
       color: red;
@@ -28,6 +32,10 @@
 }
 
 #utsearch-github-btn {
+  #utsearch-github {
+    color: #3B1CDF;
+  }
+
   &:hover {
     #utsearch-github {
       color: black;

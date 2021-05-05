@@ -1,3 +1,6 @@
+$react-light-blue: #61dafb;
+$primary-main-purple: #3B1CDF;
+
 .utsearch-btns {
   display: flex;
   flex-direction: row;
@@ -14,16 +17,16 @@
 #utsearch-app-btn {
   &:hover {
     #utsearch-app {
-      color: #61dafb;
+      color: $react-light-blue;
     }
   }
 }
 
 #utsearch-youtube-btn {
   #utsearch-youtube {
-    color: #3B1CDF;
+    color: $primary-main-purple;
   }
-  
+
   &:hover {
     #utsearch-youtube {
       color: red;
@@ -33,7 +36,7 @@
 
 #utsearch-github-btn {
   #utsearch-github {
-    color: #3B1CDF;
+    color: $primary-main-purple;
   }
 
   &:hover {

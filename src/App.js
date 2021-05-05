@@ -12,38 +12,57 @@ import Art from "./Bonus/Art/Art";
 import Icecream from "./Bonus/Icecream/Icecream";
 import Footer from "./Footer/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
+
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: "#3B1CDF",
+      light: "#5E40FF",
+      dark: "#180196",
+    },
+
+    secondary: {
+      main: "#262626",
+      light: "",
+      dark: "",
+    },
+  },
+});
 
 function App() {
   return (
     <div id="App">
-      <Router>
-        <Switch>
-          <Route exact path="/">
-            <Header></Header>
-            <Title></Title>
-            <About></About>
-            <Skills></Skills>
-            <Projects></Projects>
-            <Bonus></Bonus>
-            <Footer></Footer>
-          </Route>
-          <Route exact path="/utsearch">
-            <Utsearch></Utsearch>
-          </Route>
-          <Route exact path="/neurorehab-project">
-            <Neurorehab></Neurorehab>
-          </Route>
-          <Route exact path="/resume">
-            <Resume></Resume>
-          </Route>
-          <Route exact path="/art">
-            <Art></Art>
-          </Route>
-          <Route exact path="/icecream">
-            <Icecream></Icecream>
-          </Route>
-        </Switch>
-      </Router>
+      <MuiThemeProvider theme={theme}>
+        <Router>
+          <Switch>
+            <Route exact path="/">
+              <Header></Header>
+              <Title></Title>
+              <About></About>
+              <Skills></Skills>
+              <Projects></Projects>
+              <Bonus></Bonus>
+              <Footer></Footer>
+            </Route>
+            <Route exact path="/utsearch">
+              <Utsearch></Utsearch>
+            </Route>
+            <Route exact path="/neurorehab-project">
+              <Neurorehab></Neurorehab>
+            </Route>
+            <Route exact path="/resume">
+              <Resume></Resume>
+            </Route>
+            <Route exact path="/art">
+              <Art></Art>
+            </Route>
+            <Route exact path="/icecream">
+              <Icecream></Icecream>
+            </Route>
+          </Switch>
+        </Router>
+      </MuiThemeProvider>
     </div>
   );
 }

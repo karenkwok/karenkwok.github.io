@@ -27,7 +27,7 @@ function Utsearch() {
         </div>
         <div className="utsearch-btn">
           <Button
-            variant="contained"
+            variant="outlined"
             color="primary"
             size="large"
             id="utsearch-youtube-btn"
@@ -38,7 +38,7 @@ function Utsearch() {
         </div>
         <div className="utsearch-btn">
           <Button
-            variant="contained"
+            variant="outlined"
             color="primary"
             size="large"
             id="utsearch-github-btn"

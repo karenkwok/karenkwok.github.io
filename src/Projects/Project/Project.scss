@@ -20,6 +20,10 @@ $project-dimension: 22vw;
   &:hover {
     cursor: pointer;
 
+    img {
+      opacity: 0;
+    }
+
     .project-title {
       opacity: 1;
     }
@@ -31,9 +35,5 @@ $project-dimension: 22vw;
     border-radius: 2rem;
     transition: 0.25s ease-in-out;
     opacity: 1;
-
-    &:hover {
-      opacity: 0;
-    }
   }
 }

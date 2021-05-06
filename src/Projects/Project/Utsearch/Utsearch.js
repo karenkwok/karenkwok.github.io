@@ -15,26 +15,34 @@ function Utsearch() {
       <p>February 2021 - April 2021</p>
       <div className="utsearch-btns">
         <div className="utsearch-btn">
-          <Button
-            variant="contained"
-            color="primary"
-            size="large"
-            id="utsearch-app-btn"
-          >
-            <i className="fab fa-react" id="utsearch-app"></i>
-            &nbsp;&nbsp;&nbsp;App
-          </Button>
+          <a href="https://utsearch.tech" target="_blank" rel="noreferrer">
+            <Button
+              variant="contained"
+              color="primary"
+              size="large"
+              id="utsearch-app-btn"
+            >
+              <i className="fab fa-react" id="utsearch-app"></i>
+              &nbsp;&nbsp;&nbsp;App
+            </Button>
+          </a>
         </div>
         <div className="utsearch-btn">
-          <Button
-            variant="outlined"
-            color="secondary"
-            size="large"
-            id="utsearch-youtube-btn"
+          <a
+            href="https://www.youtube.com/watch?v=HAx83RlzHaU"
+            target="_blank"
+            rel="noreferrer"
           >
-            <i className="fab fa-youtube" id="utsearch-youtube"></i>
-            &nbsp;&nbsp;&nbsp;YouTube Demo
-          </Button>
+            <Button
+              variant="outlined"
+              color="secondary"
+              size="large"
+              id="utsearch-youtube-btn"
+            >
+              <i className="fab fa-youtube" id="utsearch-youtube"></i>
+              &nbsp;&nbsp;&nbsp;YouTube Demo
+            </Button>
+          </a>
         </div>
         <div className="utsearch-btn">
           <Button

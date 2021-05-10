@@ -36,6 +36,36 @@ function Icecream() {
     <div>
       icecream!
       <button onClick={history.goBack}>X</button>
+      <div id="icecream-gallery">
+        <img src={qq4} />
+        <img src={qq3} />
+        <img src={wonderland} />
+        <img src={mandarin2} />
+        <img src={soulcafe} />
+        <img src={tbearwaffle} />
+        <img src={mcdonalds} />
+        <img src={cafeprincess} />
+        <img src={dutchdreams} />
+        <img src={koishi} />
+        <img src={pablocheese} />
+        <img src={acm} />
+        <img src={peacetreats2} />
+        <img src={peacetreats} />
+        <img src={qq2} />
+        <img src={petitpotato} />
+        <img src={taiyakinyc2} />
+        <img src={snowtime4} />
+        <img src={snowtime3} />
+        <img src={mandarin} />
+        <img src={taiyakinyc} />
+        <img src={fugo2} />
+        <img src={snowtime2} />
+        <img src={dearfro} />
+        <img src={qq} />
+        <img src={snowtime} />
+        <img src={ihalokrunch} />
+        <img src={fugo} />
+      </div>
     </div>
   );
 }

@@ -33,6 +33,10 @@ import fugo from "./Pictures/fugo.JPG";
 function Icecream() {
   const history = useHistory();
 
+  window.scrollTo({
+    top: 0,
+  });
+
   return (
     <div>
       icecream!

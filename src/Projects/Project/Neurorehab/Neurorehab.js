@@ -5,6 +5,10 @@ import { useHistory } from "react-router-dom";
 function Neurorehab() {
   const history = useHistory();
 
+  window.scrollTo({
+    top: 0,
+  });
+
   return (
     <div>
       <div className="project-page-titles">

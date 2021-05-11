@@ -6,6 +6,10 @@ import { Button } from "@material-ui/core";
 function Utsearch() {
   const history = useHistory();
 
+  window.scrollTo({
+    top: 0,
+  });
+
   return (
     <div>
       <div className="project-page-titles">

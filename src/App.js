@@ -34,10 +34,10 @@ function App() {
   return (
     <div id="App">
       <MuiThemeProvider theme={theme}>
+        <Header></Header>
         <Router>
           <Switch>
             <Route exact path="/">
-              <Header></Header>
               <Title></Title>
               <About></About>
               <Skills></Skills>

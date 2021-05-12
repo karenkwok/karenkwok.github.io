@@ -39,8 +39,11 @@ function Icecream() {
 
   return (
     <div>
-      icecream!
-      <button onClick={history.goBack}>X</button>
+      <div id="icecream-top">
+        <h4 id="icecream-top-first-line">Not a photographer or foodie.</h4>
+        <button onClick={history.goBack}>Back</button>
+      </div>
+      <h2 id="icecream-second-line">Just a girl who loves ice cream.</h2>
       <div id="icecream-gallery">
         <img src={qq4} />
         <img src={qq3} />

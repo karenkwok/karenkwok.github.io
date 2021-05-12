@@ -44,6 +44,22 @@ function Icecream() {
         <button onClick={history.goBack}>Back</button>
       </div>
       <h2 id="icecream-second-line">Just a girl who loves ice cream.</h2>
+      <h4>
+        I've always liked ice cream as much as the next person, but it wasn't
+        until I accidentally stumbled upon{" "}
+        <a
+          href="http://fugodesserts.com/"
+          target="_blank"
+          rel="noreferrer"
+          className="purple-highlight"
+        >
+          Fugo
+        </a>{" "}
+        that a newfound passion was ignited. Now, accompanied by my best
+        friends, it's our mission to explore the city, hunting for new and
+        exotic ice cream(s?) to eat.
+      </h4>
+      <h4>Since then, my life has never been the same.</h4>
       <div id="icecream-gallery">
         <img src={qq4} />
         <img src={qq3} />

@@ -1,5 +1,8 @@
 import "./Icecream.scss";
 import { useHistory } from "react-router-dom";
+import React from "react";
+import Dialog from "@material-ui/core/Dialog";
+import Typography from "@material-ui/core/Typography";
 
 import qq4 from "./Pictures/qq4.jpg";
 import qq3 from "./Pictures/qq3.jpg";
@@ -30,12 +33,253 @@ import snowtime from "./Pictures/snowtime.JPG";
 import ihalokrunch from "./Pictures/ihalokrunch.JPG";
 import fugo from "./Pictures/fugo.JPG";
 
+class IcecreamData {
+  constructor(image, name, location, date, comment) {
+    this.image = image;
+    this.name = name;
+    this.location = location;
+    this.date = date;
+    this.comment = comment;
+  }
+}
+
 function Icecream() {
   const history = useHistory();
+
+  const [open, setOpen] = React.useState(false);
+  const [clickedIcecream, setClickedIcecream] = React.useState();
+
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+  const handleClose = () => {
+    setOpen(false);
+  };
+
+  let dialog;
+  if (clickedIcecream) {
+    dialog = (
+      <Dialog
+        onClose={handleClose}
+        aria-labelledby="customized-dialog-title"
+        open={open}
+      >
+        <DialogTitle id="customized-dialog-title" onClose={handleClose}>
+          {clickedIcecream.name}
+        </DialogTitle>
+        <DialogContent dividers>
+          <img src={clickedIcecream.image} />
+          <Typography gutterBottom>
+            <i class="fas fa-map-marker-alt"></i>&nbsp;{" "}
+            {clickedIcecream.location}
+          </Typography>
+          <Typography gutterBottom>
+            <i class="far fa-calendar-alt"></i>&nbsp; {clickedIcecream.date}
+          </Typography>
+          <Typography gutterBottom>
+            <i class="far fa-comment"></i>&nbsp; {clickedIcecream.comment}
+          </Typography>
+        </DialogContent>
+      </Dialog>
+    );
+  }
 
   window.scrollTo({
     top: 0,
   });
+
+  const icecreams = [
+    new IcecreamData(
+      qq4,
+      "Men N Black",
+      "QQ Thai Ice Cream",
+      "February 2020",
+      "comment"
+    ),
+    new IcecreamData(
+      qq3,
+      "Pink Lady",
+      "QQ Thai Ice Cream",
+      "January 2020",
+      "comment"
+    ),
+    new IcecreamData(
+      wonderland,
+      "Classic Funnel Cake",
+      "Canada's Wonderland",
+      "December 2019",
+      "comment"
+    ),
+    new IcecreamData(
+      mandarin2,
+      "MY CREATION 2.0",
+      "Mandarin",
+      "November 2019",
+      "comment"
+    ),
+    new IcecreamData(
+      soulcafe,
+      "Watermelon Shaved Ice",
+      "Soul Cafe",
+      "August 2019",
+      "comment"
+    ),
+    new IcecreamData(
+      tbearwaffle,
+      "Black Jack Bear Waffle",
+      "T-Bear",
+      "July 2019",
+      "comment"
+    ),
+    new IcecreamData(
+      mcdonalds,
+      "Vanilla Cone",
+      "McDonald's",
+      "July 2019",
+      "comment"
+    ),
+    new IcecreamData(
+      cafeprincess,
+      "Unicorn Sulbing",
+      "Café Princess",
+      "June 2019",
+      "comment"
+    ),
+    new IcecreamData(
+      dutchdreams,
+      "Orange Sherbet & Watermelon Sherbet",
+      "Dutch Dreams",
+      "May 2019",
+      "comment"
+    ),
+    new IcecreamData(koishi, "Ichigo Miso", "Koishi", "May 2019", "comment"),
+    new IcecreamData(
+      pablocheese,
+      "Cheese Soft Serve",
+      "Pablo Cheese Tart",
+      "May 2019",
+      "comment"
+    ),
+    new IcecreamData(
+      acm,
+      "KAREN, YOU'VE OUTDONE YOURSELF.",
+      "ACM Waffle Brunch",
+      "April 2019",
+      "comment"
+    ),
+    new IcecreamData(
+      peacetreats2,
+      "GO SHAWTY, ITS YOUR BIRTHDAY",
+      "Peace Treats",
+      "April 2019",
+      "comment"
+    ),
+    new IcecreamData(
+      peacetreats,
+      "GO SHAWTY, ITS YOUR BIRTHDAY",
+      "Peace Treats",
+      "April 2019",
+      "comment"
+    ),
+    new IcecreamData(
+      qq2,
+      "Blue Magic & QQ",
+      "QQ Thai Ice Cream",
+      "April 2019",
+      "comment"
+    ),
+    new IcecreamData(
+      petitpotato,
+      "Oreo Special Golden Toast",
+      "Petit Potato",
+      "March 2019",
+      "comment"
+    ),
+    new IcecreamData(
+      taiyakinyc2,
+      "Vanilla Mango Taiyaki",
+      "Taiyaki NYC",
+      "December 2018",
+      "comment"
+    ),
+    new IcecreamData(
+      snowtime4,
+      "Mango Bingsoo & Oreo Bingsoo",
+      "Snow Time",
+      "November 2018",
+      "comment"
+    ),
+    new IcecreamData(
+      snowtime3,
+      "Mango Bingsoo & Oreo Bingsoo",
+      "Snow Time",
+      "November 2018",
+      "comment"
+    ),
+    new IcecreamData(
+      mandarin,
+      "MY CREATION",
+      "Mandarin",
+      "November 2018",
+      "comment"
+    ),
+    new IcecreamData(
+      taiyakinyc,
+      "Unicorn Taiyaki",
+      "Taiyaki NYC",
+      "November 2018",
+      "comment"
+    ),
+    new IcecreamData(
+      fugo2,
+      "Cookies N' Dreams",
+      "Fugo Desserts",
+      "May 2018",
+      "comment"
+    ),
+    new IcecreamData(
+      snowtime2,
+      "Oreo Bingsoo",
+      "Snow Time",
+      "April 2018",
+      "comment"
+    ),
+    new IcecreamData(
+      dearfro,
+      "Matcha Cheese Jelly Bingsu",
+      "Dear&Fro",
+      "February 2018",
+      "comment"
+    ),
+    new IcecreamData(
+      qq,
+      "Taro Taro & Mango Tango",
+      "QQ Thai Ice Cream",
+      "January 2018",
+      "comment"
+    ),
+    new IcecreamData(
+      snowtime,
+      "Oreo Bingsoo",
+      "Snow Time",
+      "December 2017",
+      "comment"
+    ),
+    new IcecreamData(
+      ihalokrunch,
+      "Ubenut",
+      "iHalo Krunch",
+      "November 2017",
+      "comment"
+    ),
+    new IcecreamData(
+      fugo,
+      "Cookie Monster",
+      "Fugo Desserts",
+      "October 2017",
+      "comment"
+    ),
+  ];
 
   return (
     <div>
@@ -61,34 +305,17 @@ function Icecream() {
       </h4>
       <h4>Since then, my life has never been the same.</h4>
       <div id="icecream-gallery">
-        <img src={qq4} />
-        <img src={qq3} />
-        <img src={wonderland} />
-        <img src={mandarin2} />
-        <img src={soulcafe} />
-        <img src={tbearwaffle} />
-        <img src={mcdonalds} />
-        <img src={cafeprincess} />
-        <img src={dutchdreams} />
-        <img src={koishi} />
-        <img src={pablocheese} />
-        <img src={acm} />
-        <img src={peacetreats2} />
-        <img src={peacetreats} />
-        <img src={qq2} />
-        <img src={petitpotato} />
-        <img src={taiyakinyc2} />
-        <img src={snowtime4} />
-        <img src={snowtime3} />
-        <img src={mandarin} />
-        <img src={taiyakinyc} />
-        <img src={fugo2} />
-        <img src={snowtime2} />
-        <img src={dearfro} />
-        <img src={qq} />
-        <img src={snowtime} />
-        <img src={ihalokrunch} />
-        <img src={fugo} />
+        {icecreams.map((oneIcecream) => {
+          return (
+            <img
+              src={oneIcecream.image}
+              onClick={() => {
+                setClickedIcecream(oneIcecream);
+                handleClickOpen();
+              }}
+            />
+          );
+        })}
       </div>
     </div>
   );

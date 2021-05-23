@@ -3,6 +3,7 @@ import { useHistory } from "react-router-dom";
 import React from "react";
 import Dialog from "@material-ui/core/Dialog";
 import Typography from "@material-ui/core/Typography";
+import Icon from '@material-ui/core/Icon';
 
 import qq4 from "./Pictures/qq4.jpg";
 import qq3 from "./Pictures/qq3.jpg";
@@ -68,7 +69,10 @@ function Icecream() {
           {clickedIcecream.name}
         </DialogTitle>
         <DialogContent dividers>
-          <img src={clickedIcecream.image} className="icecream-gallery-inside-picture"/>
+          <img
+            src={clickedIcecream.image}
+            className="icecream-gallery-inside-picture"
+          />
           <Typography gutterBottom>
             <i class="fas fa-map-marker-alt"></i>&nbsp;{" "}
             {clickedIcecream.location}

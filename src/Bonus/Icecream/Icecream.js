@@ -68,7 +68,7 @@ function Icecream() {
           {clickedIcecream.name}
         </DialogTitle>
         <DialogContent dividers>
-          <img src={clickedIcecream.image} />
+          <img src={clickedIcecream.image} className="icecream-gallery-inside-picture"/>
           <Typography gutterBottom>
             <i class="fas fa-map-marker-alt"></i>&nbsp;{" "}
             {clickedIcecream.location}

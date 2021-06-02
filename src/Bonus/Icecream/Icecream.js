@@ -335,21 +335,11 @@ function Icecream() {
       </div>
       <h2 id="icecream-second-line">Just a girl who loves ice cream.</h2>
       <h4>
-        I've always liked ice cream as much as the next person, but it wasn't
-        until I accidentally stumbled upon{" "}
-        <a
-          href="http://fugodesserts.com/"
-          target="_blank"
-          rel="noreferrer"
-          className="purple-highlight"
-        >
-          Fugo
-        </a>{" "}
-        that a newfound passion was ignited. Now, accompanied by my best
-        friends, it's our mission to explore the city, hunting for new and
-        exotic ice cream(s?) to eat.
+        A gallery of some of the finest, most exquisite, extravagant icecream(s?) I have sampled (gorged) across the GTA.
       </h4>
-      <h4>Since then, my life has never been the same.</h4>
+      <h4>
+        Currently on indefinite hiatus due to the ongoing pandemic. 😕
+      </h4>
       <div id="icecream-gallery">
         {icecreams.map((oneIcecream) => {
           return (

@@ -1,5 +1,5 @@
 $react-light-blue: #61dafb;
-$primary-main-purple: #3B1CDF;
+$primary-main-purple: #3b1cdf;
 
 .utsearch-btns {
   display: flex;
@@ -45,4 +45,8 @@ $primary-main-purple: #3B1CDF;
       color: black;
     }
   }
+}
+
+#our-app {
+  outline: none;
 }

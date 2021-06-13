@@ -87,7 +87,16 @@ function Utsearch() {
         <span className="text-bold">meet and connect with other students</span>{" "}
         based on their common interests. Due to the ongoing pandemic, it is
         especially difficult for students to socialize and make new friends, but{" "}
-        <span className="text-bold">that's where our app comes in</span>.
+        <span className="text-bold">
+          that's where{" "}
+          <a href="https://utsearch.tech" target="_blank" rel="noreferrer">
+            <span className="purple-highlight" id="our-app">
+              our app
+            </span>
+          </a>{" "}
+          comes in
+        </span>
+        .
       </h4>
       <h4>
         UTSearCh is a web app that allows for{" "}

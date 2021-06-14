@@ -40,12 +40,11 @@ import ihalokrunch from "./Pictures/ihalokrunch.JPG";
 import fugo from "./Pictures/fugo.JPG";
 
 class IcecreamData {
-  constructor(image, name, location, date, comment) {
+  constructor(image, name, location, date) {
     this.image = image;
     this.name = name;
     this.location = location;
     this.date = date;
-    this.comment = comment;
   }
 }
 
@@ -122,9 +121,6 @@ function Icecream() {
           <Typography gutterBottom>
             <i class="far fa-calendar-alt"></i>&nbsp; {clickedIcecream.date}
           </Typography>
-          <Typography gutterBottom>
-            <i class="far fa-comment"></i>&nbsp; {clickedIcecream.comment}
-          </Typography>
         </DialogContent>
       </Dialog>
     );
@@ -139,191 +135,164 @@ function Icecream() {
       qq4,
       "Men N Black",
       "QQ Thai Ice Cream",
-      "February 2020",
-      "comment"
+      "February 2020"
     ),
     new IcecreamData(
       qq3,
       "Pink Lady",
       "QQ Thai Ice Cream",
-      "January 2020",
-      "comment"
+      "January 2020"
     ),
     new IcecreamData(
       wonderland,
       "Classic Funnel Cake",
       "Canada's Wonderland",
-      "December 2019",
-      "comment"
+      "December 2019"
     ),
     new IcecreamData(
       mandarin2,
       "MY CREATION 2.0",
       "Mandarin",
-      "November 2019",
-      "comment"
+      "November 2019"
     ),
     new IcecreamData(
       soulcafe,
       "Watermelon Shaved Ice",
       "Soul Cafe",
-      "August 2019",
-      "comment"
+      "August 2019"
     ),
     new IcecreamData(
       tbearwaffle,
       "Black Jack Bear Waffle",
       "T-Bear",
-      "July 2019",
-      "comment"
+      "July 2019"
     ),
     new IcecreamData(
       mcdonalds,
       "Vanilla Cone",
       "McDonald's",
-      "July 2019",
-      "comment"
+      "July 2019"
     ),
     new IcecreamData(
       cafeprincess,
       "Unicorn Sulbing",
       "Café Princess",
-      "June 2019",
-      "comment"
+      "June 2019"
     ),
     new IcecreamData(
       dutchdreams,
       "Orange Sherbet & Watermelon Sherbet",
       "Dutch Dreams",
-      "May 2019",
-      "comment"
+      "May 2019"
     ),
     new IcecreamData(koishi, "Ichigo Miso", "Koishi", "May 2019", "comment"),
     new IcecreamData(
       pablocheese,
       "Cheese Soft Serve",
       "Pablo Cheese Tart",
-      "May 2019",
-      "comment"
+      "May 2019"
     ),
     new IcecreamData(
       acm,
       "KAREN, YOU'VE OUTDONE YOURSELF.",
       "ACM Waffle Brunch",
-      "April 2019",
-      "comment"
+      "April 2019"
     ),
     new IcecreamData(
       peacetreats2,
       "GO SHAWTY, ITS YOUR BIRTHDAY",
       "Peace Treats",
-      "April 2019",
-      "comment"
+      "April 2019"
     ),
     new IcecreamData(
       peacetreats,
       "GO SHAWTY, ITS YOUR BIRTHDAY",
       "Peace Treats",
-      "April 2019",
-      "comment"
+      "April 2019"
     ),
     new IcecreamData(
       qq2,
       "Blue Magic & QQ",
       "QQ Thai Ice Cream",
-      "April 2019",
-      "comment"
+      "April 2019"
     ),
     new IcecreamData(
       petitpotato,
       "Oreo Special Golden Toast",
       "Petit Potato",
-      "March 2019",
-      "comment"
+      "March 2019"
     ),
     new IcecreamData(
       taiyakinyc2,
       "Vanilla Mango Taiyaki",
       "Taiyaki NYC",
-      "December 2018",
-      "comment"
+      "December 2018"
     ),
     new IcecreamData(
       snowtime4,
       "Mango Bingsoo & Oreo Bingsoo",
       "Snow Time",
-      "November 2018",
-      "comment"
+      "November 2018"
     ),
     new IcecreamData(
       snowtime3,
       "Mango Bingsoo & Oreo Bingsoo",
       "Snow Time",
-      "November 2018",
-      "comment"
+      "November 2018"
     ),
     new IcecreamData(
       mandarin,
       "MY CREATION",
       "Mandarin",
-      "November 2018",
-      "comment"
+      "November 2018"
     ),
     new IcecreamData(
       taiyakinyc,
       "Unicorn Taiyaki",
       "Taiyaki NYC",
-      "November 2018",
-      "comment"
+      "November 2018"
     ),
     new IcecreamData(
       fugo2,
       "Cookies N' Dreams",
       "Fugo Desserts",
-      "May 2018",
-      "comment"
+      "May 2018"
     ),
     new IcecreamData(
       snowtime2,
       "Oreo Bingsoo",
       "Snow Time",
-      "April 2018",
-      "comment"
+      "April 2018"
     ),
     new IcecreamData(
       dearfro,
       "Matcha Cheese Jelly Bingsu",
       "Dear&Fro",
-      "February 2018",
-      "comment"
+      "February 2018"
     ),
     new IcecreamData(
       qq,
       "Taro Taro & Mango Tango",
       "QQ Thai Ice Cream",
-      "January 2018",
-      "comment"
+      "January 2018"
     ),
     new IcecreamData(
       snowtime,
       "Oreo Bingsoo",
       "Snow Time",
-      "December 2017",
-      "comment"
+      "December 2017"
     ),
     new IcecreamData(
       ihalokrunch,
       "Ubenut",
       "iHalo Krunch",
-      "November 2017",
-      "comment"
+      "November 2017"
     ),
     new IcecreamData(
       fugo,
       "Cookie Monster",
       "Fugo Desserts",
-      "October 2017",
-      "comment"
+      "October 2017"
     ),
   ];
 

@@ -1,5 +1,6 @@
 import "./Icecream.scss";
 import { useHistory } from "react-router-dom";
+import { Button } from "@material-ui/core";
 import React from "react";
 import { withStyles } from "@material-ui/core/styles";
 import Dialog from "@material-ui/core/Dialog";

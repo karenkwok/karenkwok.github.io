@@ -79,18 +79,6 @@ h5 {
   color: $medium-purple;
 }
 
-.project-page-titles {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 2.5rem;
-
-  .project-page-title {
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-  }
-}
-
 a:-webkit-any-link {
   color: black;
   text-decoration: none;

@@ -131,30 +131,15 @@ function Icecream() {
   });
 
   const icecreams = [
-    new IcecreamData(
-      qq4,
-      "Men N Black",
-      "QQ Thai Ice Cream",
-      "February 2020"
-    ),
-    new IcecreamData(
-      qq3,
-      "Pink Lady",
-      "QQ Thai Ice Cream",
-      "January 2020"
-    ),
+    new IcecreamData(qq4, "Men N Black", "QQ Thai Ice Cream", "February 2020"),
+    new IcecreamData(qq3, "Pink Lady", "QQ Thai Ice Cream", "January 2020"),
     new IcecreamData(
       wonderland,
       "Classic Funnel Cake",
       "Canada's Wonderland",
       "December 2019"
     ),
-    new IcecreamData(
-      mandarin2,
-      "MY CREATION 2.0",
-      "Mandarin",
-      "November 2019"
-    ),
+    new IcecreamData(mandarin2, "MY CREATION 2.0", "Mandarin", "November 2019"),
     new IcecreamData(
       soulcafe,
       "Watermelon Shaved Ice",
@@ -167,12 +152,7 @@ function Icecream() {
       "T-Bear",
       "July 2019"
     ),
-    new IcecreamData(
-      mcdonalds,
-      "Vanilla Cone",
-      "McDonald's",
-      "July 2019"
-    ),
+    new IcecreamData(mcdonalds, "Vanilla Cone", "McDonald's", "July 2019"),
     new IcecreamData(
       cafeprincess,
       "Unicorn Sulbing",
@@ -210,12 +190,7 @@ function Icecream() {
       "Peace Treats",
       "April 2019"
     ),
-    new IcecreamData(
-      qq2,
-      "Blue Magic & QQ",
-      "QQ Thai Ice Cream",
-      "April 2019"
-    ),
+    new IcecreamData(qq2, "Blue Magic & QQ", "QQ Thai Ice Cream", "April 2019"),
     new IcecreamData(
       petitpotato,
       "Oreo Special Golden Toast",
@@ -240,30 +215,15 @@ function Icecream() {
       "Snow Time",
       "November 2018"
     ),
-    new IcecreamData(
-      mandarin,
-      "MY CREATION",
-      "Mandarin",
-      "November 2018"
-    ),
+    new IcecreamData(mandarin, "MY CREATION", "Mandarin", "November 2018"),
     new IcecreamData(
       taiyakinyc,
       "Unicorn Taiyaki",
       "Taiyaki NYC",
       "November 2018"
     ),
-    new IcecreamData(
-      fugo2,
-      "Cookies N' Dreams",
-      "Fugo Desserts",
-      "May 2018"
-    ),
-    new IcecreamData(
-      snowtime2,
-      "Oreo Bingsoo",
-      "Snow Time",
-      "April 2018"
-    ),
+    new IcecreamData(fugo2, "Cookies N' Dreams", "Fugo Desserts", "May 2018"),
+    new IcecreamData(snowtime2, "Oreo Bingsoo", "Snow Time", "April 2018"),
     new IcecreamData(
       dearfro,
       "Matcha Cheese Jelly Bingsu",
@@ -276,24 +236,9 @@ function Icecream() {
       "QQ Thai Ice Cream",
       "January 2018"
     ),
-    new IcecreamData(
-      snowtime,
-      "Oreo Bingsoo",
-      "Snow Time",
-      "December 2017"
-    ),
-    new IcecreamData(
-      ihalokrunch,
-      "Ubenut",
-      "iHalo Krunch",
-      "November 2017"
-    ),
-    new IcecreamData(
-      fugo,
-      "Cookie Monster",
-      "Fugo Desserts",
-      "October 2017"
-    ),
+    new IcecreamData(snowtime, "Oreo Bingsoo", "Snow Time", "December 2017"),
+    new IcecreamData(ihalokrunch, "Ubenut", "iHalo Krunch", "November 2017"),
+    new IcecreamData(fugo, "Cookie Monster", "Fugo Desserts", "October 2017"),
   ];
 
   return (
@@ -322,6 +267,7 @@ function Icecream() {
           );
         })}
       </div>
+      {dialog}
     </div>
   );
 }

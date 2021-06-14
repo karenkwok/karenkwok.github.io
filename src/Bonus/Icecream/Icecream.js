@@ -8,7 +8,7 @@ import MuiDialogContent from "@material-ui/core/DialogContent";
 import MuiDialogActions from "@material-ui/core/DialogActions";
 import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
-import Icon from '@material-ui/core/Icon';
+import Icon from "@material-ui/core/Icon";
 
 import qq4 from "./Pictures/qq4.jpg";
 import qq3 from "./Pictures/qq3.jpg";
@@ -329,17 +329,17 @@ function Icecream() {
 
   return (
     <div>
-      <div id="icecream-top">
-        <h4 id="icecream-top-first-line">Not a photographer or foodie.</h4>
-        <button onClick={history.goBack}>Back</button>
+      <div className="project-page-titles">
+        <h2 className="project-page-title">Just a girl who loves ice cream.</h2>
+        <Button variant="outlined" size="large" onClick={history.goBack}>
+          <i class="fas fa-chevron-left"></i>&nbsp;&nbsp;Back
+        </Button>
       </div>
-      <h2 id="icecream-second-line">Just a girl who loves ice cream.</h2>
       <h4>
-        A gallery of some of the finest, most exquisite, extravagant icecream(s?) I have sampled (gorged) across the GTA.
+        A gallery of my ice cream adventures with friends. Currently on
+        indefinite hiatus due to the ongoing pandemic. 😭
       </h4>
-      <h4>
-        Currently on indefinite hiatus due to the ongoing pandemic. 😕
-      </h4>
+      <h4>&nbsp;</h4>
       <div id="icecream-gallery">
         {icecreams.map((oneIcecream) => {
           return (

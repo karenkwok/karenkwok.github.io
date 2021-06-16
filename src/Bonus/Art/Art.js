@@ -22,12 +22,12 @@ function Art() {
         letting my imagination roam free.
       </h4>
       <h4>
-        As a kid, I took art lessons under various instructors in drawing, oil
-        painting, and briefly, clay sculpting (I was really bad at that).
-        Eventually, I found a teacher who was not only an incredibly gifted
-        artist, but also a wise and compassionate mentor and friend, who always
-        encouraged me to find my own style and be myself. All my works below
-        have been brought to life under his tutelage.
+        As a kid, I took art lessons under various instructors in drawing,
+        acrylic painting, and briefly, clay sculpting (I was really bad at
+        that). Eventually, I found a teacher who was not only an incredibly
+        gifted artist, but also a wise and compassionate mentor and friend, who
+        always encouraged me to find my own style and be myself. All my works
+        below have been brought to life under his tutelage.
       </h4>
       <h4>
         After over 10 years of art lessons, I made the difficult decision to

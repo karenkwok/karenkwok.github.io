@@ -15,7 +15,7 @@ function Bonus() {
       </h4>
       <h4 className="no-margin-bottom yes-margin-top">
         I have a <span className="text-bold">pet turtle</span>. We've been together
-        for <span className="text-bold">10 years</span> now! 🐢
+        for <span className="text-bold">11 years</span> now! 🐢
       </h4>
       <h4 className="no-margin-bottom yes-margin-top">
         My favourite foods are <span className="text-bold">sushi</span> 🍣,{" "}

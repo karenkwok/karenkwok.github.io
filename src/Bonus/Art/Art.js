@@ -6,6 +6,16 @@ import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import PropTypes from "prop-types";
 
+import basilica from "./Sketchbook/01_basilica.jpg";
+import original from "./Sketchbook/01_original.jpg";
+import elephant from "./Sketchbook/02_elephant.jpg";
+import cats from "./Sketchbook/03_cats.jpg";
+import fashion from "./Sketchbook/04_fashion.jpg";
+import stegosaurus from "./Sketchbook/05_stegosaurus.jpg";
+import woman from "./Sketchbook/06_woman.jpg";
+import bird from "./Sketchbook/07_bird.jpg";
+import flowers from "./Sketchbook/08_flowers.jpg";
+
 const useStyles = makeStyles({
   root: {
     flexGrow: 1,

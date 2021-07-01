@@ -16,6 +16,14 @@ import woman from "./Sketchbook/06_woman.jpg";
 import bird from "./Sketchbook/07_bird.jpg";
 import flowers from "./Sketchbook/08_flowers.jpg";
 
+class SketchbookData {
+  constructor(image, age, date) {
+    this.image = image;
+    this.age = age;
+    this.date = date;
+  }
+}
+
 const useStyles = makeStyles({
   root: {
     flexGrow: 1,
@@ -117,6 +125,18 @@ function Art() {
     top: 0,
   });
 
+  const sketchbooks = [
+    new SketchbookData(basilica, "16", "May 2015"),
+    new SketchbookData(original, "16", "May 2015"),
+    new SketchbookData(elephant, "15 to 16", "November 2014"),
+    new SketchbookData(cats, "15", "June 2014"),
+    new SketchbookData(fashion, "13 to 14", "2012-2013"),
+    new SketchbookData(stegosaurus, "13", "June 2012"),
+    new SketchbookData(woman, "12 to 13", "2011-2012"),
+    new SketchbookData(bird, "10 to 11", "2009"),
+    new SketchbookData(flowers, "10", "May 2009"),
+  ];
+
   return (
     <div>
       <div className="project-page-titles">
@@ -126,6 +146,11 @@ function Art() {
         </Button>
       </div>
       <CenteredTabs></CenteredTabs>
+      <div id="sketchbook-gallery">{sketchbooks.map((sketch) => {
+          return (
+            <img src={sketch.image} />
+          );
+        })}</div>
     </div>
   );
 }

@@ -64,6 +64,18 @@ function CenteredTabs() {
     setValue(newValue);
   };
 
+  const sketchbooks = [
+    new SketchbookData(basilica, "16", "May 2015"),
+    new SketchbookData(original, "16", "May 2015"),
+    new SketchbookData(elephant, "15 to 16", "November 2014"),
+    new SketchbookData(cats, "15", "June 2014"),
+    new SketchbookData(fashion, "13 to 14", "2012-2013"),
+    new SketchbookData(stegosaurus, "13", "June 2012"),
+    new SketchbookData(woman, "12 to 13", "2011-2012"),
+    new SketchbookData(bird, "10 to 11", "2009"),
+    new SketchbookData(flowers, "10", "May 2009"),
+  ];
+  
   return (
     <Paper className={classes.root}>
       <h4></h4>
@@ -82,16 +94,20 @@ function CenteredTabs() {
         Item One
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Item Two
+      <div id="sketchbook-gallery">{sketchbooks.map((sketch) => {
+          return (
+            <img src={sketch.image} />
+          );
+        })}</div>
       </TabPanel>
       <TabPanel value={value} index={2}>
         <h4>
-          I've always had an immense love for vibrant colours, doodling, and
+          I've always had an immense love of vibrant colours, doodling, and
           just letting my imagination roam free.
         </h4>
         <h4>
           As a kid, I took art lessons under various instructors in drawing,
-          acrylic painting, and briefly, clay sculpting (I was really bad at
+          painting, and briefly, clay sculpting (I was really bad at
           that). Eventually, I found a teacher who was not only an incredibly
           gifted artist, but also a wise and compassionate mentor and friend,
           who always encouraged me to find my own style and be myself. All my
@@ -125,18 +141,6 @@ function Art() {
     top: 0,
   });
 
-  const sketchbooks = [
-    new SketchbookData(basilica, "16", "May 2015"),
-    new SketchbookData(original, "16", "May 2015"),
-    new SketchbookData(elephant, "15 to 16", "November 2014"),
-    new SketchbookData(cats, "15", "June 2014"),
-    new SketchbookData(fashion, "13 to 14", "2012-2013"),
-    new SketchbookData(stegosaurus, "13", "June 2012"),
-    new SketchbookData(woman, "12 to 13", "2011-2012"),
-    new SketchbookData(bird, "10 to 11", "2009"),
-    new SketchbookData(flowers, "10", "May 2009"),
-  ];
-
   return (
     <div>
       <div className="project-page-titles">
@@ -146,11 +150,6 @@ function Art() {
         </Button>
       </div>
       <CenteredTabs></CenteredTabs>
-      <div id="sketchbook-gallery">{sketchbooks.map((sketch) => {
-          return (
-            <img src={sketch.image} />
-          );
-        })}</div>
     </div>
   );
 }

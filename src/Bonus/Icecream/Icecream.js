@@ -249,10 +249,8 @@ function Icecream() {
           <i class="fas fa-chevron-left"></i>&nbsp;&nbsp;Back
         </Button>
       </div>
-      <h4>
-        A gallery of my ice cream adventures with friends. Currently on
-        indefinite hiatus due to the ongoing pandemic. 😭
-      </h4>
+      <h4>A gallery of my ice cream adventures with friends. Currently on indefinite hiatus due to the ongoing pandemic. :(</h4>
+      <h4>p.s. Not a photographer or foodie. I just love ice cream. 🙃</h4>
       <h4>&nbsp;</h4>
       <div id="icecream-gallery">
         {icecreams.map((oneIcecream) => {

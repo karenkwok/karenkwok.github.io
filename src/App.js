@@ -54,9 +54,9 @@ function App() {
             {/* <Route exact path="/resume">
               <Resume></Resume>
             </Route> */}
-            <Route exact path="/art">
+            {/* <Route exact path="/art">
               <Art></Art>
-            </Route>
+            </Route> */}
             <Route exact path="/icecream">
               <Icecream></Icecream>
             </Route>

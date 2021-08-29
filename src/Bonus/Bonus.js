@@ -8,9 +8,9 @@ function Bonus() {
       <h4 className="no-margin-bottom">
         I'm also an <span className="text-bold">amateur pianist</span> 🎹,{" "}
         <span className="text-bold">book lover</span> 📚, and{" "}
-        <Link to="/art">
-          <span className="text-bold purple-highlight">retired painter</span> 🎨
-        </Link>
+        {/* <Link to="/art"> */}
+          <span className="text-bold">retired painter</span> 🎨 {/*add purple-highlight when i finish the art page*/}
+        {/* </Link> */}
         .
       </h4>
       <h4 className="no-margin-bottom yes-margin-top">

@@ -17,13 +17,13 @@ function Projects() {
           <Project name="NeuroRehab Project" image={piano}></Project>
         </Link>
       </div>
-      <h4 id="projects-line">
+      {/* <h4 id="projects-line">
         For more details, please see{" "}
         <Link to="/resume" className="purple-highlight">
           my resume
         </Link>
         .
-      </h4>
+      </h4> */}
     </div>
   );
 }

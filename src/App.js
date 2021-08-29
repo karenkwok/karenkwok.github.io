@@ -51,9 +51,9 @@ function App() {
             <Route exact path="/neurorehab-project">
               <Neurorehab></Neurorehab>
             </Route>
-            <Route exact path="/resume">
+            {/* <Route exact path="/resume">
               <Resume></Resume>
-            </Route>
+            </Route> */}
             <Route exact path="/art">
               <Art></Art>
             </Route>

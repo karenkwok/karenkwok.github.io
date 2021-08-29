@@ -1,7 +1,7 @@
 #projects-squares {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around; //space-between when i have 3 project squares
 }
 
 #projects-line {

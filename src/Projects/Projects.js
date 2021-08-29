@@ -9,7 +9,7 @@ function Projects() {
     <div id="projects-section">
       <h2>Here is what I've been working on...</h2>
       <div id="projects-squares">
-        <Project name="Coming Soon.."></Project>
+        {/* <Project name="Coming Soon.."></Project> */}
         <Link to="/utsearch">
           <Project name="UTSearCh" image={idklmao}></Project>
         </Link>

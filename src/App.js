@@ -34,8 +34,8 @@ function App() {
   return (
     <div id="App">
       <MuiThemeProvider theme={theme}>
-        <Header></Header>
         <Router>
+          <Header></Header>
           <Switch>
             <Route exact path="/">
               <Title></Title>

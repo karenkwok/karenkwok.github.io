@@ -2,13 +2,6 @@ import "./Icecream.scss";
 import { useHistory } from "react-router-dom";
 import { Button } from "@material-ui/core";
 import React from "react";
-import { withStyles } from "@material-ui/core/styles";
-import Dialog from "@material-ui/core/Dialog";
-import MuiDialogTitle from "@material-ui/core/DialogTitle";
-import MuiDialogContent from "@material-ui/core/DialogContent";
-import IconButton from "@material-ui/core/IconButton";
-import Typography from "@material-ui/core/Typography";
-import Icon from "@material-ui/core/Icon";
 
 import qq4 from "./Pictures/qq4.jpg";
 import qq3 from "./Pictures/qq3.jpg";
@@ -48,83 +41,8 @@ class IcecreamData {
   }
 }
 
-const styles = (theme) => ({
-  root: {
-    margin: 0,
-    padding: theme.spacing(2),
-  },
-  closeButton: {
-    position: "absolute",
-    right: theme.spacing(1),
-    top: theme.spacing(1),
-    color: theme.palette.grey[500],
-  },
-});
-
-const DialogTitle = withStyles(styles)((props) => {
-  const { children, classes, onClose, ...other } = props;
-  return (
-    <MuiDialogTitle disableTypography className={classes.root} {...other}>
-      <Typography variant="h6">{children}</Typography>
-      {onClose ? (
-        <IconButton
-          aria-label="close"
-          className={classes.closeButton}
-          onClick={onClose}
-        >
-          <Icon>close</Icon>
-        </IconButton>
-      ) : null}
-    </MuiDialogTitle>
-  );
-});
-
-const DialogContent = withStyles((theme) => ({
-  root: {
-    padding: theme.spacing(2),
-  },
-}))(MuiDialogContent);
-
 function Icecream() {
   const history = useHistory();
-
-  const [open, setOpen] = React.useState(false);
-  const [clickedIcecream, setClickedIcecream] = React.useState();
-
-  const handleClickOpen = () => {
-    setOpen(true);
-  };
-  const handleClose = () => {
-    setOpen(false);
-  };
-
-  let dialog;
-  if (clickedIcecream) {
-    dialog = (
-      <Dialog
-        onClose={handleClose}
-        aria-labelledby="customized-dialog-title"
-        open={open}
-      >
-        <DialogTitle id="customized-dialog-title" onClose={handleClose}>
-          {clickedIcecream.name}
-        </DialogTitle>
-        <DialogContent dividers>
-          <img
-            src={clickedIcecream.image}
-            className="icecream-gallery-inside-picture"
-          />
-          <Typography gutterBottom>
-            <i class="fas fa-map-marker-alt"></i>&nbsp;{" "}
-            {clickedIcecream.location}
-          </Typography>
-          <Typography gutterBottom>
-            <i class="far fa-calendar-alt"></i>&nbsp; {clickedIcecream.date}
-          </Typography>
-        </DialogContent>
-      </Dialog>
-    );
-  }
 
   window.scrollTo({
     top: 0,
@@ -249,23 +167,17 @@ function Icecream() {
           <i class="fas fa-chevron-left"></i>&nbsp;&nbsp;Back
         </Button>
       </div>
-      <h4>A gallery of my ice cream adventures with friends. Currently on indefinite hiatus due to the ongoing pandemic. :(</h4>
+      <h4>
+        A gallery of my ice cream adventures with friends. Currently on
+        indefinite hiatus due to the ongoing pandemic. :(
+      </h4>
       <h4>p.s. Not a photographer or foodie. I just love ice cream. 🙃</h4>
       <h4>&nbsp;</h4>
       <div id="icecream-gallery">
         {icecreams.map((oneIcecream) => {
-          return (
-            <img
-              src={oneIcecream.image}
-              onClick={() => {
-                setClickedIcecream(oneIcecream);
-                handleClickOpen();
-              }}
-            />
-          );
+          return <img src={oneIcecream.image} alt={oneIcecream.name} />;
         })}
       </div>
-      {dialog}
     </div>
   );
 }

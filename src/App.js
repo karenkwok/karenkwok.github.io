@@ -10,6 +10,7 @@ import Resume from "./Projects/Resume/Resume";
 import Bonus from "./Bonus/Bonus";
 import Art from "./Bonus/Art/Art";
 import Icecream from "./Bonus/Icecream/Icecream";
+import PageNotFound from "./PageNotFound/PageNotFound";
 import Footer from "./Footer/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
@@ -59,6 +60,9 @@ function App() {
             </Route> */}
             <Route exact path="/icecream">
               <Icecream></Icecream>
+            </Route>
+            <Route path="/*">
+              <PageNotFound></PageNotFound>
             </Route>
           </Switch>
         </Router>

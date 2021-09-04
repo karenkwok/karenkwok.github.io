@@ -33,11 +33,9 @@ import ihalokrunch from "./Pictures/ihalokrunch.JPG";
 import fugo from "./Pictures/fugo.JPG";
 
 class IcecreamData {
-  constructor(image, name, location, date) {
+  constructor(image, location) {
     this.image = image;
-    this.name = name;
     this.location = location;
-    this.date = date;
   }
 }
 
@@ -49,114 +47,82 @@ function Icecream() {
   });
 
   const icecreams = [
-    new IcecreamData(qq4, "Men N Black", "QQ Thai Ice Cream", "February 2020"),
-    new IcecreamData(qq3, "Pink Lady", "QQ Thai Ice Cream", "January 2020"),
+    new IcecreamData(qq4, "QQ Thai Ice Cream"),
+    new IcecreamData(qq3, "QQ Thai Ice Cream"),
     new IcecreamData(
       wonderland,
-      "Classic Funnel Cake",
-      "Canada's Wonderland",
-      "December 2019"
+      "Canada's Wonderland"
     ),
-    new IcecreamData(mandarin2, "MY CREATION 2.0", "Mandarin", "November 2019"),
+    new IcecreamData(mandarin2, "Mandarin"),
     new IcecreamData(
       soulcafe,
-      "Watermelon Shaved Ice",
-      "Soul Cafe",
-      "August 2019"
+      "Soul Cafe"
     ),
     new IcecreamData(
       tbearwaffle,
-      "Black Jack Bear Waffle",
-      "T-Bear",
-      "July 2019"
+      "T-Bear"
     ),
-    new IcecreamData(mcdonalds, "Vanilla Cone", "McDonald's", "July 2019"),
+    new IcecreamData(mcdonalds, "McDonald's"),
     new IcecreamData(
       cafeprincess,
-      "Unicorn Sulbing",
-      "Café Princess",
-      "June 2019"
+      "Café Princess"
     ),
     new IcecreamData(
       dutchdreams,
-      "Orange Sherbet & Watermelon Sherbet",
-      "Dutch Dreams",
-      "May 2019"
+      "Dutch Dreams"
     ),
-    new IcecreamData(koishi, "Ichigo Miso", "Koishi", "May 2019", "comment"),
+    new IcecreamData(koishi, "Koishi"),
     new IcecreamData(
       pablocheese,
-      "Cheese Soft Serve",
-      "Pablo Cheese Tart",
-      "May 2019"
+      "Pablo Cheese Tart"
     ),
     new IcecreamData(
       acm,
-      "KAREN, YOU'VE OUTDONE YOURSELF.",
-      "ACM Waffle Brunch",
-      "April 2019"
+      "ACM Waffle Brunch"
     ),
     new IcecreamData(
       peacetreats2,
-      "GO SHAWTY, ITS YOUR BIRTHDAY",
-      "Peace Treats",
-      "April 2019"
+      "Peace Treats"
     ),
     new IcecreamData(
       peacetreats,
-      "GO SHAWTY, ITS YOUR BIRTHDAY",
-      "Peace Treats",
-      "April 2019"
+      "Peace Treats"
     ),
-    new IcecreamData(qq2, "Blue Magic & QQ", "QQ Thai Ice Cream", "April 2019"),
+    new IcecreamData(qq2, "QQ Thai Ice Cream"),
     new IcecreamData(
       petitpotato,
-      "Oreo Special Golden Toast",
-      "Petit Potato",
-      "March 2019"
+      "Petit Potato"
     ),
     new IcecreamData(
       taiyakinyc2,
-      "Vanilla Mango Taiyaki",
-      "Taiyaki NYC",
-      "December 2018"
+      "Taiyaki NYC"
     ),
     new IcecreamData(
       snowtime4,
-      "Mango Bingsoo & Oreo Bingsoo",
-      "Snow Time",
-      "November 2018"
+      "Snow Time"
     ),
     new IcecreamData(
       snowtime3,
-      "Mango Bingsoo & Oreo Bingsoo",
-      "Snow Time",
-      "November 2018"
+      "Snow Time"
     ),
-    new IcecreamData(mandarin, "MY CREATION", "Mandarin", "November 2018"),
+    new IcecreamData(mandarin, "Mandarin"),
     new IcecreamData(
       taiyakinyc,
-      "Unicorn Taiyaki",
-      "Taiyaki NYC",
-      "November 2018"
+      "Taiyaki NYC"
     ),
-    new IcecreamData(fugo2, "Cookies N' Dreams", "Fugo Desserts", "May 2018"),
-    new IcecreamData(snowtime2, "Oreo Bingsoo", "Snow Time", "April 2018"),
+    new IcecreamData(fugo2, "Fugo Desserts"),
+    new IcecreamData(snowtime2, "Snow Time"),
     new IcecreamData(
       dearfro,
-      "Matcha Cheese Jelly Bingsu",
-      "Dear&Fro",
-      "February 2018"
+      "Dear&Fro"
     ),
     new IcecreamData(
       qq,
-      "Taro Taro & Mango Tango",
-      "QQ Thai Ice Cream",
-      "January 2018"
+      "QQ Thai Ice Cream"
     ),
-    new IcecreamData(snowtime, "Oreo Bingsoo", "Snow Time", "December 2017"),
-    new IcecreamData(ihalokrunch, "Ubenut", "iHalo Krunch", "November 2017"),
-    new IcecreamData(fugo, "Cookie Monster", "Fugo Desserts", "October 2017"),
+    new IcecreamData(snowtime, "Snow Time"),
+    new IcecreamData(ihalokrunch, "iHalo Krunch"),
+    new IcecreamData(fugo, "Fugo Desserts"),
   ];
 
   return (

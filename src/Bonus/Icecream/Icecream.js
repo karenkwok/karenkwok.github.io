@@ -175,7 +175,12 @@ function Icecream() {
       <h4>&nbsp;</h4>
       <div id="icecream-gallery">
         {icecreams.map((oneIcecream) => {
-          return <img src={oneIcecream.image} alt={oneIcecream.name} />;
+          return (
+            <div className="icecream-square">
+              <div className="icecream-title">{oneIcecream.location}</div>
+              <img src={oneIcecream.image} alt={oneIcecream.location} />
+            </div>
+          );
         })}
       </div>
     </div>

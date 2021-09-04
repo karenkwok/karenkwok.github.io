@@ -2,12 +2,43 @@
   column-count: 3;
   column-gap: 0.3rem;
 
-  > img {
-    height: 100%;
-    width: 100%;
+  .icecream-square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.3rem;
+    background-color: #f89aba;
+    color: white;
+    font-size: xx-large;
+
+    .icecream-title {
+      font-size: 2vw;
+      position: absolute;
+      opacity: 0;
+    }
 
     &:hover {
       cursor: pointer;
+
+      img {
+        opacity: 0;
+      }
+
+      .icecream-title {
+        opacity: 1;
+      }
+    }
+
+    img {
+      height: 100%;
+      width: 100%;
+      transition: 0.25s ease-in-out;
+      opacity: 1;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 }

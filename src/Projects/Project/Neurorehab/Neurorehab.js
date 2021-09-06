@@ -1,11 +1,7 @@
 import "./Neurorehab.scss";
 import "../Projectpage.scss";
-import { useHistory } from "react-router-dom";
-import { Button } from "@material-ui/core";
 
 function Neurorehab() {
-  const history = useHistory();
-
   window.scrollTo({
     top: 0,
   });
@@ -14,9 +10,6 @@ function Neurorehab() {
     <div>
       <div className="project-page-titles">
         <h2 className="project-page-title">NeuroRehab Project</h2>
-        <Button variant="outlined" size="large" onClick={history.goBack}>
-          <i className="fas fa-chevron-left"></i>&nbsp;&nbsp;Back
-        </Button>
       </div>
       <p>July 2020 - August 2020</p>
       <div className="skill-names">

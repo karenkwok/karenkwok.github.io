@@ -1,6 +1,4 @@
 import "./Icecream.scss";
-import { useHistory } from "react-router-dom";
-import { Button } from "@material-ui/core";
 import React from "react";
 
 import roji from "./Pictures/roji.jpg";
@@ -41,8 +39,6 @@ class IcecreamData {
 }
 
 function Icecream() {
-  const history = useHistory();
-
   window.scrollTo({
     top: 0,
   });
@@ -83,9 +79,6 @@ function Icecream() {
     <div>
       <div className="project-page-titles">
         <h2 className="project-page-title">Just a girl who loves ice cream.</h2>
-        <Button variant="outlined" size="large" onClick={history.goBack}>
-          <i className="fas fa-chevron-left"></i>&nbsp;&nbsp;Back
-        </Button>
       </div>
       <h4>A gallery of my ice cream adventures with friends.</h4>
       <h4>Currently on indefinite hiatus due to the ongoing pandemic. :(</h4>

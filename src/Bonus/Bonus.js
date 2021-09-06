@@ -45,7 +45,7 @@ function Bonus() {
       </h4>
       <h4 className="yes-margin-top">
         Sometimes I get a little bit crazy about{" "}
-        <span className="text-bold">Pokémon Go</span>... 🤪
+        <span className="text-bold">Pokémon GO</span>... 🤪
       </h4>
       <h4 id="bonus-last-line">Thanks for stopping by! :)</h4>
     </div>

@@ -21,6 +21,13 @@ const theme = createMuiTheme({
       disableRipple: true,
     },
   },
+  typography: {
+    fontFamily:
+      '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif',
+    button: {
+      textTransform: "none", // no capitalization
+    },
+  },
   palette: {
     primary: {
       main: "#3B1CDF",

@@ -49,77 +49,29 @@ function Icecream() {
   const icecreams = [
     new IcecreamData(qq4, "QQ Thai Ice Cream"),
     new IcecreamData(qq3, "QQ Thai Ice Cream"),
-    new IcecreamData(
-      wonderland,
-      "Canada's Wonderland"
-    ),
+    new IcecreamData(wonderland, "Canada's Wonderland"),
     new IcecreamData(mandarin2, "Mandarin"),
-    new IcecreamData(
-      soulcafe,
-      "Soul Cafe"
-    ),
-    new IcecreamData(
-      tbearwaffle,
-      "T-Bear"
-    ),
+    new IcecreamData(soulcafe, "Soul Cafe"),
+    new IcecreamData(tbearwaffle, "T-Bear"),
     new IcecreamData(mcdonalds, "McDonald's"),
-    new IcecreamData(
-      cafeprincess,
-      "Café Princess"
-    ),
-    new IcecreamData(
-      dutchdreams,
-      "Dutch Dreams"
-    ),
+    new IcecreamData(cafeprincess, "Café Princess"),
+    new IcecreamData(dutchdreams, "Dutch Dreams"),
     new IcecreamData(koishi, "Koishi"),
-    new IcecreamData(
-      pablocheese,
-      "Pablo Cheese Tart"
-    ),
-    new IcecreamData(
-      acm,
-      "ACM Waffle Brunch"
-    ),
-    new IcecreamData(
-      peacetreats2,
-      "Peace Treats"
-    ),
-    new IcecreamData(
-      peacetreats,
-      "Peace Treats"
-    ),
+    new IcecreamData(pablocheese, "Pablo Cheese Tart"),
+    new IcecreamData(acm, "ACM Waffle Brunch"),
+    new IcecreamData(peacetreats2, "Peace Treats"),
+    new IcecreamData(peacetreats, "Peace Treats"),
     new IcecreamData(qq2, "QQ Thai Ice Cream"),
-    new IcecreamData(
-      petitpotato,
-      "Petit Potato"
-    ),
-    new IcecreamData(
-      taiyakinyc2,
-      "Taiyaki NYC"
-    ),
-    new IcecreamData(
-      snowtime4,
-      "Snow Time"
-    ),
-    new IcecreamData(
-      snowtime3,
-      "Snow Time"
-    ),
+    new IcecreamData(petitpotato, "Petit Potato"),
+    new IcecreamData(taiyakinyc2, "Taiyaki NYC"),
+    new IcecreamData(snowtime4, "Snow Time"),
+    new IcecreamData(snowtime3, "Snow Time"),
     new IcecreamData(mandarin, "Mandarin"),
-    new IcecreamData(
-      taiyakinyc,
-      "Taiyaki NYC"
-    ),
+    new IcecreamData(taiyakinyc, "Taiyaki NYC"),
     new IcecreamData(fugo2, "Fugo Desserts"),
     new IcecreamData(snowtime2, "Snow Time"),
-    new IcecreamData(
-      dearfro,
-      "Dear&Fro"
-    ),
-    new IcecreamData(
-      qq,
-      "QQ Thai Ice Cream"
-    ),
+    new IcecreamData(dearfro, "Dear&Fro"),
+    new IcecreamData(qq, "QQ Thai Ice Cream"),
     new IcecreamData(snowtime, "Snow Time"),
     new IcecreamData(ihalokrunch, "iHalo Krunch"),
     new IcecreamData(fugo, "Fugo Desserts"),

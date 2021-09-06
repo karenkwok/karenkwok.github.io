@@ -1,6 +1,5 @@
 $light-purple: rgba(187, 175, 253, 0.3);
 $dark-purple: #bbaffd;
-$medium-purple: #9888f7;
 $dark-dark-purple: #2504d6;
 $light-gray: rgba(0, 0, 0, 0.2);
 $dark-gray: #1a1a1a;
@@ -76,10 +75,6 @@ h5 {
     border-bottom: 0.0625rem solid $dark-gray;
     cursor: pointer;
   }
-}
-
-.MuiTouchRipple-root {
-  color: $medium-purple;
 }
 
 .project-page-titles {

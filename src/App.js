@@ -16,6 +16,11 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 
 const theme = createMuiTheme({
+  props: {
+    MuiButtonBase: {
+      disableRipple: true,
+    },
+  },
   palette: {
     primary: {
       main: "#3B1CDF",

@@ -3,6 +3,7 @@ import { useHistory } from "react-router-dom";
 import { Button } from "@material-ui/core";
 import React from "react";
 
+import roji from "./Pictures/roji.jpg";
 import qq4 from "./Pictures/qq4.jpg";
 import qq3 from "./Pictures/qq3.jpg";
 import wonderland from "./Pictures/wonderland.jpg";
@@ -47,6 +48,7 @@ function Icecream() {
   });
 
   const icecreams = [
+    new IcecreamData(roji, "Roji Monster Ice Cream"),
     new IcecreamData(qq4, "QQ Thai Ice Cream"),
     new IcecreamData(qq3, "QQ Thai Ice Cream"),
     new IcecreamData(wonderland, "Canada's Wonderland"),

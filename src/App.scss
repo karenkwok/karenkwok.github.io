@@ -6,6 +6,36 @@ $dark-gray: #1a1a1a;
 $light-pink: #f5dbe1;
 $dark-pink: #f89aba;
 
+//nightmode colours
+$dark-blue: #000067;
+$medium-purple: #5b33c8; //maybe not need this
+$invisible-purple: #bbaffd9c;
+
+.dark {
+  #root {
+    color: white;
+  }
+
+  #App {
+    background-color: $dark-blue;
+  }
+
+  a:-webkit-any-link {
+    color: white;
+  }
+
+  .skill-names {
+    .skill-bubble {
+      color: white;
+    }
+  }
+
+  .purple-highlight {
+    &:hover {
+      background-color: $invisible-purple;
+    }
+  }
+}
 
 #App {
   display: flex;

@@ -7,7 +7,7 @@ function Neurorehab() {
   });
 
   return (
-    <div>
+    <div id="neurorehab-page">
       <div className="project-page-titles">
         <h2 className="project-page-title">NeuroRehab Project</h2>
       </div>

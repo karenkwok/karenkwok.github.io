@@ -26,9 +26,11 @@ function Header() {
     if (numToggle === true) {
       setSwitchToggle(<SunIcon size={24} />);
       setNumToggle(false);
+      document.body.classList.add("dark");
     } else {
       setSwitchToggle(<MoonIcon size={24} />);
       setNumToggle(true);
+      document.body.classList.remove("dark");
     }
   };
 

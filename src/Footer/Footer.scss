@@ -1,3 +1,18 @@
+.dark {
+  footer {
+    ul {
+      li {
+        a {
+          background-color: #18191a;
+          .icon {
+            color: #f3f2f7;
+          }
+        }
+      }
+    }
+  }
+}
+
 footer {
   height: 20vh;
   width: 100%;

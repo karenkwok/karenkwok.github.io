@@ -12,7 +12,7 @@ function Utsearch() {
       <div className="project-page-titles">
         <h2 className="project-page-title">UTSearCh</h2>
       </div>
-      <p>February 2021 - April 2021</p>
+      <p className="project-dates">Feb 2021 – Apr 2021</p>
       <div className="utsearch-btns">
         <div className="utsearch-btn">
           <a href="https://utsearch.tech" target="_blank" rel="noreferrer">

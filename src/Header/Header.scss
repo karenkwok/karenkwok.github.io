@@ -1,9 +1,10 @@
-$dark-blue: #000067;
+$nightmode-header: #242526;
+$nightmode-text: #f3f2f7;
 
 .dark {
   header {
-    background-color: $dark-blue;
-    color: white;
+    background-color: $nightmode-header;
+    color: $nightmode-text;
   }
 }
 

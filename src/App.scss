@@ -8,31 +8,40 @@ $dark-pink: #f89aba;
 
 //nightmode colours
 $dark-blue: #000067;
+$nightmode-background: #18191a;
+$nightmode-text: #f3f2f7;
+$nightmode-bubble: #2d2e2f;
+$nightmode-highlight: #47484a75;
+$nightmode-highlight-hover: #47484a;
+
 $medium-purple: #5b33c8; //maybe not need this
 $invisible-purple: #bbaffd9c;
 
 .dark {
   #root {
-    color: white;
+    color: $nightmode-text;
   }
 
   #App {
-    background-color: $dark-blue;
+    background-color: $nightmode-background;
   }
 
   a:-webkit-any-link {
-    color: white;
+    color: $nightmode-text;
   }
 
   .skill-names {
     .skill-bubble {
-      color: white;
+      background-color: $nightmode-bubble;
+      color: $nightmode-text;
     }
   }
 
   .purple-highlight {
+    background-color: $nightmode-highlight;
+
     &:hover {
-      background-color: $invisible-purple;
+      background-color: $nightmode-highlight-hover;
     }
   }
 }

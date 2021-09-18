@@ -1,6 +1,33 @@
 $react-light-blue: #61dafb;
 $primary-main-purple: #3b1cdf;
 
+$nightmode-text: #f3f2f7;
+$nightmode-border-hover: #a3a2a5;
+$nightmode-border: #a3a2a56b;
+$nightmode-bubble: #2d2e2f;
+
+.dark {
+  #utsearch-youtube-btn {
+    border: 1px solid $nightmode-border;
+    color: $nightmode-text;
+
+    &:hover {
+      border: 1px solid $nightmode-border-hover;
+      background-color: $nightmode-bubble;
+    }
+  }
+
+  #utsearch-github-btn {
+    border: 1px solid $nightmode-border;
+    color: $nightmode-text;
+
+    &:hover {
+      border: 1px solid $nightmode-border-hover;
+      background-color: $nightmode-bubble;
+    }
+  }
+}
+
 .utsearch-btns {
   display: flex;
   flex-direction: row;
@@ -24,8 +51,14 @@ $primary-main-purple: #3b1cdf;
 }
 
 #utsearch-youtube-btn {
+  border: 1px solid #0000003b;
+
+  &:hover {
+    border: 1px solid #a3a2a5;
+  }
+
   #utsearch-youtube {
-    color: $primary-main-purple;
+    color: #a3a2a5;
   }
 
   &:hover {
@@ -36,8 +69,14 @@ $primary-main-purple: #3b1cdf;
 }
 
 #utsearch-github-btn {
+  border: 1px solid #0000003b;
+
+  &:hover {
+    border: 1px solid #a3a2a5;
+  }
+
   #utsearch-github {
-    color: $primary-main-purple;
+    color: #a3a2a5;
   }
 
   &:hover {

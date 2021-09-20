@@ -89,3 +89,13 @@ $nightmode-bubble: #2d2e2f;
 #our-app {
   outline: none;
 }
+
+@media (max-width: 600px) {
+  .utsearch-btns {
+    flex-direction: column;
+
+    .utsearch-btn {
+      margin-top: 0.5rem;
+    }
+  }
+}

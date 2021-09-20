@@ -15,3 +15,23 @@
     width: 22vw;
   }
 }
+
+@media (max-width: 720px) {
+  #skill-types {
+    flex-direction: column;
+
+    #skill-web {
+      width: 80vw;
+    }
+
+    #skill-languages {
+      margin-top: 1.5rem;
+      width: 80vw;
+    }
+
+    #skill-technologies {
+      margin-top: 1.5rem;
+      width: 80vw;
+    }
+  }
+}

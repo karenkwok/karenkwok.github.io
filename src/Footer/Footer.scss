@@ -10,6 +10,16 @@
         }
       }
     }
+
+    #hire-me-btn {
+      color: #f3f2f7;
+      border: 1px solid #a3a2a56b;
+
+      &:hover {
+        border: 1px solid #a3a2a5;
+        background-color: #2d2e2f;
+      }
+    }
   }
 }
 
@@ -89,13 +99,19 @@ footer {
       }
     }
   }
-  
-  #paper-plane {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    font-size: 1.2rem;
+
+  #hire-me-btn {
+    border: 1px solid #0000003b;
+    
+    #paper-plane {
+      color: #a3a2a5;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      font-size: 1.2rem;
+    }
   }
 }
+
 @media (max-width: 400px) {
   footer {
     height: 100%;

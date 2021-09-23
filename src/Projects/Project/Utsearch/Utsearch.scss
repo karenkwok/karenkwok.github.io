@@ -1,29 +1,23 @@
-$react-light-blue: #61dafb;
-$primary-main-purple: #3b1cdf;
-
-$nightmode-text: #f3f2f7;
-$nightmode-border-hover: #a3a2a5;
-$nightmode-border: #a3a2a56b;
-$nightmode-bubble: #2d2e2f;
+@import "../../../Colours.scss";
 
 .dark {
   #utsearch-youtube-btn {
-    border: 1px solid $nightmode-border;
+    border: 1px solid $nightmode-button-border;
     color: $nightmode-text;
 
     &:hover {
-      border: 1px solid $nightmode-border-hover;
-      background-color: $nightmode-bubble;
+      border: 1px solid $nightmode-button-border-hover;
+      background-color: $nightmode-button-hover;
     }
   }
 
   #utsearch-github-btn {
-    border: 1px solid $nightmode-border;
+    border: 1px solid $nightmode-button-border;
     color: $nightmode-text;
 
     &:hover {
-      border: 1px solid $nightmode-border-hover;
-      background-color: $nightmode-bubble;
+      border: 1px solid $nightmode-button-border-hover;
+      background-color: $nightmode-button-hover;
     }
   }
 }
@@ -45,20 +39,20 @@ $nightmode-bubble: #2d2e2f;
 #utsearch-app-btn {
   &:hover {
     #utsearch-app {
-      color: $react-light-blue;
+      color: $react-blue;
     }
   }
 }
 
 #utsearch-youtube-btn {
-  border: 1px solid #0000003b;
+  border: 1px solid $button-border;
 
   &:hover {
-    border: 1px solid #a3a2a5;
+    border: 1px solid $nightmode-button-border-hover;
   }
 
   #utsearch-youtube {
-    color: #a3a2a5;
+    color: $button-icon;
   }
 
   &:hover {
@@ -69,14 +63,14 @@ $nightmode-bubble: #2d2e2f;
 }
 
 #utsearch-github-btn {
-  border: 1px solid #0000003b;
+  border: 1px solid $button-border;
 
   &:hover {
-    border: 1px solid #a3a2a5;
+    border: 1px solid $nightmode-button-border-hover;
   }
 
   #utsearch-github {
-    color: #a3a2a5;
+    color: $button-icon;
   }
 
   &:hover {

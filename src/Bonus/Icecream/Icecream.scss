@@ -1,3 +1,11 @@
+.hidden-gallery {
+  visibility: hidden;
+}
+
+.visible-gallery {
+  visibility: visible;
+}
+
 #icecream-gallery {
   column-count: 3;
   column-gap: 0.3rem;

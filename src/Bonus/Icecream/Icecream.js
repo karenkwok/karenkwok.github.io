@@ -39,6 +39,14 @@ class IcecreamData {
 }
 
 function Icecream() {
+  const [switchGallery, setSwitchGallery] = React.useState(
+    "hidden-gallery"
+  );
+
+  setTimeout(() => {
+    setSwitchGallery("visible-gallery");
+  }, 500);
+
   window.scrollTo({
     top: 0,
   });
@@ -82,7 +90,7 @@ function Icecream() {
       </div>
       <h4>A gallery of my ice cream adventures with friends. I just really love ice cream. 🙃</h4>
       <h4>&nbsp;</h4>
-      <div id="icecream-gallery">
+      <div id="icecream-gallery" className={switchGallery}>
         {icecreams.map((oneIcecream) => {
           return (
             <div className="icecream-square">

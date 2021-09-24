@@ -30,6 +30,7 @@ import qq from "./Pictures/qq.jpg";
 import snowtime from "./Pictures/snowtime.JPG";
 import ihalokrunch from "./Pictures/ihalokrunch.JPG";
 import fugo from "./Pictures/fugo.JPG";
+import { CircularProgress } from "@material-ui/core";
 
 class IcecreamData {
   constructor(image, location) {
@@ -42,10 +43,14 @@ function Icecream() {
   const [switchGallery, setSwitchGallery] = React.useState(
     "hidden-gallery"
   );
+  const [switchCircle, setSwitchCircle] = React.useState(
+    <CircularProgress></CircularProgress>
+  );
 
   setTimeout(() => {
     setSwitchGallery("visible-gallery");
-  }, 500);
+    setSwitchCircle(null);
+  }, 800);
 
   window.scrollTo({
     top: 0,
@@ -90,6 +95,7 @@ function Icecream() {
       </div>
       <h4>A gallery of my ice cream adventures with friends. I just really love ice cream. 🙃</h4>
       <h4>&nbsp;</h4>
+      <div className="yes-circle">{switchCircle}</div>
       <div id="icecream-gallery" className={switchGallery}>
         {icecreams.map((oneIcecream) => {
           return (

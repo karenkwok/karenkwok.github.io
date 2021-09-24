@@ -6,6 +6,16 @@
   visibility: visible;
 }
 
+.yes-circle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.no-circle {
+  display: none;
+}
+
 #icecream-gallery {
   column-count: 3;
   column-gap: 0.3rem;

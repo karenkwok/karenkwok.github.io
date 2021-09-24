@@ -25,27 +25,14 @@ function Bonus() {
           rel="noreferrer"
           id="popeyes"
         >
-          <span id="chicken" className="text-bold purple-highlight">
+          <span id="chicken" className="text-bold">
             fried chicken
           </span>
         </a>
         .
       </h4>
-      <h4 className="no-margin-bottom yes-margin-top">
-        I'm currently watching{" "}
-        <a
-          href="https://www.youtube.com/watch?v=vxGP-dJd-1o"
-          target="_blank"
-          rel="noreferrer"
-          id="friends"
-        >
-          <span className="text-bold purple-highlight">Friends</span>
-        </a>{" "}
-        (and it's the funniest thing ever).
-      </h4>
       <h4 className="yes-margin-top">
-        Sometimes I get a little bit crazy about{" "}
-        <span className="text-bold">Pokémon GO</span>... 🤪
+        Sometimes I play <span className="text-bold">Pokémon GO</span>... 🤪
       </h4>
       <h4 id="bonus-last-line">Thanks for stopping by! :)</h4>
     </div>

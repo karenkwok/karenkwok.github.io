@@ -80,8 +80,7 @@ function Icecream() {
       <div className="project-page-titles">
         <h2 className="project-page-title">Just a girl who loves ice cream.</h2>
       </div>
-      <h4>A gallery of my ice cream adventures with friends.</h4>
-      <h4>Currently on indefinite hiatus due to the ongoing pandemic. :(</h4>
+      <h4>A gallery of my ice cream adventures with friends. I just really love ice cream. 🙃</h4>
       <h4>&nbsp;</h4>
       <div id="icecream-gallery">
         {icecreams.map((oneIcecream) => {
@@ -93,7 +92,6 @@ function Icecream() {
           );
         })}
       </div>
-      <h4>Not a photographer or foodie. I just love ice cream. 🙃</h4>
     </div>
   );
 }

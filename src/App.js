@@ -60,9 +60,11 @@ function App() {
             </Route>
             <Route exact path="/utsearch">
               <Utsearch></Utsearch>
+              <Footer></Footer>
             </Route>
             <Route exact path="/neurorehab-project">
               <Neurorehab></Neurorehab>
+              <Footer></Footer>
             </Route>
             {/* <Route exact path="/resume">
               <Resume></Resume>

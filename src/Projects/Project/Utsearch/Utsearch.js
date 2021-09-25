@@ -45,15 +45,21 @@ function Utsearch() {
           </a>
         </div>
         <div className="utsearch-btn">
-          <Button
-            variant="outlined"
-            color="secondary"
-            size="large"
-            id="utsearch-github-btn"
+          <a
+            href="https://github.com/UTSCC09/project-idk-lmao"
+            target="_blank"
+            rel="noreferrer"
           >
-            <i className="fab fa-github" id="utsearch-github"></i>
-            &nbsp;&nbsp;&nbsp;GitHub Repo
-          </Button>
+            <Button
+              variant="outlined"
+              color="secondary"
+              size="large"
+              id="utsearch-github-btn"
+            >
+              <i className="fab fa-github" id="utsearch-github"></i>
+              &nbsp;&nbsp;&nbsp;GitHub Repo
+            </Button>
+          </a>
         </div>
       </div>
       <div className="skill-names">

@@ -1,6 +1,15 @@
 @import "../../../Colours.scss";
 
 .dark {
+  .MuiButton-containedPrimary {
+    background-color: $nightmode-utsearch-app;
+
+    &:hover {
+      background-color: $nightmode-utsearch-app-hover;
+      ;
+    }
+  }
+
   #utsearch-youtube-btn {
     border: 1px solid $nightmode-button-border;
     color: $nightmode-text;

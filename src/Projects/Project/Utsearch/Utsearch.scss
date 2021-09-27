@@ -4,6 +4,7 @@
   #utsearch-youtube-btn {
     border: 1px solid $nightmode-button-border;
     color: $nightmode-text;
+    transition: 0.5s;
 
     &:hover {
       border: 1px solid $nightmode-button-border-hover;
@@ -14,6 +15,7 @@
   #utsearch-github-btn {
     border: 1px solid $nightmode-button-border;
     color: $nightmode-text;
+    transition: 0.5s;
 
     &:hover {
       border: 1px solid $nightmode-button-border-hover;

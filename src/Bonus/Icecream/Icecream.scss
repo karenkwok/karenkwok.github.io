@@ -6,6 +6,12 @@
   visibility: visible;
 }
 
+.dark {
+  .MuiCircularProgress-colorPrimary {
+    color: $nightmode-purple-text;
+  }
+}
+
 .yes-circle {
   display: flex;
   flex-direction: row;

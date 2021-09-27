@@ -8,6 +8,7 @@
           background-color: $nightmode-background;
           .icon {
             color: $nightmode-text;
+            transition: 0.5s;
           }
         }
       }
@@ -16,6 +17,7 @@
     #hire-me-btn {
       color: $nightmode-text;
       border: 1px solid $nightmode-button-border;
+      transition: 0.5s;
 
       &:hover {
         border: 1px solid $nightmode-button-border-hover;

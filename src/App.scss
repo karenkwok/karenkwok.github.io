@@ -17,6 +17,7 @@
   }
 
   .skill-names {
+    transition: 0.5s;
     .skill-bubble {
       background-color: $nightmode-bubble;
       color: $nightmode-purple-text;

@@ -18,18 +18,18 @@
 
   .skill-names {
     .skill-bubble {
-      background-color: $nightmode-skill-bubble;
-      color: $nightmode-skill-text;
+      background-color: $nightmode-bubble;
+      color: $nightmode-purple-text;
       transition: 0.5s;
     }
   }
 
   .purple-highlight {
-    background-color: $nightmode-highlight;
+    border-bottom: 0.125rem solid $nightmode-underline;
     transition: 0.5s;
 
     &:hover {
-      background-color: $nightmode-highlight-hover;
+      background-color: $nightmode-highlight;
     }
   }
 }
@@ -85,8 +85,8 @@ h5 {
     padding-bottom: 0.3rem;
 
     border-radius: 0.6rem;
-    background-color: $skill-bubble;
-    color: $skill-text;
+    background-color: $bubble;
+    color: $purple-text;
     transition: 0.5s;
   }
 }
@@ -101,13 +101,10 @@ h5 {
 }
 
 .purple-highlight {
-  background-color: $highlight;
-  border-bottom: 0.0625rem solid $highlight-underline;
+  border-bottom: 0.125rem solid $underline;
   transition: 0.5s;
-
   &:hover {
-    background-color: $highlight-hover;
-    border-bottom: 0.0625rem solid $highlight-underline-hover;
+    background-color: $highlight;
     cursor: pointer;
   }
 }

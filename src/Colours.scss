@@ -3,29 +3,22 @@
 $nightmode-background: #18191a;
 $nightmode-text: #f3f2f7;
 
-
 // header
 $nightmode-header: #242526;
 
-
 // skills
-$skill-bubble: #bbaffd4d;
-$skill-text: #2504d6;
+$bubble: #bbaffd4d;
+$purple-text: #2504d6;
 
-$nightmode-skill-bubble: #3021806b;
-$nightmode-skill-text: #6a4fff;
-
+$nightmode-bubble: #3021806b;
+$nightmode-purple-text: #6a4fff;
 
 // highlight
-$highlight: #bbaffd4d;
-$highlight-underline: #00000033;
+$underline: #2504d6;
+$highlight: #bbaffd;
 
-$highlight-hover: #bbaffd;
-$highlight-underline-hover: #1a1a1a;
-
-$nightmode-highlight: #47484a75;
-$nightmode-highlight-hover: #47484a;
-
+$nightmode-underline: #6a4fff;
+$nightmode-highlight: #302180;
 
 // buttons
 $button-border: #0000003b;
@@ -37,13 +30,9 @@ $nightmode-button-icon: #a3a2a5;
 
 $nightmode-button-hover: #2d2e2f;
 
-
-// app button
+// utsearch app button
 $react-blue: #61dafb;
-$button-purple: #2504d6;
-$button-putple-hover: #180196;
 
-
-// icons
+// footer icons
 $icon: #262626;
 $linkedin-blue: #0077b5;

@@ -30,15 +30,15 @@ const theme = createMuiTheme({
   },
   palette: {
     primary: {
-      main: "#3B1CDF",
-      light: "#5E40FF",
-      dark: "#180196",
+      main: "#2504d6",
+      light: "#5E40FF", // not sure yet because i havent used
+      dark: "#180196", // darkest-purple (only used for utsearch app btn hover)
     },
 
     secondary: {
       main: "#262626",
       light: "#A3A2A5",
-      dark: "#0C0B0F",
+      dark: "#0C0B0F", // not yet used
     },
   },
 });

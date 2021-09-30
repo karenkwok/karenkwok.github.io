@@ -46,7 +46,7 @@ function Utsearch() {
         </div>
         <div className="utsearch-btn">
           <a
-            href="https://github.com/UTSCC09/project-idk-lmao"
+            href="https://github.com/karenkwok/utsearch"
             target="_blank"
             rel="noreferrer"
           >

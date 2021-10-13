@@ -36,12 +36,12 @@ function Header() {
 
   return (
     <header>
-        <div id="logo" onClick={goToHome}>
-          <Link to="/">Kk</Link>
-        </div>
-        <div id="toggle" onClick={switchDayNightToggle}>
-          {switchToggle}
-        </div>
+      <div id="logo" onClick={goToHome}>
+        <Link to="/">Kk</Link>
+      </div>
+      <div id="toggle" onClick={switchDayNightToggle}>
+        {switchToggle}
+      </div>
     </header>
   );
 }

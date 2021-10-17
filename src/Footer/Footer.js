@@ -27,7 +27,7 @@ function Footer() {
         </ul>
       </div>
       <div>
-        <a href="mailto:karenk.kwok@mail.utoronto.ca?subject=You're Hired!">
+        <a href="mailto:karenkwok013@gmail.com?subject=You're Hired!">
           <Button variant="outlined" size="large" id="hire-me-btn">
             <i className="far fa-paper-plane" id="paper-plane"></i>
             &nbsp;&nbsp;Hire Me!

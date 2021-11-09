@@ -19,9 +19,6 @@ function Projects() {
       </div>
       {/* <h4 id="projects-line">
         For more details, please see{" "}
-        <Link to="/resume" className="purple-highlight">
-          my resume
-        </Link>
         .
       </h4> */}
     </div>

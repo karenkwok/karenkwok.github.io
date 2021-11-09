@@ -6,7 +6,6 @@ import Skills from "./Skills/Skills";
 import Projects from "./Projects/Projects";
 import Utsearch from "./Projects/Project/Utsearch/Utsearch";
 import Neurorehab from "./Projects/Project/Neurorehab/Neurorehab";
-import Resume from "./Projects/Resume/Resume";
 import Bonus from "./Bonus/Bonus";
 import Art from "./Bonus/Art/Art";
 import Icecream from "./Bonus/Icecream/Icecream";
@@ -66,9 +65,6 @@ function App() {
               <Neurorehab></Neurorehab>
               <Footer></Footer>
             </Route>
-            {/* <Route exact path="/resume">
-              <Resume></Resume>
-            </Route> */}
             {/* <Route exact path="/art">
               <Art></Art>
             </Route> */}

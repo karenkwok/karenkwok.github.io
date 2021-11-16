@@ -11,10 +11,12 @@ function Skills() {
             <h5 className="skill-bubble">React</h5>
             <h5 className="skill-bubble">Node.js</h5>
             <h5 className="skill-bubble">Express.js</h5>
-            <h5 className="skill-bubble">SCSS</h5>
+            <h5 className="skill-bubble">Django</h5>
+            <h5 className="skill-bubble">PostgreSQL</h5>
             <h5 className="skill-bubble">MongoDB</h5>
             <h5 className="skill-bubble">JavaScript</h5>
             <h5 className="skill-bubble">GraphQL</h5>
+            <h5 className="skill-bubble">SCSS</h5>
             <h5 className="skill-bubble">HTML</h5>
             <h5 className="skill-bubble">CSS</h5>
           </div>

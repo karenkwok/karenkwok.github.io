@@ -5,6 +5,7 @@ import About from "./About/About";
 import Skills from "./Skills/Skills";
 import Projects from "./Projects/Projects";
 import Utsearch from "./Projects/Project/Utsearch/Utsearch";
+import NotInstagram from "./Projects/Project/NotInstagram/NotInstagram";
 import Neurorehab from "./Projects/Project/Neurorehab/Neurorehab";
 import Bonus from "./Bonus/Bonus";
 import Art from "./Bonus/Art/Art";
@@ -59,6 +60,10 @@ function App() {
             </Route>
             <Route exact path="/utsearch">
               <Utsearch></Utsearch>
+              <Footer></Footer>
+            </Route>
+            <Route exact path="/notinstagram">
+              <NotInstagram></NotInstagram>
               <Footer></Footer>
             </Route>
             <Route exact path="/neurorehab-project">

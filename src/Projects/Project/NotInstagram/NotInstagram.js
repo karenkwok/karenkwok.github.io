@@ -16,20 +16,22 @@ function NotInstagram() {
         <h5 className="skill-bubble">Node.js</h5>
         <h5 className="skill-bubble">Express.js</h5>
         <h5 className="skill-bubble">JavaScript</h5>
+        <h5 className="skill-bubble">Heroku</h5>
         <h5 className="skill-bubble">HTML</h5>
         <h5 className="skill-bubble">CSS</h5>
       </div>
       <h4>
         As a project for a web development course, I created a web gallery (
-        <span className="text-italics">not</span> like{" "}
-        <a
-          href="https://www.instagram.com/"
-          target="_blank"
-          rel="noreferrer"
-          className="purple-highlight"
-        >
-          Instagram
-        </a>
+        <span className="purple-highlight">
+          <span className="text-italics">not</span> like{" "}
+          <a
+            href="http://not-ig.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Instagram
+          </a>
+        </span>
         ;) for users to post and comment on images.
       </h4>
       <h4>After the course, I deployed it for fun. 🤪</h4>

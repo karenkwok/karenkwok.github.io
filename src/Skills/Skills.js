@@ -9,6 +9,7 @@ function Skills() {
           <h3>Web</h3>
           <div className="skill-names">
             <h5 className="skill-bubble">React</h5>
+            <h5 className="skill-bubble">Redux</h5>
             <h5 className="skill-bubble">Node.js</h5>
             <h5 className="skill-bubble">Express.js</h5>
             <h5 className="skill-bubble">Django</h5>

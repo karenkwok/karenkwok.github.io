@@ -26,11 +26,12 @@ function Neurorehab() {
         >
           SenseTech Solutions
         </a>
-        , I developed a VR piano simulator game for patients recovering from
-        strokes to help them regain their motor and coordination skills.
+        , I developed a VR piano simulator game as part of stroke rehabilitation
+        for hospital patients to aid in their recovery by improving their motor
+        and coordination skills.
       </h4>
       <h4>
-        The game teaches players how to play various songs with the{" "}
+        The game teaches players how to play various songs on the piano with the{" "}
         <a
           href="https://www.google.com/search?q=what+are+haptic+gloves&rlz=1C1CHBF_enCA772CA772&sxsrf=ALeKk03fNYeIO-WmdQxwTU6ZtBRZOn2pZg%3A1620018323928&ei=k4SPYJCPONS5tAbTsIjADw&oq=what+are+haptic+glove&gs_lcp=Cgdnd3Mtd2l6EAMYADICCAA6BwgjELADECc6BwgAEEcQsAM6BwgAELADEEM6BwgjELACECc6BAgAEA06BggAEAcQHlCKgQFY5YgBYMGUAWgBcAJ4AIABcogB3QeSAQM2LjSYAQCgAQGqAQdnd3Mtd2l6yAEKwAEB&sclient=gws-wiz"
           target="_blank"

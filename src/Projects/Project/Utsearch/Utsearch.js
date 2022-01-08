@@ -8,7 +8,7 @@ function Utsearch() {
   });
 
   return (
-    <div>
+    <div id="utsearch-page">
       <div className="project-page-titles">
         <h2 className="project-page-title">UTSearCh</h2>
       </div>

@@ -33,62 +33,66 @@
   }
 }
 
-.utsearch-btns {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 1em;
+#utsearch-page {
+  min-height: 65vh;
 
-  .utsearch-btn {
-    margin-right: 0.5rem;
+  .utsearch-btns {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
 
-    i {
-      font-size: 1.5rem;
+    .utsearch-btn {
+      margin-right: 0.5rem;
+
+      i {
+        font-size: 1.5rem;
+      }
     }
   }
-}
 
-#utsearch-app-btn {
-  &:hover {
-    #utsearch-app {
-      color: $react-blue;
+  #utsearch-app-btn {
+    &:hover {
+      #utsearch-app {
+        color: $react-blue;
+      }
     }
   }
-}
 
-#utsearch-youtube-btn {
-  border: 1px solid $button-border;
-  transition: 0.5s;
+  #utsearch-youtube-btn {
+    border: 1px solid $button-border;
+    transition: 0.5s;
 
-  &:hover {
-    border: 1px solid $nightmode-button-border-hover;
-  }
+    &:hover {
+      border: 1px solid $nightmode-button-border-hover;
+    }
 
-  #utsearch-youtube {
-    color: $button-icon;
-  }
-
-  &:hover {
     #utsearch-youtube {
-      color: red;
+      color: $button-icon;
+    }
+
+    &:hover {
+      #utsearch-youtube {
+        color: red;
+      }
     }
   }
-}
 
-#utsearch-github-btn {
-  border: 1px solid $button-border;
-  transition: 0.5s;
+  #utsearch-github-btn {
+    border: 1px solid $button-border;
+    transition: 0.5s;
 
-  &:hover {
-    border: 1px solid $nightmode-button-border-hover;
-  }
+    &:hover {
+      border: 1px solid $nightmode-button-border-hover;
+    }
 
-  #utsearch-github {
-    color: $button-icon;
-  }
-
-  &:hover {
     #utsearch-github {
-      color: black;
+      color: $button-icon;
+    }
+
+    &:hover {
+      #utsearch-github {
+        color: black;
+      }
     }
   }
 }
@@ -101,8 +105,4 @@
       margin-top: 0.5rem;
     }
   }
-}
-
-#utsearch-page {
-  min-height: 65vh;
 }

@@ -9,19 +9,21 @@ function Projects() {
   return (
     <div id="projects-section">
       <h2>Here is what I've been working on...</h2>
-      <div id="projects-squares">
-        <Link to="/utsearch">
-          <Project name="UTSearCh" image={idklmao}></Project>
-        </Link>
-        <Link to="/notinstagram">
-          <Project name="notInstagram" image={notinstagram}></Project>
-        </Link>
-        <Link to="/neurorehab-project">
-          <Project name="NeuroRehab Project" image={piano}></Project>
-        </Link>
+      <div id="projects-grid">
+        <div id="projects-squares">
           <Link to="/happii">
             <Project name="happii" image={idklmao}></Project>
           </Link>
+          <Link to="/utsearch">
+            <Project name="UTSearCh" image={idklmao}></Project>
+          </Link>
+          <Link to="/notinstagram">
+            <Project name="notInstagram" image={notinstagram}></Project>
+          </Link>
+          <Link to="/neurorehab-project">
+            <Project name="NeuroRehab Project" image={piano}></Project>
+          </Link>
+        </div>
       </div>
       {/* <h4 id="projects-line">
         For more details, please see{" "}

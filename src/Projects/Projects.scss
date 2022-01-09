@@ -1,7 +1,16 @@
-#projects-squares {
+#projects-grid {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around; //space-between when i have 3 project squares
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  #projects-squares {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; //space-between when i have 3 project squares
+    flex-wrap: wrap;
+    width: 65vw;
+  }
 }
 
 #projects-line {

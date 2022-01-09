@@ -19,6 +19,9 @@ function Projects() {
         <Link to="/neurorehab-project">
           <Project name="NeuroRehab Project" image={piano}></Project>
         </Link>
+          <Link to="/happii">
+            <Project name="happii" image={idklmao}></Project>
+          </Link>
       </div>
       {/* <h4 id="projects-line">
         For more details, please see{" "}

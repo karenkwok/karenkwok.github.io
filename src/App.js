@@ -4,6 +4,7 @@ import Title from "./Title/Title";
 import About from "./About/About";
 import Skills from "./Skills/Skills";
 import Projects from "./Projects/Projects";
+import Happii from "./Projects/Project/Happii/Happii";
 import Utsearch from "./Projects/Project/Utsearch/Utsearch";
 import NotInstagram from "./Projects/Project/NotInstagram/NotInstagram";
 import Neurorehab from "./Projects/Project/Neurorehab/Neurorehab";
@@ -56,6 +57,10 @@ function App() {
               <Skills></Skills>
               <Projects></Projects>
               <Bonus></Bonus>
+              <Footer></Footer>
+            </Route>
+            <Route exact path="/happii">
+              <Happii></Happii>
               <Footer></Footer>
             </Route>
             <Route exact path="/utsearch">

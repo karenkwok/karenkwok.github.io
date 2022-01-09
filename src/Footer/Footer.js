@@ -1,7 +1,10 @@
 import "./Footer.scss";
-import { Button } from "@material-ui/core";
 
 function Footer() {
+  const copyFunction = () => {
+    navigator.clipboard.writeText("karenkwok013@gmail.com");
+  };
+
   return (
     <footer>
       <div>
@@ -26,13 +29,10 @@ function Footer() {
           </li>
         </ul>
       </div>
-      <div>
-        <a href="mailto:karenkwok013@gmail.com?subject=You're Hired!">
-          <Button variant="outlined" size="large" id="hire-me-btn">
-            <i className="far fa-paper-plane" id="paper-plane"></i>
-            &nbsp;&nbsp;Hire Me!
-          </Button>
-        </a>
+      <div id="footer-email">
+        <h4 id="email" class="tooltip" onClick={copyFunction}>
+          karenkwok013@gmail.com<span class="tooltiptext">Click to copy</span>
+        </h4>
       </div>
     </footer>
   );

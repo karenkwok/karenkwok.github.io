@@ -14,14 +14,12 @@
       }
     }
 
-    #hire-me-btn {
+    #email {
       color: $nightmode-text;
-      border: 1px solid $nightmode-button-border;
       transition: 0.5s;
 
       &:hover {
-        border: 1px solid $nightmode-button-border-hover;
-        background-color: $nightmode-button-hover;
+        color: $nightmode-purple-text;
       }
     }
   }
@@ -104,15 +102,57 @@ footer {
     }
   }
 
-  #hire-me-btn {
-    border: 1px solid $button-border;
+  #email {
+    transition: 0.5s;
 
-    #paper-plane {
-      color: $button-icon;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-      font-size: 1.2rem;
+    &:hover {
+      color: $purple-text;
+      cursor: pointer;
     }
+  }
+
+  /* Tooltip container */
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 4px 0;
+    border-radius: 6px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+    font-size: small;
+    font-weight: bolder;
+    margin-bottom: 0.5vh;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
   }
 }
 

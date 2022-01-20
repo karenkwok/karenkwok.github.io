@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e147915f.chunk.css",
-    "main.js": "/static/js/main.972047e0.chunk.js",
-    "main.js.map": "/static/js/main.972047e0.chunk.js.map",
+    "main.js": "/static/js/main.a751f42a.chunk.js",
+    "main.js.map": "/static/js/main.a751f42a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2174860a.js",
     "runtime-main.js.map": "/static/js/runtime-main.2174860a.js.map",
     "static/js/2.22c6b8bb.chunk.js": "/static/js/2.22c6b8bb.chunk.js",
@@ -40,6 +40,7 @@
     "static/media/peacetreats2.627f0d11.jpg": "/static/media/peacetreats2.627f0d11.jpg",
     "static/media/petitpotato.a42c4175.jpg": "/static/media/petitpotato.a42c4175.jpg",
     "static/media/piano.03a008a6.png": "/static/media/piano.03a008a6.png",
+    "static/media/psyduck.5822bcb2.png": "/static/media/psyduck.5822bcb2.png",
     "static/media/qq.0a954d9a.jpg": "/static/media/qq.0a954d9a.jpg",
     "static/media/qq2.a5a961c6.jpg": "/static/media/qq2.a5a961c6.jpg",
     "static/media/qq3.289604e3.jpg": "/static/media/qq3.289604e3.jpg",
@@ -59,6 +60,6 @@
     "static/js/runtime-main.2174860a.js",
     "static/js/2.22c6b8bb.chunk.js",
     "static/css/main.e147915f.chunk.css",
-    "static/js/main.972047e0.chunk.js"
+    "static/js/main.a751f42a.chunk.js"
   ]
 }

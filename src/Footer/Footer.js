@@ -1,11 +1,18 @@
 import "./Footer.scss";
+import React from "react";
 
 function Footer() {
-  const copyFunction = () => {
-    navigator.clipboard.writeText("karenkwok013@gmail.com");
+  const email = "karenkwok013@gmail.com";
+  const [copyText, setCopyText] = React.useState("Click to copy");
 
-    const tooltip = document.getElementById("myToolTip");
-    tooltip.innerHTML = "Copied!";
+  const copyFunction = () => {
+    navigator.clipboard.writeText(email);
+
+    setCopyText("Copied!");
+  };
+
+  const outFunc = () => {
+    setCopyText("Click to copy");
   };
 
   return (
@@ -33,10 +40,15 @@ function Footer() {
         </ul>
       </div>
       <div id="footer-email">
-        <h4 id="email" class="tooltip" onClick={copyFunction}>
-          karenkwok013@gmail.com
+        <h4
+          id="email"
+          class="tooltip"
+          onClick={copyFunction}
+          onMouseOut={outFunc}
+        >
+          {email}
           <span class="tooltiptext" id="myToolTip">
-            Click to copy
+            {copyText}
           </span>
         </h4>
       </div>

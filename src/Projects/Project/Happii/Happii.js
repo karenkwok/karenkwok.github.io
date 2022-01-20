@@ -14,6 +14,14 @@ function Happii() {
       <p className="project-dates">
         <i class="far fa-calendar-alt"></i>&nbsp;&nbsp;Nov 2021 – Jan 2022
       </p>
+      <div className="links">
+        <button className="link-btns react-app">
+          <i class="fab fa-react"></i>&nbsp;&nbsp;&nbsp;<span>App</span>
+        </button>
+        <button className="link-btns non-react-app">
+          <i class="fab fa-github"></i>&nbsp;&nbsp;&nbsp;<span>Repo</span>
+        </button>
+      </div>
       <div className="skill-names">
         <h5 className="skill-bubble">React</h5>
         <h5 className="skill-bubble">Redux</h5>

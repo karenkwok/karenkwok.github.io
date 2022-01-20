@@ -72,6 +72,56 @@ h5 {
   font-weight: bold;
 }
 
+.links {
+  display: flex;
+  flex-direction: row;
+
+  .link-btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1.5rem;
+
+    border-radius: 0.35rem;
+    cursor: pointer;
+
+    .fab {
+      font-size: 1.4rem;
+    }
+
+    span {
+      font-weight: 600;
+      font-size: larger;
+    }
+  }
+
+  .react-app {
+    background-color: $purple-text;
+    color: white;
+    border: none;
+
+    &:hover {
+      background-color: $app-btn-hover;
+    }
+  }
+
+  .non-react-app {
+    background-color: white;
+    color: $icon;
+    border: solid $btn-outline 1.75px;
+
+    &:hover {
+      border: solid $btn-outline-hover 1.75px;
+    }
+  }
+}
+
 .skill-names {
   display: flex;
   flex-direction: row;

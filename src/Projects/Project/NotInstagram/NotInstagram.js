@@ -14,6 +14,14 @@ function NotInstagram() {
       <p className="project-dates">
         <i class="far fa-calendar-alt"></i>&nbsp;&nbsp;Jan 2021 – Feb 2021
       </p>
+      <div className="links">
+        <button className="link-btns react-app">
+          <i class="fab fa-react"></i>&nbsp;&nbsp;&nbsp;<span>App</span>
+        </button>
+        <button className="link-btns non-react-app">
+          <i class="fab fa-github"></i>&nbsp;&nbsp;&nbsp;<span>Repo</span>
+        </button>
+      </div>
       <div className="skill-names">
         <h5 className="skill-bubble">Node.js</h5>
         <h5 className="skill-bubble">Express.js</h5>

@@ -25,7 +25,7 @@ function Happii() {
       </div>
       <h4>
         Created a web application for users to track their daily water intake
-        and monitor trends.
+        and visualize trends.
       </h4>
       <h4>
         This project was started by my friend and I, in an effort to improve our

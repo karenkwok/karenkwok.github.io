@@ -11,7 +11,9 @@ function Neurorehab() {
       <div className="project-page-titles">
         <h2 className="project-page-title">NeuroRehab Project</h2>
       </div>
-      <p className="project-dates">Jul 2020 – Aug 2020</p>
+      <p className="project-dates">
+        <i class="far fa-calendar-alt"></i>&nbsp;&nbsp;Jul 2020 – Aug 2020
+      </p>
       <div className="skill-names">
         <h5 className="skill-bubble">C#</h5>
         <h5 className="skill-bubble">Unity</h5>

@@ -11,7 +11,9 @@ function Happii() {
       <div className="project-page-titles">
         <h2 className="project-page-title">happii</h2>
       </div>
-      <p className="project-dates">Nov 2021 – Jan 2022</p>
+      <p className="project-dates">
+        <i class="far fa-calendar-alt"></i>&nbsp;&nbsp;Nov 2021 – Jan 2022
+      </p>
       <div className="skill-names">
         <h5 className="skill-bubble">React</h5>
         <h5 className="skill-bubble">Redux</h5>

@@ -11,7 +11,9 @@ function NotInstagram() {
       <div className="project-page-titles">
         <h2 className="project-page-title">notInstagram</h2>
       </div>
-      <p className="project-dates">Jan 2021 – Feb 2021</p>
+      <p className="project-dates">
+        <i class="far fa-calendar-alt"></i>&nbsp;&nbsp;Jan 2021 – Feb 2021
+      </p>
       <div className="skill-names">
         <h5 className="skill-bubble">Node.js</h5>
         <h5 className="skill-bubble">Express.js</h5>

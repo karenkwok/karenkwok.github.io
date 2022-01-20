@@ -1,4 +1,5 @@
 import "./PageNotFound.scss";
+import psyduck from "./psyduck.png";
 
 function PageNotFound() {
   return (
@@ -6,10 +7,7 @@ function PageNotFound() {
       <h4>Oops!</h4>
       <h4>That page does not exist.</h4>
       <p>Click the Kk at the top left to go back to the main page.</p>
-      <img
-        src="https://p.kindpng.com/picc/s/177-1772768_psyduck-pokemon-freetoedit-pokemon-psyduck-hd-png-download.png"
-        alt="Confused Duck"
-      />
+      <img src={psyduck} alt="Psyduck"></img>
       <p>Oh, you're still here. Well.. This is awkward...</p>
     </div>
   );

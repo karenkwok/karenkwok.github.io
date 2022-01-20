@@ -3,6 +3,9 @@ import "./Footer.scss";
 function Footer() {
   const copyFunction = () => {
     navigator.clipboard.writeText("karenkwok013@gmail.com");
+
+    const tooltip = document.getElementById("myToolTip");
+    tooltip.innerHTML = "Copied!";
   };
 
   return (
@@ -31,7 +34,10 @@ function Footer() {
       </div>
       <div id="footer-email">
         <h4 id="email" class="tooltip" onClick={copyFunction}>
-          karenkwok013@gmail.com<span class="tooltiptext">Click to copy</span>
+          karenkwok013@gmail.com
+          <span class="tooltiptext" id="myToolTip">
+            Click to copy
+          </span>
         </h4>
       </div>
     </footer>

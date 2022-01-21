@@ -28,7 +28,7 @@
 
   .purple-highlight {
     border-bottom: 0.125rem solid $nightmode-underline;
-    transition: 0.5s;
+    transition: 0.25s;
 
     &:hover {
       background-color: $nightmode-highlight;
@@ -163,7 +163,7 @@ h5 {
 
 .purple-highlight {
   border-bottom: 0.125rem solid $underline;
-  transition: 0.5s;
+  transition: 0.25s;
   &:hover {
     background-color: $highlight;
     cursor: pointer;

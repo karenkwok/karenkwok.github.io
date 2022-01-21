@@ -3,6 +3,7 @@ import Project from "./Project/Project";
 import idklmao from "./idklmao.png";
 import notinstagram from "./notinstagram.png";
 import piano from "./piano.png";
+import resume from "./KarenKwok_Resume.pdf";
 import { Link } from "react-router-dom";
 
 function Projects() {
@@ -25,10 +26,12 @@ function Projects() {
           </Link>
         </div>
       </div>
-      {/* <h4 id="projects-line">
+      <h4 id="projects-line">
         For more details, please see{" "}
-        .
-      </h4> */}
+        <a href={resume} target="_blank" rel="noreferrer">
+          <span className="purple-highlight">my resume</span>.
+        </a>
+      </h4>
     </div>
   );
 }

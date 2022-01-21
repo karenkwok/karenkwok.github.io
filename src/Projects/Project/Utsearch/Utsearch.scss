@@ -16,6 +16,7 @@
     transition: 0.5s;
   .react-app {
     background-color: $nightmode-app-btn;
+    transition: 0.5s;
 
     &:hover {
       border: 1px solid $nightmode-button-border-hover;
@@ -31,6 +32,7 @@
   .non-react-app {
     background-color: $nightmode-background;
     border: solid $nightmode-btn-outline 1.75px;
+    transition: 0.5s;
 
     &:hover {
       border: 1px solid $nightmode-button-border-hover;
@@ -41,6 +43,7 @@
     .fab,
     span {
       color: $nightmode-btn-text;
+      transition: 0.5s;
     }
   }
 }

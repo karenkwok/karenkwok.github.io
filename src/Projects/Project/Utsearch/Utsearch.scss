@@ -14,10 +14,13 @@
     border: 1px solid $nightmode-button-border;
     color: $nightmode-text;
     transition: 0.5s;
+  .react-app {
+    background-color: $nightmode-app-btn;
 
     &:hover {
       border: 1px solid $nightmode-button-border-hover;
       background-color: $nightmode-button-hover;
+      background-color: $nightmode-app-btn-hover;
     }
   }
 
@@ -25,10 +28,19 @@
     border: 1px solid $nightmode-button-border;
     color: $nightmode-text;
     transition: 0.5s;
+  .non-react-app {
+    background-color: $nightmode-background;
+    border: solid $nightmode-btn-outline 1.75px;
 
     &:hover {
       border: 1px solid $nightmode-button-border-hover;
       background-color: $nightmode-button-hover;
+      border: solid $nightmode-btn-outline-hover 1.75px;
+    }
+
+    .fab,
+    span {
+      color: $nightmode-btn-text;
     }
   }
 }

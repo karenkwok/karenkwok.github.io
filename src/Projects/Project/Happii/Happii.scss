@@ -1,3 +1,29 @@
-#happii-page {
-    min-height: 65vh;
+@import "../../../Colours.scss";
+
+.dark {
+  .react-app {
+    background-color: $nightmode-app-btn;
+
+    &:hover {
+      background-color: $nightmode-app-btn-hover;
+    }
   }
+
+  .non-react-app {
+    background-color: $nightmode-background;
+    border: solid $nightmode-btn-outline 1.75px;
+
+    &:hover {
+      border: solid $nightmode-btn-outline-hover 1.75px;
+    }
+
+    .fab,
+    span {
+      color: $nightmode-btn-text;
+    }
+  }
+}
+
+#happii-page {
+  min-height: 65vh;
+}

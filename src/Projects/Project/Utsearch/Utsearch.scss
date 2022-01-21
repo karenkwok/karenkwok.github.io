@@ -31,12 +31,13 @@
   min-height: 65vh;
 }
 
-@media (max-width: 600px) {
-  .utsearch-btns {
+@media (max-width: 485px) {
+  .links {
     flex-direction: column;
 
-    .utsearch-btn {
+    .link-btns {
       margin-top: 0.5rem;
+      justify-content: center;
     }
   }
 }

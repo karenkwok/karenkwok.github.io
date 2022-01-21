@@ -25,21 +25,22 @@ function Happii() {
       <div className="skill-names">
         <h5 className="skill-bubble">React</h5>
         <h5 className="skill-bubble">Redux</h5>
+        <h5 className="skill-bubble">JavaScript</h5>
         <h5 className="skill-bubble">Python</h5>
         <h5 className="skill-bubble">Django</h5>
         <h5 className="skill-bubble">PostgreSQL</h5>
         <h5 className="skill-bubble">Heroku</h5>
-        <h5 className="skill-bubble">JavaScript</h5>
         <h5 className="skill-bubble">HTML</h5>
         <h5 className="skill-bubble">SCSS</h5>
       </div>
       <h4>
-        Created a web application for users to track their daily water intake
-        and visualize trends.
+        A web application for users to track their daily water intake and
+        visualize trends. Currently expanding the app to track eating and
+        sleeping trends as well.
       </h4>
       <h4>
-        This project was started by my friend and I, in an effort to improve our
-        own water-drinking habits.
+        This project was originally started by a friend and I, in an effort to
+        improve our own water-drinking habits.
       </h4>
     </div>
   );

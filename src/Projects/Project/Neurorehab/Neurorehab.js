@@ -28,9 +28,9 @@ function Neurorehab() {
         >
           SenseTech Solutions
         </a>
-        , I developed a VR piano simulator game as part of stroke rehabilitation
-        for hospital patients to aid in their recovery by improving their motor
-        and coordination skills.
+        , I developed a VR piano simulator game as part of a stroke
+        rehabilitation program for hospital patients to aid in their recovery by
+        improving their motor and coordination skills.
       </h4>
       <h4>
         The game teaches players how to play various songs on the piano with the{" "}

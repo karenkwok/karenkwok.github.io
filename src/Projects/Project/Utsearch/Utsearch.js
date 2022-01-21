@@ -1,6 +1,5 @@
 import "./Utsearch.scss";
 import "../Projectpage.scss";
-import { Button } from "@material-ui/core";
 
 function Utsearch() {
   window.scrollTo({

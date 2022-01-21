@@ -1,42 +1,21 @@
 @import "../../../Colours.scss";
 
 .dark {
-  .MuiButton-containedPrimary {
-    background-color: $nightmode-utsearch-app;
-    transition: 0.5s;
-
-    &:hover {
-      background-color: $nightmode-utsearch-app-hover;
-    }
-  }
-
-  #utsearch-youtube-btn {
-    border: 1px solid $nightmode-button-border;
-    color: $nightmode-text;
-    transition: 0.5s;
   .react-app {
     background-color: $nightmode-app-btn;
     transition: 0.5s;
 
     &:hover {
-      border: 1px solid $nightmode-button-border-hover;
-      background-color: $nightmode-button-hover;
       background-color: $nightmode-app-btn-hover;
     }
   }
 
-  #utsearch-github-btn {
-    border: 1px solid $nightmode-button-border;
-    color: $nightmode-text;
-    transition: 0.5s;
   .non-react-app {
     background-color: $nightmode-background;
     border: solid $nightmode-btn-outline 1.75px;
     transition: 0.5s;
 
     &:hover {
-      border: 1px solid $nightmode-button-border-hover;
-      background-color: $nightmode-button-hover;
       border: solid $nightmode-btn-outline-hover 1.75px;
     }
 
@@ -50,66 +29,6 @@
 
 #utsearch-page {
   min-height: 65vh;
-
-  .utsearch-btns {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 1em;
-
-    .utsearch-btn {
-      margin-right: 0.5rem;
-
-      i {
-        font-size: 1.5rem;
-      }
-    }
-  }
-
-  #utsearch-app-btn {
-    &:hover {
-      #utsearch-app {
-        color: $react-blue;
-      }
-    }
-  }
-
-  #utsearch-youtube-btn {
-    border: 1px solid $button-border;
-    transition: 0.5s;
-
-    &:hover {
-      border: 1px solid $nightmode-button-border-hover;
-    }
-
-    #utsearch-youtube {
-      color: $button-icon;
-    }
-
-    &:hover {
-      #utsearch-youtube {
-        color: red;
-      }
-    }
-  }
-
-  #utsearch-github-btn {
-    border: 1px solid $button-border;
-    transition: 0.5s;
-
-    &:hover {
-      border: 1px solid $nightmode-button-border-hover;
-    }
-
-    #utsearch-github {
-      color: $button-icon;
-    }
-
-    &:hover {
-      #utsearch-github {
-        color: black;
-      }
-    }
-  }
 }
 
 @media (max-width: 600px) {

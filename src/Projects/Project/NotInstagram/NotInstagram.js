@@ -16,10 +16,24 @@ function NotInstagram() {
       </p>
       <div className="links">
         <button className="link-btns react-app">
-          <i class="fab fa-react"></i>&nbsp;&nbsp;&nbsp;<span>App</span>
+          <a
+            href="http://not-ig.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="white-text"
+          >
+            <i class="fab fa-react"></i>&nbsp;&nbsp;&nbsp;<span>App</span>
+          </a>
         </button>
         <button className="link-btns non-react-app">
-          <i class="fab fa-github"></i>&nbsp;&nbsp;&nbsp;<span>Repo</span>
+          <a
+            href="https://github.com/karenkwok/notInstagram"
+            target="_blank"
+            rel="noreferrer"
+            className="dark-text"
+          >
+            <i class="fab fa-github"></i>&nbsp;&nbsp;&nbsp;<span>Repo</span>
+          </a>
         </button>
       </div>
       <div className="skill-names">

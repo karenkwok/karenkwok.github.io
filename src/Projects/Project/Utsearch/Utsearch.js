@@ -17,64 +17,36 @@ function Utsearch() {
       </p>
       <div className="links">
         <button className="link-btns react-app">
-          <i class="fab fa-react"></i>&nbsp;&nbsp;&nbsp;<span>App</span>
-        </button>
-        <button className="link-btns non-react-app">
-          <i class="fab fa-youtube"></i>&nbsp;&nbsp;&nbsp;<span>Demo</span>
-        </button>
-        <button className="link-btns non-react-app">
-          <i class="fab fa-github"></i>&nbsp;&nbsp;&nbsp;<span>Repo</span>
-        </button>
-      </div>
-      {/* <div className="utsearch-btns">
-        <div className="utsearch-btn">
-          <a href="https://utsearch.tech" target="_blank" rel="noreferrer">
-            <Button
-              variant="contained"
-              color="primary"
-              size="large"
-              id="utsearch-app-btn"
-            >
-              <i className="fab fa-react" id="utsearch-app"></i>
-              &nbsp;&nbsp;&nbsp;App
-            </Button>
+          <a
+            href="https://utsearch.tech"
+            target="_blank"
+            rel="noreferrer"
+            className="white-text"
+          >
+            <i class="fab fa-react"></i>&nbsp;&nbsp;&nbsp;<span>App</span>
           </a>
-        </div>
-        <div className="utsearch-btn">
+        </button>
+        <button className="link-btns non-react-app">
           <a
             href="https://www.youtube.com/watch?v=HAx83RlzHaU"
             target="_blank"
             rel="noreferrer"
+            className="dark-text"
           >
-            <Button
-              variant="outlined"
-              color="secondary"
-              size="large"
-              id="utsearch-youtube-btn"
-            >
-              <i className="fab fa-youtube" id="utsearch-youtube"></i>
-              &nbsp;&nbsp;&nbsp;YouTube Demo
-            </Button>
+            <i class="fab fa-youtube"></i>&nbsp;&nbsp;&nbsp;<span>Demo</span>
           </a>
-        </div>
-        <div className="utsearch-btn">
+        </button>
+        <button className="link-btns non-react-app">
           <a
             href="https://github.com/karenkwok/utsearch"
             target="_blank"
             rel="noreferrer"
+            className="dark-text"
           >
-            <Button
-              variant="outlined"
-              color="secondary"
-              size="large"
-              id="utsearch-github-btn"
-            >
-              <i className="fab fa-github" id="utsearch-github"></i>
-              &nbsp;&nbsp;&nbsp;GitHub Repo
-            </Button>
+            <i class="fab fa-github"></i>&nbsp;&nbsp;&nbsp;<span>Repo</span>
           </a>
-        </div>
-      </div> */}
+        </button>
+      </div>
       <div className="skill-names">
         <h5 className="skill-bubble">React</h5>
         <h5 className="skill-bubble">GraphQL</h5>

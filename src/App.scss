@@ -111,6 +111,10 @@ h5 {
     }
   }
 
+  .white-text {
+    color: white;
+  }
+
   .non-react-app {
     background-color: white;
     color: $icon;
@@ -119,6 +123,10 @@ h5 {
     &:hover {
       border: solid $btn-outline-hover 1.75px;
     }
+  }
+
+  .dark-text {
+    color: $btn-text;
   }
 }
 

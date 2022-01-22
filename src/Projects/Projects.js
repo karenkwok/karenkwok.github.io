@@ -1,5 +1,6 @@
 import "./Projects.scss";
 import Project from "./Project/Project";
+import happii from "./happii.png";
 import idklmao from "./idklmao.png";
 import notinstagram from "./notinstagram.png";
 import piano from "./piano.png";
@@ -13,7 +14,7 @@ function Projects() {
       <div id="projects-grid">
         <div id="projects-squares">
           <Link to="/happii">
-            <Project name="happii" image={idklmao}></Project>
+            <Project name="happii" image={happii}></Project>
           </Link>
           <Link to="/utsearch">
             <Project name="UTSearCh" image={idklmao}></Project>

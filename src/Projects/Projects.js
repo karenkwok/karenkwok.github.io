@@ -27,12 +27,12 @@ function Projects() {
           </Link>
         </div>
       </div>
-      <h4 id="projects-line">
+      {/* <h4 id="projects-line">
         For more details, please see{" "}
         <a href={resume} target="_blank" rel="noreferrer">
           <span className="purple-highlight">my resume</span>.
         </a>
-      </h4>
+      </h4> */}
     </div>
   );
 }

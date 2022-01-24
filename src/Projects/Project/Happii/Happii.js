@@ -31,7 +31,7 @@ function Happii() {
         <h5 className="skill-bubble">PostgreSQL</h5>
         <h5 className="skill-bubble">Heroku</h5>
         <h5 className="skill-bubble">HTML</h5>
-        <h5 className="skill-bubble">SCSS</h5>
+        <h5 className="skill-bubble">Sass</h5>
       </div>
       <h4>
         A web application for users to track their daily water intake and

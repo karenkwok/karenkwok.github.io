@@ -16,7 +16,7 @@ function Skills() {
             <h5 className="skill-bubble">MongoDB</h5>
             <h5 className="skill-bubble">GraphQL</h5>
             <h5 className="skill-bubble">Django</h5>
-            <h5 className="skill-bubble">SCSS</h5>
+            <h5 className="skill-bubble">Sass</h5>
             <h5 className="skill-bubble">HTML</h5>
             <h5 className="skill-bubble">CSS</h5>
           </div>

@@ -31,7 +31,8 @@
     transition: 0.25s;
 
     &:hover {
-      background-color: $nightmode-highlight;
+      color: $nightmode-underline;
+      transition: 0.25s;
     }
   }
 }
@@ -162,10 +163,12 @@ h5 {
 }
 
 .purple-highlight {
+  font-weight: 400;
   border-bottom: 0.125rem solid $underline;
   transition: 0.25s;
   &:hover {
-    background-color: $highlight;
+    color: $underline;
+    transition: 0.25s;
     cursor: pointer;
   }
 }

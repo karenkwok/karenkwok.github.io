@@ -10,7 +10,7 @@ function About() {
       <h4 id="about-third-line">
         Currently @{" "}
         <a
-          href="https://milanosoftware.com/"
+          href="https://klickbook.milanosoftware.com/"
           target="_blank"
           rel="noreferrer"
           className="purple-highlight"

@@ -15,7 +15,7 @@ function About() {
           rel="noreferrer"
           className="purple-highlight"
         >
-          Milano Software
+          Milano
         </a>
         .
       </h4>

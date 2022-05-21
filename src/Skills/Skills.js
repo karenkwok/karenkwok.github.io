@@ -27,8 +27,6 @@ function Skills() {
             <h5 className="skill-bubble">Python</h5>
             <h5 className="skill-bubble">Java</h5>
             <h5 className="skill-bubble">C#</h5>
-            <h5 className="skill-bubble">C</h5>
-            <h5 className="skill-bubble">R</h5>
           </div>
         </div>
         <div id="skill-technologies">

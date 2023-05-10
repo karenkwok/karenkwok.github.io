@@ -38,14 +38,21 @@ const App = () => {
                 mode: 'push',
               },
               onHover: {
-                enable: false,
-                mode: 'repulse',
+                enable: true,
+                mode: 'bubble',
               },
               resize: true,
             },
             modes: {
+              bubble: {
+                distance: 83.916,
+                size: 1,
+                duration: 3,
+                opacity: 1,
+                speed: 3,
+              },
               push: {
-                quantity: 10,
+                quantity: 4,
               },
               repulse: {
                 distance: 20,
@@ -54,37 +61,68 @@ const App = () => {
             },
           },
           particles: {
-            color: {
-              value: '#fcf5e7',
-            },
             collisions: {
               enable: false,
             },
+            color: {
+              value: '#fcf5e7',
+            },
+            line_linked: {
+              enable: false,
+              distance: 150,
+              color: '#fcf5e7',
+              opacity: 0.4,
+              width: 1,
+            },
             move: {
+              attract: {
+                enable: false,
+                rotateX: 600,
+                rotateY: 1200,
+              },
+              bounce: false,
               directions: 'none',
               enable: true,
               outModes: {
-                default: 'bounce',
+                default: 'out',
               },
-              random: false,
+              random: true,
               speed: 0.2,
               straight: false,
             },
             number: {
               density: {
                 enable: true,
-                area: 800,
+                area: 789.1476,
               },
-              value: 80,
+              value: 355,
             },
             opacity: {
-              value: { min: 0.1, max: 0.5 },
+              value: 0.489, // { min: 0.1, max: 0.5 },
+              random: false,
+              anim: {
+                enable: true,
+                speed: 0.2,
+                opacity_min: 0,
+                sync: false,
+              },
             },
             shape: {
               type: 'circle',
+              stroke: {
+                width: 0,
+                color: '#fcf5e7',
+              },
             },
             size: {
-              value: { min: 0.5, max: 4 },
+              value: 2, // { min: 0.5, max: 4 },
+              random: true,
+              anim: {
+                enable: true,
+                speed: 2,
+                size_min: 0,
+                sync: false,
+              },
             },
           },
           detectRetina: true,

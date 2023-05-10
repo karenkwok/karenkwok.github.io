@@ -1,6 +1,14 @@
 #App {
-    display: flex;
-    flex-direction: column;
-    padding-left: 10vw;
-    padding-right: 10vw;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  background-color: #00020a;
+  color: #fcf5e7;
 }
+
+h1 {
+  font-size: 8rem;
+}
+
+h2 {

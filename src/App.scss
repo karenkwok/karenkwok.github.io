@@ -5,6 +5,11 @@
   padding-right: 10vw;
   background-color: #00020a;
   color: #fcf5e7;
+
+  ::selection {
+    color: black;
+    background-color: yellow;
+  }
 }
 
 h1 {

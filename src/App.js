@@ -4,6 +4,7 @@ import { loadFull } from 'tsparticles';
 
 import Title from './components/Title';
 import Experiences from './components/Experiences';
+import Skills from './components/Skills';
 import './App.scss';
 
 const App = () => {
@@ -133,6 +134,7 @@ const App = () => {
       <div style={{ zIndex: 999 }}>
         <Title />
         <Experiences />
+        <Skills />
       </div>
     </div>
   );

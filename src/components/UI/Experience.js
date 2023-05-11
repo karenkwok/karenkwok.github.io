@@ -7,31 +7,29 @@ import './Experience.scss';
 
 const Experience = (props) => {
   return (
-    <div className='experience'>
-      <Card>
-        <div className='experience-card'>
-          <div className='experience-company'>{props.company}</div>
-          <div>{props.position}</div>
-          <div className='experience-date-location'>
-            <div className='experience--date-location'>
-              <div className='experience-emoji'>🗓️</div>
-              <div>
-                {props.startDate} – {props.endDate}
-              </div>
-            </div>
-            <div className='experience--date-location'>
-              <div className='experience-emoji'>📍</div>
-              <div>{props.location}</div>
+    <Card>
+      <div className='experience-card'>
+        <div className='experience-company'>{props.company}</div>
+        <div>{props.position}</div>
+        <div className='experience-date-location'>
+          <div className='experience--date-location'>
+            <div className='experience-emoji'>🗓️</div>
+            <div>
+              {props.startDate} – {props.endDate}
             </div>
           </div>
-          <SkillContainer>
-            {props.skills.map((skill) => {
-              return <Skill>{skill}</Skill>;
-            })}
-          </SkillContainer>
+          <div className='experience--date-location'>
+            <div className='experience-emoji'>📍</div>
+            <div>{props.location}</div>
+          </div>
         </div>
-      </Card>
-    </div>
+        <SkillContainer>
+          {props.skills.map((skill) => {
+            return <Skill>{skill}</Skill>;
+          })}
+        </SkillContainer>
+      </div>
+    </Card>
   );
 };
 

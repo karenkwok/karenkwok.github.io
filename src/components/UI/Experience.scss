@@ -1,34 +1,30 @@
-.experience {
-  margin-bottom: 2rem;
+.experience-card {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  font-weight: lighter;
 
-  .experience-card {
+  .experience-company {
+    font-weight: bolder;
+  }
+
+  .experience-date-location {
     display: flex;
-    flex-direction: column;
-    font-size: 2rem;
-    font-weight: lighter;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
 
-    .experience-company {
-      font-weight: bolder;
-    }
-
-    .experience-date-location {
+    .experience--date-location {
       display: flex;
       flex-direction: row;
       align-items: center;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-      font-size: 1.5rem;
+      width: 50%;
+    }
 
-      .experience--date-location {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        width: 50%;
-      }
-
-      .experience-emoji {
-        margin-right: 1rem;
-      }
+    .experience-emoji {
+      margin-right: 1rem;
     }
   }
 }

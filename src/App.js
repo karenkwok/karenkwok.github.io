@@ -3,7 +3,7 @@ import Particles from 'react-particles';
 import { loadFull } from 'tsparticles';
 
 import Title from './components/Title';
-import Experience from './components/Experience';
+import Experiences from './components/Experiences';
 import './App.scss';
 
 const App = () => {
@@ -132,7 +132,7 @@ const App = () => {
 
       <div style={{ zIndex: 999 }}>
         <Title />
-        <Experience />
+        <Experiences />
       </div>
     </div>
   );

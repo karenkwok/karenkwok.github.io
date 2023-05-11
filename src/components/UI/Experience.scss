@@ -1,5 +1,5 @@
-#experience {
-  margin-bottom: 20rem;
+.experience {
+  margin-bottom: 2rem;
 
   .experience-card {
     display: flex;
@@ -14,35 +14,21 @@
     .experience-date-location {
       display: flex;
       flex-direction: row;
+      align-items: center;
       margin-top: 1rem;
       margin-bottom: 1rem;
       font-size: 1.5rem;
 
-      .experience-date {
+      .experience--date-location {
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-right: 10rem;
-      }
-
-      .experience-location {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+        width: 50%;
       }
 
       .experience-emoji {
         margin-right: 1rem;
       }
-    }
-
-    .experience-skills {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-
-      font-size: 1.5rem;
-      font-weight: bolder;
     }
   }
 }

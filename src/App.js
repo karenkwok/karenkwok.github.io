@@ -2,6 +2,7 @@ import React, { useCallback } from 'react';
 import Particles from 'react-particles';
 import { loadFull } from 'tsparticles';
 
+import Header from './components/Header';
 import Title from './components/Title';
 import Experiences from './components/Experiences';
 import Skills from './components/Skills';
@@ -132,6 +133,7 @@ const App = () => {
       />
 
       <div style={{ zIndex: 999 }}>
+        <Header />
         <Title />
         <Experiences />
         <Skills />

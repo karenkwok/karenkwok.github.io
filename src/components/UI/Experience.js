@@ -9,7 +9,11 @@ const Experience = (props) => {
   return (
     <Card>
       <div className='experience-card'>
-        <div className='experience-company'>{props.company}</div>
+        <div className='experience-company'>
+          <a href={props.website} target='_blank' rel='noopener noreferrer'>
+            {props.company}
+          </a>
+        </div>
         <div>{props.position}</div>
         <div className='experience-date-location'>
           <div className='experience--date-location'>

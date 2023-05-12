@@ -7,6 +7,7 @@ const Experiences = () => {
   const experiences = [
     {
       company: 'Milano Software',
+      website: 'https://milanosoftware.com/',
       position: 'Software Developer',
       startDate: 'Mar 2022',
       endDate: 'Nov 2022',
@@ -25,6 +26,7 @@ const Experiences = () => {
     },
     {
       company: 'SenseTech Solutions',
+      website: 'https://sensetech.ca/',
       position: 'Volunteer Unity Developer',
       startDate: 'Jul 2020',
       endDate: 'Aug 2020',
@@ -41,6 +43,7 @@ const Experiences = () => {
           return (
             <Experience
               company={experience.company}
+              website={experience.website}
               position={experience.position}
               startDate={experience.startDate}
               endDate={experience.endDate}

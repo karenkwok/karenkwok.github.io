@@ -7,6 +7,7 @@ import Title from './components/Title';
 import Experiences from './components/Experiences';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 import './App.scss';
 
 const App = () => {
@@ -139,6 +140,7 @@ const App = () => {
         <Experiences />
         <Skills />
         <Projects />
+        <Footer />
       </div>
     </div>
   );

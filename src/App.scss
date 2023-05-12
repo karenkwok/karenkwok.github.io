@@ -19,3 +19,13 @@ h1 {
 h2 {
   font-size: 4rem;
 }
+
+a:-webkit-any-link {
+  color: #fcf5e7;
+  text-decoration: none;
+  outline: none;
+
+  &:hover {
+    color: #6a4fff;
+  }
+}

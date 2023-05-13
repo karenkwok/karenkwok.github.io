@@ -1,94 +1,149 @@
-import "./App.scss";
-import Header from "./Header/Header";
-import Title from "./Title/Title";
-import About from "./About/About";
-import Skills from "./Skills/Skills";
-import Projects from "./Projects/Projects";
-import Happii from "./Projects/Project/Happii/Happii";
-import Utsearch from "./Projects/Project/Utsearch/Utsearch";
-import NotInstagram from "./Projects/Project/NotInstagram/NotInstagram";
-import Neurorehab from "./Projects/Project/Neurorehab/Neurorehab";
-import Bonus from "./Bonus/Bonus";
-import Art from "./Bonus/Art/Art";
-import Icecream from "./Bonus/Icecream/Icecream";
-import PageNotFound from "./PageNotFound/PageNotFound";
-import Footer from "./Footer/Footer";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
+import React, { useCallback } from 'react';
+import Particles from 'react-particles';
+import { loadFull } from 'tsparticles';
 
-const theme = createMuiTheme({
-  props: {
-    MuiButtonBase: {
-      disableRipple: true,
-    },
-  },
-  typography: {
-    fontFamily:
-      '-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif',
-    button: {
-      textTransform: "none", // no capitalization
-    },
-  },
-  palette: {
-    primary: {
-      main: "#2504d6",
-      light: "#5E40FF", // not sure yet because i havent used
-      dark: "#180196", // darkest-purple (only used for utsearch app btn hover)
-    },
+import Header from './components/Header';
+import Title from './components/Title';
+import Experiences from './components/Experiences';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
+import './App.scss';
 
-    secondary: {
-      main: "#262626",
-      light: "#A3A2A5",
-      dark: "#0C0B0F", // not yet used
-    },
-  },
-});
+const App = () => {
+  const particlesInit = useCallback(async (engine) => {
+    console.log(engine);
+    // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
+    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+    // starting from v2 you can add only the features you need reducing the bundle size
+    await loadFull(engine);
+  }, []);
 
-function App() {
+  const particlesLoaded = useCallback(async (container) => {
+    await console.log(container);
+  }, []);
+
   return (
-    <div id="App">
-      <MuiThemeProvider theme={theme}>
-        <Router>
-          <Header></Header>
-          <Switch>
-            <Route exact path="/">
-              <Title></Title>
-              <About></About>
-              <Skills></Skills>
-              <Projects></Projects>
-              <Bonus></Bonus>
-              <Footer></Footer>
-            </Route>
-            <Route exact path="/happii">
-              <Happii></Happii>
-              <Footer></Footer>
-            </Route>
-            <Route exact path="/utsearch">
-              <Utsearch></Utsearch>
-              <Footer></Footer>
-            </Route>
-            <Route exact path="/notinstagram">
-              <NotInstagram></NotInstagram>
-              <Footer></Footer>
-            </Route>
-            <Route exact path="/neurorehab-project">
-              <Neurorehab></Neurorehab>
-              <Footer></Footer>
-            </Route>
-            {/* <Route exact path="/art">
-              <Art></Art>
-            </Route> */}
-            <Route exact path="/icecream">
-              <Icecream></Icecream>
-            </Route>
-            <Route path="/*">
-              <PageNotFound></PageNotFound>
-            </Route>
-          </Switch>
-        </Router>
-      </MuiThemeProvider>
+    <div id='App'>
+      <Particles
+        id='tsparticles'
+        init={particlesInit}
+        loaded={particlesLoaded}
+        options={{
+          background: {
+            color: {
+              value: '#00020a',
+            },
+          },
+          fpsLimit: 120,
+          interactivity: {
+            events: {
+              onClick: {
+                enable: true,
+                mode: 'push',
+              },
+              onHover: {
+                enable: true,
+                mode: 'bubble',
+              },
+              resize: true,
+            },
+            modes: {
+              bubble: {
+                distance: 83.916,
+                size: 1,
+                duration: 3,
+                opacity: 1,
+                speed: 3,
+              },
+              push: {
+                quantity: 4,
+              },
+              repulse: {
+                distance: 20,
+                duration: 0.4,
+              },
+            },
+          },
+          particles: {
+            collisions: {
+              enable: false,
+            },
+            color: {
+              value: '#fcf5e7',
+            },
+            line_linked: {
+              enable: false,
+              distance: 150,
+              color: '#fcf5e7',
+              opacity: 0.4,
+              width: 1,
+            },
+            move: {
+              attract: {
+                enable: false,
+                rotateX: 600,
+                rotateY: 1200,
+              },
+              bounce: false,
+              directions: 'none',
+              enable: true,
+              outModes: {
+                default: 'out',
+              },
+              random: true,
+              speed: 0.2,
+              straight: false,
+            },
+            number: {
+              density: {
+                enable: true,
+                area: 789.1476,
+              },
+              value: 355,
+            },
+            opacity: {
+              value: 0.489, // { min: 0.1, max: 0.5 },
+              random: false,
+              anim: {
+                enable: true,
+                speed: 0.2,
+                opacity_min: 0,
+                sync: false,
+              },
+            },
+            shape: {
+              type: 'circle',
+              stroke: {
+                width: 0,
+                color: '#fcf5e7',
+              },
+            },
+            size: {
+              value: 2, // { min: 0.5, max: 4 },
+              random: true,
+              anim: {
+                enable: true,
+                speed: 2,
+                size_min: 0,
+                sync: false,
+              },
+            },
+          },
+          detectRetina: true,
+        }}
+      />
+
+      <div style={{ zIndex: 999 }}>
+        <Header />
+        <Title />
+        <Experiences />
+        <Skills />
+        <Projects />
+        <Footer />
+      </div>
     </div>
   );
-}
+};
 
 export default App;

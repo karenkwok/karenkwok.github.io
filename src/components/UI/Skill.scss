@@ -1,0 +1,21 @@
+.skill {
+  margin-right: 0.7rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  border-radius: 1rem;
+
+  font-size: 1.5rem;
+  font-weight: bolder;
+
+  border: 0.25px solid #fcf5e747;
+  color: #fcf5e7bf;
+
+  &:hover {
+    border: 1px solid #fcf5e7;
+    color: #fcf5e7;
+  }
+}

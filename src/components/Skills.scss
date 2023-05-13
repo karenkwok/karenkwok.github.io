@@ -1,0 +1,22 @@
+#skills {
+  margin-bottom: 20rem;
+
+  #skills-wrapper {
+    display: flex;
+    flex-direction: column;
+    font-weight: lighter;
+
+    #skills-backend-other {
+      display: flex;
+      flex-direction: row;
+
+      #skills-backend {
+        width: 67%;
+      }
+
+      #skills-other {
+        width: 33%;
+      }
+    }
+  }
+}

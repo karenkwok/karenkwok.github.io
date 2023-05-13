@@ -1,192 +1,31 @@
-@import "./Colours.scss";
-
-.dark {
-  #root {
-    color: $nightmode-text;
-    transition: 0.5s;
-  }
-
-  #App {
-    background-color: $nightmode-background;
-    transition: 0.5s;
-  }
-
-  a:-webkit-any-link {
-    color: $nightmode-text;
-    transition: 0.5s;
-  }
-
-  .skill-names {
-    transition: 0.5s;
-
-    .skill-bubble {
-      background-color: $nightmode-bubble;
-      color: $nightmode-purple-text;
-      transition: 0.5s;
-    }
-  }
-
-  .purple-highlight {
-    border-bottom: 0.125rem solid $nightmode-underline;
-    transition: 0.25s;
-
-    &:hover {
-      color: $nightmode-underline;
-      transition: 0.25s;
-    }
-  }
-}
-
 #App {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   padding-left: 10vw;
   padding-right: 10vw;
-  transition: 0.5s;
+  background-color: #00020a;
+  color: #fcf5e7;
+
+  ::selection {
+    color: #fcf5e7;
+    background-color: #6a4fff;
+  }
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 8rem;
 }
 
 h2 {
-  margin-top: 5rem;
-  margin-bottom: 2rem;
-  font-size: 2.5rem;
-}
-
-h3 {
-  margin-top: 0rem;
-  margin-bottom: 1rem;
-  font-size: 1.8rem;
-  font-weight: bold;
-}
-
-h4 {
-  font-size: 1.6rem;
-  font-weight: lighter;
-}
-
-h5 {
-  font-size: 1.1rem;
-  font-weight: bold;
-}
-
-.links {
-  display: flex;
-  flex-direction: row;
-
-  .link-btns {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-    margin-right: 0.5rem;
-    margin-bottom: 1.5rem;
-
-    border-radius: 0.35rem;
-    cursor: pointer;
-
-    .fab {
-      font-size: 1.4rem;
-      transition: 0.5s;
-    }
-
-    span {
-      font-weight: 600;
-      font-size: larger;
-      transition: 0.5s;
-    }
-  }
-
-  .react-app {
-    background-color: $app-btn;
-    color: white;
-    border: none;
-    transition: 0.5s;
-
-    &:hover {
-      background-color: $app-btn-hover;
-    }
-  }
-
-  .white-text {
-    color: white;
-  }
-
-  .non-react-app {
-    background-color: white;
-    color: $icon;
-    border: solid $btn-outline 1.75px;
-    transition: 0.5s;
-
-    &:hover {
-      border: solid $btn-outline-hover 1.75px;
-    }
-  }
-
-  .dark-text {
-    color: $btn-text;
-  }
-}
-
-.skill-names {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-
-  .skill-bubble {
-    margin-right: 0.7rem;
-    margin-top: 0.4rem;
-    margin-bottom: 0.4rem;
-    padding-left: 0.7rem;
-    padding-right: 0.7rem;
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;
-
-    border-radius: 0.6rem;
-    background-color: $bubble;
-    color: $purple-text;
-    transition: 0.5s;
-  }
-}
-
-.project-dates {
-  margin-top: 0;
-  margin-bottom: 2rem;
-  color: $date;
-}
-
-.purple-highlight {
-  font-weight: 400;
-  border-bottom: 0.125rem solid $underline;
-  transition: 0.25s;
-  &:hover {
-    color: $underline;
-    transition: 0.25s;
-    cursor: pointer;
-  }
-}
-
-.project-page-titles {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 2.5rem;
-
-  .project-page-title {
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-  }
+  font-size: 4rem;
 }
 
 a:-webkit-any-link {
-  color: black;
+  color: #fcf5e7;
   text-decoration: none;
   outline: none;
+
+  &:hover {
+    color: #6a4fff;
+  }
 }

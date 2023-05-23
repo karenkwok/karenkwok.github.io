@@ -34,6 +34,17 @@ footer {
     }
   }
 
+  #footer-email {
+    font-size: 2rem;
+    font-weight: lighter;
+
+    &:hover {
+      color: #6a4fff;
+      cursor: pointer;
+    }
+  }
+}
+
 @keyframes bounce {
   0%,
   20%,

@@ -28,8 +28,8 @@ const Experience = (props) => {
           </div>
         </div>
         <SkillContainer>
-          {props.skills.map((skill) => {
-            return <Skill>{skill}</Skill>;
+          {props.skills.map((skill, index) => {
+            return <Skill key={index}>{skill}</Skill>;
           })}
         </SkillContainer>
       </div>

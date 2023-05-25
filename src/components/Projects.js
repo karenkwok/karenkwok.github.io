@@ -42,9 +42,10 @@ const Projects = () => {
     <div id='projects'>
       <h2>What I've been working on...</h2>
       <div>
-        {projects.map((project) => {
+        {projects.map((project, index) => {
           return (
             <Project
+              key={index}
               image={project.image}
               title={project.title}
               startDate={project.startDate}

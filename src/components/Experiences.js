@@ -39,9 +39,10 @@ const Experiences = () => {
     <div id='experiences'>
       <h2>Where I've worked...</h2>
       <div>
-        {experiences.map((experience) => {
+        {experiences.map((experience, index) => {
           return (
             <Experience
+              key={index}
               company={experience.company}
               website={experience.website}
               position={experience.position}

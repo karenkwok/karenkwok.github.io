@@ -41,8 +41,8 @@ const Skills = () => {
       <div id='skills-wrapper'>
         <Card>
           <SkillContainer>
-            {frontend.map((skill) => {
-              return <Skill>{skill}</Skill>;
+            {frontend.map((skill, index) => {
+              return <Skill key={index}>{skill}</Skill>;
             })}
           </SkillContainer>
         </Card>
@@ -50,8 +50,8 @@ const Skills = () => {
           <div id='skills-backend'>
             <Card>
               <SkillContainer>
-                {backend.map((skill) => {
-                  return <Skill>{skill}</Skill>;
+                {backend.map((skill, index) => {
+                  return <Skill key={index}>{skill}</Skill>;
                 })}
               </SkillContainer>
             </Card>
@@ -59,8 +59,8 @@ const Skills = () => {
           <div id='skills-other'>
             <Card>
               <SkillContainer>
-                {other.map((skill) => {
-                  return <Skill>{skill}</Skill>;
+                {other.map((skill, index) => {
+                  return <Skill key={index}>{skill}</Skill>;
                 })}
               </SkillContainer>
             </Card>

@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faYoutube, faGithubAlt } from '@fortawesome/free-brands-svg-icons';
 
 import Project from './UI/Project';
 import './Projects.scss';
@@ -47,6 +49,7 @@ const Projects = () => {
             <Project
               key={index}
               image={project.image}
+              imageAlt={project.imageAlt}
               title={project.title}
               startDate={project.startDate}
               endDate={project.endDate}

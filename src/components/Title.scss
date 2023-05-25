@@ -6,14 +6,47 @@
     font-size: 2.5rem;
     font-weight: lighter;
 
-    .title-subtext-line {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 15fr;
+    column-gap: 2rem;
 
-      .title-subtext-emoji {
-        margin-right: 2rem;
-      }
+    #emoji-1 {
+      grid-row: 1;
+      grid-column: 1;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    #emoji-2 {
+      grid-row: 2;
+      grid-column: 1;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    #emoji-3 {
+      grid-row: 3;
+      grid-column: 1;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    #text-1 {
+      grid-row: 1;
+      grid-column: 2;
+      vertical-align: middle;
+    }
+
+    #text-2 {
+      grid-row: 2;
+      grid-column: 2;
+      vertical-align: middle;
+    }
+
+    #text-3 {
+      grid-row: 3;
+      grid-column: 2;
+      vertical-align: middle;
     }
   }
 }

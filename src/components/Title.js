@@ -7,18 +7,12 @@ const Title = () => {
     <div id='title'>
       <h1>Karen Kwok</h1>
       <div id='title-subtext'>
-        <div className='title-subtext-line'>
-          <div className='title-subtext-emoji'>💻</div>
-          <div>Software Developer</div>
-        </div>
-        <div className='title-subtext-line'>
-          <div className='title-subtext-emoji'>🎓</div>
-          <div>University of Toronto '21</div>
-        </div>
-        <div className='title-subtext-line'>
-          <div className='title-subtext-emoji'>📍</div>
-          <div>Toronto, ON</div>
-        </div>
+        <div id='emoji-1'>💻</div>
+        <div id='emoji-2'>🎓</div>
+        <div id='emoji-3'>📍</div>
+        <div id='text-1'>Software Developer</div>
+        <div id='text-2'>University of Toronto '21</div>
+        <div id='text-3'>Toronto, ON</div>
       </div>
     </div>
   );

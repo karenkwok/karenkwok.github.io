@@ -3,26 +3,33 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faYoutube, faGithubAlt } from '@fortawesome/free-brands-svg-icons';
 
 import Project from './UI/Project';
+import utsearchImg from '../assets/utsearch.png';
 import './Projects.scss';
 
 const Projects = () => {
   const projects = [
     {
-      image: '',
+      image: utsearchImg,
+      imageAlt: 'UTSearch Image',
       title: 'UTSearCh',
       startDate: 'Feb 2021',
       endDate: 'Apr 2021',
       links: [
-        {
-          youtube: 'https://www.youtube.com/watch?v=HAx83RlzHaU',
-        },
-        {
-          github: 'https://github.com/karenkwok/utsearch',
-        },
+        <a
+          href='https://www.youtube.com/watch?v=HAx83RlzHaU'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <FontAwesomeIcon icon={faYoutube} />
+        </a>,
+        <a
+          href='https://github.com/karenkwok/utsearch'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <FontAwesomeIcon icon={faGithubAlt} />
+        </a>,
       ],
-      team: [{ name: 'Jordan Feng', website: 'https://jordanfeng.me/' }],
-      description:
-        'An online networking platform with videochat and location sharing functionalities for students to meet and connect.',
       skills: [
         'React',
         'JavaScript',
@@ -37,6 +44,8 @@ const Projects = () => {
         'HTML',
         'CSS',
       ],
+      description:
+        'An online networking platform with videochat and location sharing functionalities for students to meet and connect.',
     },
   ];
 

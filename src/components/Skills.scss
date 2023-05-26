@@ -11,11 +11,13 @@
       flex-direction: row;
 
       #skills-backend {
+        display: flex;
         margin-right: 2rem;
         width: 67%;
       }
 
       #skills-other {
+        display: flex;
         width: 33%;
       }
     }

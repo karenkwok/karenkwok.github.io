@@ -2,12 +2,12 @@ import React, { useCallback } from 'react';
 import Particles from 'react-particles';
 import { loadFull } from 'tsparticles';
 
-import Header from './components/Header';
-import Title from './components/Title';
-import Experiences from './components/Experiences';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Footer from './components/Footer';
+import Header from './components/Home/Header';
+import Title from './components/Home/Title';
+import Experiences from './components/Home/Experiences';
+import Skills from './components/Home/Skills';
+import Projects from './components/Home/Projects';
+import Footer from './components/Home/Footer';
 import './App.scss';
 
 const App = () => {

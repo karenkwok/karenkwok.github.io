@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Experience from './UI/Experience';
+import Experience from '../UI/Experience';
 import './Experiences.scss';
 
 const Experiences = () => {

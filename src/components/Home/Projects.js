@@ -1,8 +1,8 @@
 import React from 'react';
 import { faYoutube, faGithubAlt } from '@fortawesome/free-brands-svg-icons';
 
-import Project from './UI/Project';
-import utsearchImg from '../assets/utsearch.png';
+import Project from '../UI/Project';
+import utsearchImg from '../../assets/utsearch.png';
 import './Projects.scss';
 
 const Projects = () => {

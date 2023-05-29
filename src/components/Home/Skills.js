@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Card from './UI/Card';
-import SkillContainer from './UI/SkillContainer';
-import Skill from './UI/Skill';
+import Card from '../UI/Card';
+import SkillContainer from '../UI/SkillContainer';
+import Skill from '../UI/Skill';
 import './Skills.scss';
 
 const Skills = () => {

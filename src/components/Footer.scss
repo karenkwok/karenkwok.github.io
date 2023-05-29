@@ -1,3 +1,5 @@
+@import '../Colours.scss';
+
 footer {
   height: 20vh;
   margin-left: -10vw;
@@ -19,7 +21,7 @@ footer {
       margin-right: 5rem;
 
       &:hover {
-        color: #6a4fff;
+        color: $purple;
         animation: bounce 1s;
         cursor: pointer;
       }
@@ -27,7 +29,7 @@ footer {
 
     #footer-links-github {
       &:hover {
-        color: #6a4fff;
+        color: $purple;
         animation: bounce 1s;
         cursor: pointer;
       }
@@ -39,7 +41,7 @@ footer {
     font-weight: lighter;
 
     &:hover {
-      color: #6a4fff;
+      color: $purple;
       cursor: pointer;
     }
   }

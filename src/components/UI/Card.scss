@@ -1,7 +1,9 @@
+@import '../../Colours.scss';
+
 .card {
   margin-bottom: 2rem;
   border-radius: 12px;
-  background-color: #ffffff1f;
+  background-color: $gray;
   padding: 2rem;
   flex-grow: 1;
 }

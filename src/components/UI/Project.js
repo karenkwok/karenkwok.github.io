@@ -1,4 +1,5 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import Card from './Card';
 import SkillContainer from './SkillContainer';
@@ -22,7 +23,13 @@ const Project = (props) => {
           </div>
           <div className='project-links'>
             {props.links.map((link, index) => {
-              return <div key={index}>{link}</div>;
+              return (
+                <div key={index}>
+                  <a href={link.href} target='_blank' rel='noopener noreferrer'>
+                    <FontAwesomeIcon icon={link.icon} />
+                  </a>
+                </div>
+              );
             })}
           </div>
         </div>

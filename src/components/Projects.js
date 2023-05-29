@@ -1,5 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faYoutube, faGithubAlt } from '@fortawesome/free-brands-svg-icons';
 
 import Project from './UI/Project';
@@ -15,20 +14,11 @@ const Projects = () => {
       startDate: 'Feb 2021',
       endDate: 'Apr 2021',
       links: [
-        <a
-          href='https://www.youtube.com/watch?v=HAx83RlzHaU'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <FontAwesomeIcon icon={faYoutube} />
-        </a>,
-        <a
-          href='https://github.com/karenkwok/utsearch'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <FontAwesomeIcon icon={faGithubAlt} />
-        </a>,
+        {
+          href: 'https://www.youtube.com/watch?v=HAx83RlzHaU',
+          icon: faYoutube,
+        },
+        { href: 'https://github.com/karenkwok/utsearch', icon: faGithubAlt },
       ],
       skills: [
         'React',

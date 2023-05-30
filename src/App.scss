@@ -1,16 +1,17 @@
 @import './Colours.scss';
 
 #App {
-  display: flex;
-  flex-direction: column;
   padding-left: 10vw;
   padding-right: 10vw;
+  display: flex;
+  flex-direction: column;
+
   background-color: $black;
   color: $white;
 
   ::selection {
-    color: $white;
     background-color: $purple;
+    color: $white;
   }
 }
 
@@ -23,11 +24,12 @@ h2 {
 }
 
 a:-webkit-any-link {
-  color: $white;
-  text-decoration: none;
   outline: none;
+  text-decoration: none;
+  color: $white;
 
   &:hover {
     color: $purple;
+    cursor: pointer;
   }
 }

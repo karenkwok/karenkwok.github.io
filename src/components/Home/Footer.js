@@ -11,15 +11,15 @@ const CustomTooltip = styled(({ className, ...props }) => (
   <Tooltip {...props} arrow classes={{ popper: className }} />
 ))(({ theme }) => ({
   [`& .${tooltipClasses.arrow}`]: {
-    color: '#ffffff1f',
+    color: '#ffffff1f', // gray
   },
   [`& .${tooltipClasses.tooltip}`]: {
-    backgroundColor: '#ffffff1f',
-    color: '#fcf5e7',
     padding: theme.spacing(2),
     borderRadius: '10px',
     fontSize: 20,
     fontWeight: 'lighter',
+    backgroundColor: '#ffffff1f', // gray
+    color: '#fcf5e7', // white
   },
 }));
 

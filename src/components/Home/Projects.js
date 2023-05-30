@@ -53,9 +53,8 @@ const Projects = () => {
               startDate={project.startDate}
               endDate={project.endDate}
               links={project.links}
-              team={project.team}
-              description={project.description}
               skills={project.skills}
+              description={project.description}
             />
           );
         })}

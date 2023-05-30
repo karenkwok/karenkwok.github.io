@@ -12,26 +12,23 @@ footer {
   align-items: center;
 
   #footer-links {
-    font-size: xx-large;
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    font-size: xx-large;
 
     #footer-links-linkedin {
       margin-right: 5rem;
 
       &:hover {
-        color: $purple;
         animation: bounce 1s;
-        cursor: pointer;
       }
     }
 
     #footer-links-github {
       &:hover {
-        color: $purple;
         animation: bounce 1s;
-        cursor: pointer;
       }
     }
   }

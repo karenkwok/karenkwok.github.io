@@ -3,12 +3,12 @@
 
   #title-subtext {
     margin-top: 12rem;
-    font-size: 2.5rem;
-    font-weight: lighter;
-
     display: grid;
     grid-template-columns: 1fr 15fr;
     column-gap: 2rem;
+
+    font-size: 2.5rem;
+    font-weight: lighter;
 
     #emoji-1 {
       grid-row: 1;

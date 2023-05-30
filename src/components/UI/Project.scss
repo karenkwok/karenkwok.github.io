@@ -1,9 +1,4 @@
 .project-card {
-  display: flex;
-  flex-direction: column;
-  font-size: 2rem;
-  font-weight: lighter;
-
   .project-top {
     display: flex;
     flex-direction: row;
@@ -17,20 +12,21 @@
     }
 
     .project-title-date {
+      width: 70%;
       display: flex;
       flex-direction: column;
-      width: 70%;
 
       .project-title {
         font-weight: bolder;
       }
 
       .project-emoji-date {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+
         font-size: 1.5rem;
 
         .project-emoji {
@@ -40,11 +36,12 @@
     }
 
     .project-links {
-      font-size: xx-large;
+      width: 15%;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
-      width: 15%;
+
+      font-size: xx-large;
     }
   }
 

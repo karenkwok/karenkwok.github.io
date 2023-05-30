@@ -4,6 +4,7 @@
   #skills-wrapper {
     display: flex;
     flex-direction: column;
+
     font-weight: lighter;
 
     #skills-backend-other {
@@ -11,14 +12,14 @@
       flex-direction: row;
 
       #skills-backend {
-        display: flex;
-        margin-right: 2rem;
         width: 67%;
+        margin-right: 2rem;
+        display: flex;
       }
 
       #skills-other {
-        display: flex;
         width: 33%;
+        display: flex;
       }
     }
   }

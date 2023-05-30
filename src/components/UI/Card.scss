@@ -2,8 +2,14 @@
 
 .card {
   margin-bottom: 2rem;
-  border-radius: 12px;
-  background-color: $gray;
   padding: 2rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
   flex-grow: 1;
+
+  font-size: 2rem;
+  font-weight: lighter;
+
+  background-color: $gray;
 }

@@ -1,26 +1,22 @@
 .experience-card {
-  display: flex;
-  flex-direction: column;
-  font-size: 2rem;
-  font-weight: lighter;
-
   .experience-company {
     font-weight: bolder;
   }
 
   .experience-date-location {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+
     font-size: 1.5rem;
 
     .experience--date-location {
+      width: 50%;
       display: flex;
       flex-direction: row;
       align-items: center;
-      width: 50%;
     }
 
     .experience-emoji {

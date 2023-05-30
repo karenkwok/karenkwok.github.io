@@ -50,3 +50,45 @@
     }
   }
 }
+
+@media (max-width: 860px) {
+  #title {
+    #title-subtext {
+      margin-top: 0rem;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  #title {
+    #title-subtext {
+      font-size: 2.2rem;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  #title {
+    #title-subtext {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #title {
+    #title-subtext {
+      margin-top: 4rem;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  #title {
+    #title-subtext {
+      margin-top: 6rem;
+      font-size: 1.4rem;
+    }
+  }
+}

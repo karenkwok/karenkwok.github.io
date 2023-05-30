@@ -24,3 +24,23 @@
     }
   }
 }
+
+@media (max-width: 640px) {
+  #skills {
+    #skills-wrapper {
+      #skills-backend-other {
+        display: flex;
+        flex-direction: column;
+
+        #skills-backend {
+          width: 100%;
+          margin-right: none;
+        }
+
+        #skills-other {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -68,3 +68,83 @@ footer {
     transform: translate3d(0, -2px, 0);
   }
 }
+
+@media (max-width: 700px) {
+  footer {
+    #footer-email {
+      font-size: 1.7rem;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  footer {
+    #footer-email {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media (max-width: 610px) {
+  footer {
+    #footer-email {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    #footer-links {
+      order: 2;
+
+      #footer-links-linkedin {
+        margin-right: 5rem;
+      }
+    }
+
+    #footer-email {
+      margin-bottom: 3rem;
+      order: 1;
+
+      font-size: 2rem;
+    }
+  }
+}
+
+@media (max-width: 470px) {
+  footer {
+    #footer-email {
+      font-size: 1.7rem;
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  footer {
+    #footer-email {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media (max-width: 310px) {
+  footer {
+    #footer-email {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+@media (max-width: 280px) {
+  footer {
+    #footer-email {
+      font-size: 1.3rem;
+    }
+  }
+}

@@ -1,4 +1,5 @@
 import React, { useCallback } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Particles from 'react-particles';
 import { loadFull } from 'tsparticles';
 
@@ -135,12 +136,23 @@ const App = () => {
       />
 
       <div style={{ zIndex: 999 }}>
-        <Header />
-        <Title />
-        <Experiences />
-        <Skills />
-        <Projects />
-        <Footer />
+        <Router>
+          <Routes>
+            <Route
+              path='/'
+              element={
+                <>
+                  <Header />
+                  <Title />
+                  <Experiences />
+                  <Skills />
+                  <Projects />
+                  <Footer />
+                </>
+              }
+            />
+          </Routes>
+        </Router>
       </div>
     </div>
   );

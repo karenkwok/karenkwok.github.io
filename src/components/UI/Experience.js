@@ -14,7 +14,7 @@ const Experience = (props) => {
             {props.company}
           </a>
         </div>
-        <div>{props.position}</div>
+        <div className='experience-position'>{props.position}</div>
         <div className='experience-date-location'>
           <div className='experience--date-location'>
             <div className='experience-emoji'>🗓️</div>

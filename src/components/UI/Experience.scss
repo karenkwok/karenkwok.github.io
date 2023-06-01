@@ -49,6 +49,22 @@
   }
 }
 
+@media (max-width: 500px) {
+  .experience-card {
+    .experience-position {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+@media (max-width: 455px) {
+  .experience-card {
+    .experience-position {
+      font-size: 1.6rem;
+    }
+  }
+}
+
 @media (max-width: 350px) {
   .experience-card {
     .experience-date-location {

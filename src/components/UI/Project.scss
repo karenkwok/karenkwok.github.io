@@ -99,6 +99,22 @@
   }
 }
 
+@media (max-width: 500px) {
+  .project-card {
+    .project-description {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+@media (max-width: 455px) {
+  .project-card {
+    .project-description {
+      font-size: 1.6rem;
+    }
+  }
+}
+
 @media (max-width: 350px) {
   .project-card {
     .project-top {

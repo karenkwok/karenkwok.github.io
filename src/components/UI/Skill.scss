@@ -22,3 +22,27 @@
     color: $white;
   }
 }
+
+@media (max-width: 750px) {
+  .skill {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .skill {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 310px) {
+  .skill {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 290px) {
+  .skill {
+    font-size: 0.8rem;
+  }
+}

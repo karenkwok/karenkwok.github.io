@@ -11,12 +11,20 @@
       border-radius: 1rem;
     }
 
-    .project-title-date {
-      width: 70%;
-      display: flex;
-      flex-direction: column;
+    .project-top-text {
+      width: 100%;
+      display: grid;
+      grid-template-areas:
+        'div1 div2'
+        'div3 div3';
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: 1fr 2fr;
+
+      font-weight: lighter;
 
       .project-title {
+        grid-area: div1;
+
         font-weight: bolder;
       }
 
@@ -25,7 +33,7 @@
         margin-bottom: 1rem;
         display: flex;
         flex-direction: row;
-        align-items: center;
+        grid-area: div3;
 
         font-size: 1.5rem;
 
@@ -33,19 +41,96 @@
           margin-right: 1rem;
         }
       }
-    }
 
-    .project-links {
-      width: 15%;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
+      .project-links {
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        grid-area: div2;
 
-      font-size: xx-large;
+        font-size: xx-large;
+
+        div {
+          margin-right: 2rem;
+        }
+      }
     }
   }
 
   .project-description {
     margin-top: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .project-card {
+    .project-top {
+      .project-top-text {
+        display: flex;
+        flex-direction: column;
+
+        .project-links {
+          justify-content: flex-start;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .project-card {
+    .project-top {
+      .project-top-text {
+        .project-emoji-date {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 535px) {
+  .project-card {
+    .project-top {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .project-card {
+    .project-top {
+      .project-top-text {
+        .project-emoji-date {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 310px) {
+  .project-card {
+    .project-top {
+      .project-top-text {
+        .project-emoji-date {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 290px) {
+  .project-card {
+    .project-top {
+      .project-top-text {
+        .project-emoji-date {
+          font-size: 0.8rem;
+        }
+      }
+    }
   }
 }

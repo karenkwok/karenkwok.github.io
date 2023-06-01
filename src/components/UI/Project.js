@@ -12,7 +12,7 @@ const Project = (props) => {
       <div className='project-card'>
         <div className='project-top'>
           <img src={props.image} alt={props.imageAlt} />
-          <div className='project-title-date'>
+          <div className='project-top-text'>
             <div className='project-title'>{props.title}</div>
             <div className='project-emoji-date'>
               <div className='project-emoji'>🗓️</div>
@@ -20,17 +20,21 @@ const Project = (props) => {
                 {props.startDate} – {props.endDate}
               </div>
             </div>
-          </div>
-          <div className='project-links'>
-            {props.links.map((link, index) => {
-              return (
-                <div key={index}>
-                  <a href={link.href} target='_blank' rel='noopener noreferrer'>
-                    <FontAwesomeIcon icon={link.icon} />
-                  </a>
-                </div>
-              );
-            })}
+            <div className='project-links'>
+              {props.links.map((link, index) => {
+                return (
+                  <div key={index}>
+                    <a
+                      href={link.href}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <FontAwesomeIcon icon={link.icon} />
+                    </a>
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
         <SkillContainer>

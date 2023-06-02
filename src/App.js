@@ -9,6 +9,7 @@ import Experiences from './components/Home/Experiences';
 import Skills from './components/Home/Skills';
 import Projects from './components/Home/Projects';
 import Footer from './components/Home/Footer';
+import Icecream from './components/Icecream/Icecream';
 import './App.scss';
 
 const App = () => {
@@ -147,6 +148,16 @@ const App = () => {
                   <Experiences />
                   <Skills />
                   <Projects />
+                  <Footer />
+                </>
+              }
+            />
+            <Route
+              path='/icecream'
+              element={
+                <>
+                  <Header />
+                  <Icecream />
                   <Footer />
                 </>
               }

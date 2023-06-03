@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Card from '../UI/Card';
 import dippinDotsImg from '../../assets/dippin_dots.jpg';
 import littleDamageImg from '../../assets/little_damage.jpg';
 import somisomiImg from '../../assets/somisomi.jpg';
@@ -37,7 +38,6 @@ import fugoImg from '../../assets/fugo.JPG';
 import './Icecream.scss';
 
 const Icecream = () => {
-  return <div></div>;
   const icecreams = [
     {
       id: 34,
@@ -244,6 +244,20 @@ const Icecream = () => {
       location: 'Toronto, ON',
     },
   ];
+
+  return (
+    <Card>
+      <div id='icecream-gallery'>
+        {icecreams.map((icecream) => {
+          return (
+            <div className='icecream-block'>
+              <img key={icecream.id} src={icecream.image} alt={icecream.name} />
+            </div>
+          );
+        })}
+      </div>
+    </Card>
+  );
 };
 
 export default Icecream;

@@ -1,0 +1,22 @@
+#icecream-gallery {
+  column-count: 3;
+  column-gap: 0.35rem;
+
+  .icecream-block {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  #icecream-gallery {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 300px) {
+  #icecream-gallery {
+    column-count: 1;
+  }
+}

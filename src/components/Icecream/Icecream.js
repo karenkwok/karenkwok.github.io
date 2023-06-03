@@ -250,8 +250,8 @@ const Icecream = () => {
       <div id='icecream-gallery'>
         {icecreams.map((icecream) => {
           return (
-            <div className='icecream-block'>
-              <img key={icecream.id} src={icecream.image} alt={icecream.name} />
+            <div key={icecream.id} className='icecream-block'>
+              <img src={icecream.image} alt={icecream.name} />
             </div>
           );
         })}

@@ -246,17 +246,20 @@ const Icecream = () => {
   ];
 
   return (
-    <Card>
-      <div id='icecream-gallery'>
-        {icecreams.map((icecream) => {
-          return (
-            <div key={icecream.id} className='icecream-block'>
-              <img src={icecream.image} alt={icecream.name} />
-            </div>
-          );
-        })}
-      </div>
-    </Card>
+    <div>
+      <h2 id='icecream-title'>i like ice cream.</h2>
+      <Card>
+        <div id='icecream-gallery'>
+          {icecreams.map((icecream) => {
+            return (
+              <div key={icecream.id} className='icecream-block'>
+                <img src={icecream.image} alt={icecream.name} />
+              </div>
+            );
+          })}
+        </div>
+      </Card>
+    </div>
   );
 };
 

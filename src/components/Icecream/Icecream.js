@@ -253,6 +253,12 @@ const Icecream = () => {
           {icecreams.map((icecream) => {
             return (
               <div key={icecream.id} className='icecream-block'>
+                <div className='icecream-info'>
+                  <div className='icecream-name'>{icecream.name}</div>
+                  <div className='icecream-location'>
+                    📍&nbsp;&nbsp;{icecream.location}
+                  </div>
+                </div>
                 <img src={icecream.image} alt={icecream.name} />
               </div>
             );

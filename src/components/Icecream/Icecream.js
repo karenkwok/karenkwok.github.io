@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Card from '../UI/Card';
+import dspotImg from '../../assets/dspot.jpg';
 import dippinDotsImg from '../../assets/dippin_dots.jpg';
 import littleDamageImg from '../../assets/little_damage.jpg';
 import somisomiImg from '../../assets/somisomi.jpg';
@@ -39,6 +40,12 @@ import './Icecream.scss';
 
 const Icecream = () => {
   const icecreams = [
+    {
+      id: 35,
+      image: dspotImg,
+      name: 'D Spot Dessert Café',
+      location: 'Toronto, ON',
+    },
     {
       id: 34,
       image: dippinDotsImg,

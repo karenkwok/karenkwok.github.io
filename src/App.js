@@ -10,6 +10,7 @@ import Skills from './components/Home/Skills';
 import Projects from './components/Home/Projects';
 import Footer from './components/Home/Footer';
 import Icecream from './components/Icecream/Icecream';
+import Bumble from './components/Bumble/Bumble';
 import './App.scss';
 
 const App = () => {
@@ -159,6 +160,14 @@ const App = () => {
                   <Header />
                   <Icecream />
                   <Footer />
+                </>
+              }
+            />
+            <Route
+              path='/bumble'
+              element={
+                <>
+                  <Bumble />
                 </>
               }
             />

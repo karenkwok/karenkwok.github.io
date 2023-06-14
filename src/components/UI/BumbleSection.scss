@@ -1,0 +1,13 @@
+@import '../../Colours.scss';
+
+.bumble-section {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  display: flex;
+  flex-direction: column;
+
+  background-color: $light-yellow;
+  color: $dark-gray;
+}

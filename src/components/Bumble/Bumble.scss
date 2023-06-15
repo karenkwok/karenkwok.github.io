@@ -1,3 +1,5 @@
+@import '../../Colours.scss';
+
 #bumble {
   margin-left: 20vw;
   margin-right: 20vw;
@@ -12,6 +14,11 @@
     animation-iteration-count: infinite; /* Never stop waving */
     transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
     display: inline-block;
+  }
+
+  ::selection {
+    background-color: $dark-yellow !important;
+    color: $dark-gray !important;
   }
 }
 

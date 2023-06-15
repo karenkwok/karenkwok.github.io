@@ -41,3 +41,11 @@
     transform: rotate(0deg);
   }
 }
+
+@media (max-width: 800px) {
+  #bumble {
+    margin-left: 0vw;
+    margin-right: 0vw;
+    width: 80vw;
+  }
+}

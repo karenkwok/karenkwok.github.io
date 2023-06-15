@@ -16,3 +16,105 @@
   background-color: $yellow;
   color: $dark-gray;
 }
+
+@media (max-width: 1400px) {
+  .item {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1190px) {
+  .item {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 1105px) {
+  .item {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 1020px) {
+  .item {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 930px) {
+  .item {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .item {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 665px) {
+  .item {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 565px) {
+  .item {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 525px) {
+  .item {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 485px) {
+  .item {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 445px) {
+  .item {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 435px) {
+  .item {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .item {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .item {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .item {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 305px) {
+  .item {
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 270px) {
+  .item {
+    font-size: 0.4rem;
+  }
+}

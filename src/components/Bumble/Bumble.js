@@ -3,11 +3,18 @@ import React from 'react';
 import BumbleSection from '../UI/BumbleSection';
 import BumbleItemContainer from '../UI/BumbleItemContainer';
 import BumbleItem from '../UI/BumbleItem';
+import mochacat1Img from '../../assets/mochacat-purple.png';
+import mochacat2Img from '../../assets/mochacat-icecream.png';
+import mochacat3Img from '../../assets/mochacat-rainbow.png';
+import mochacat4Img from '../../assets/mochacat-sleep.png';
+import mochacat5Img from '../../assets/mochacat-unicorn.png';
+import mochacat6Img from '../../assets/mochacat-pooped.png';
 import './Bumble.scss';
 
 const Bumble = () => {
   return (
     <div id='bumble'>
+      <img src={mochacat1Img} alt='Double peace sign cat' />
       <BumbleSection>
         <h3>About me</h3>
         <p>
@@ -33,6 +40,7 @@ const Bumble = () => {
           <BumbleItem>🐢&nbsp;&nbsp;Turtle Mom</BumbleItem>
         </BumbleItemContainer>
       </BumbleSection>
+      <img src={mochacat2Img} alt='Cat licking ice cream' />
       <BumbleSection>
         <h3>Binge-watch recommendations...</h3>
         <BumbleItemContainer>
@@ -47,6 +55,7 @@ const Bumble = () => {
           <BumbleItem>🐍&nbsp;&nbsp;Slytherin</BumbleItem>
         </BumbleItemContainer>
       </BumbleSection>
+      <img src={mochacat3Img} alt='Winking cat with rainbow' />
       <BumbleSection>
         <h3>My top 5 fav anime...</h3>
         <BumbleItemContainer>
@@ -68,6 +77,7 @@ const Bumble = () => {
           <BumbleItem>🟤&nbsp;&nbsp;Flygon</BumbleItem>
         </BumbleItemContainer>
       </BumbleSection>
+      <img src={mochacat4Img} alt='Sleeping cat' />
       <BumbleSection>
         <h3>Food I could eat everyday...</h3>
         <BumbleItemContainer>
@@ -89,6 +99,7 @@ const Bumble = () => {
           <BumbleItem>🥜&nbsp;&nbsp;Pistachio</BumbleItem>
         </BumbleItemContainer>
       </BumbleSection>
+      <img src={mochacat5Img} alt='Cat riding unicorn' />
       <BumbleSection>
         <h3>Cool place I've been...</h3>
         <BumbleItemContainer>
@@ -105,6 +116,7 @@ const Bumble = () => {
           </BumbleItem>
         </BumbleItemContainer>
       </BumbleSection>
+      <img src={mochacat6Img} alt='Pooped cat' />
     </div>
   );
 };

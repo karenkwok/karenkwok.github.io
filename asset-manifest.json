@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.13b4ffc9.css",
-    "main.js": "/static/js/main.a3254d6c.js",
+    "main.js": "/static/js/main.d779c6c5.js",
     "static/js/787.29e3d873.chunk.js": "/static/js/787.29e3d873.chunk.js",
     "static/media/wonderland.jpg": "/static/media/wonderland.858e13df4761b9a53e16.jpg",
     "static/media/soul_cafe.jpg": "/static/media/soul_cafe.e1878e3cb2ac0b333c32.jpg",
@@ -34,6 +34,7 @@
     "static/media/ihalo_krunch.JPG": "/static/media/ihalo_krunch.538fdef594d720a355e5.JPG",
     "static/media/mochacat-rainbow.png": "/static/media/mochacat-rainbow.062c5899d70abe8e000e.png",
     "static/media/dspot.jpg": "/static/media/dspot.c63db68977278a041891.jpg",
+    "static/media/social_blend.jpg": "/static/media/social_blend.202d2408a8b31d937a99.jpg",
     "static/media/taiyaki_nyc.jpg": "/static/media/taiyaki_nyc.96a187ab93684665f89a.jpg",
     "static/media/mochacat-sleep.png": "/static/media/mochacat-sleep.35a1218845f438eecfcb.png",
     "static/media/mochacat-pooped.png": "/static/media/mochacat-pooped.73fc8e3e72a8eba49853.png",
@@ -47,11 +48,11 @@
     "static/media/utsearch.png": "/static/media/utsearch.0e5511c7ec9fa1cc73bd.png",
     "index.html": "/index.html",
     "main.13b4ffc9.css.map": "/static/css/main.13b4ffc9.css.map",
-    "main.a3254d6c.js.map": "/static/js/main.a3254d6c.js.map",
+    "main.d779c6c5.js.map": "/static/js/main.d779c6c5.js.map",
     "787.29e3d873.chunk.js.map": "/static/js/787.29e3d873.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.13b4ffc9.css",
-    "static/js/main.a3254d6c.js"
+    "static/js/main.d779c6c5.js"
   ]
 }

@@ -18,9 +18,14 @@
 
   &:hover {
     border: 1px solid $white;
-
     color: $white;
+    cursor: pointer;
   }
+}
+
+.skill-clicked {
+  border: 1px solid $white;
+  color: $white;
 }
 
 @media (max-width: 750px) {

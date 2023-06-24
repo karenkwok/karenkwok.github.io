@@ -105,6 +105,12 @@
 }
 
 @media (max-width: 800px) {
+  #icecream .card {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
   #icecream-gallery {
     .icecream-block {
       .icecream-info {
@@ -164,6 +170,12 @@
 @media (max-width: 550px) {
   #icecream-title {
     font-size: 3rem;
+  }
+}
+
+@media (max-width: 450px) {
+  #icecream .card {
+    padding: 0.5rem;
   }
 }
 

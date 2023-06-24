@@ -260,7 +260,7 @@ const Icecream = () => {
   ];
 
   return (
-    <div>
+    <div id='icecream'>
       <h2 id='icecream-title'>i like ice cream.</h2>
       <Card>
         <div id='icecream-gallery'>

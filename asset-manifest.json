@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.13b4ffc9.css",
-    "main.js": "/static/js/main.d779c6c5.js",
+    "main.css": "/static/css/main.c24a7781.css",
+    "main.js": "/static/js/main.a839b0af.js",
     "static/js/787.29e3d873.chunk.js": "/static/js/787.29e3d873.chunk.js",
     "static/media/wonderland.jpg": "/static/media/wonderland.858e13df4761b9a53e16.jpg",
     "static/media/soul_cafe.jpg": "/static/media/soul_cafe.e1878e3cb2ac0b333c32.jpg",
@@ -47,12 +47,12 @@
     "static/media/mochacat-icecream.png": "/static/media/mochacat-icecream.a5ef8b37b9ea0e7f7327.png",
     "static/media/utsearch.png": "/static/media/utsearch.0e5511c7ec9fa1cc73bd.png",
     "index.html": "/index.html",
-    "main.13b4ffc9.css.map": "/static/css/main.13b4ffc9.css.map",
-    "main.d779c6c5.js.map": "/static/js/main.d779c6c5.js.map",
+    "main.c24a7781.css.map": "/static/css/main.c24a7781.css.map",
+    "main.a839b0af.js.map": "/static/js/main.a839b0af.js.map",
     "787.29e3d873.chunk.js.map": "/static/js/787.29e3d873.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13b4ffc9.css",
-    "static/js/main.d779c6c5.js"
+    "static/css/main.c24a7781.css",
+    "static/js/main.a839b0af.js"
   ]
 }

@@ -16,6 +16,13 @@
     display: inline-block;
   }
 
+  #bumble-icecream .item {
+    &:hover {
+      background-color: $dark-yellow;
+      cursor: pointer;
+    }
+  }
+
   ::selection {
     background-color: $dark-yellow !important;
     color: $dark-gray !important;

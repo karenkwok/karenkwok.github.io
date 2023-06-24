@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import BumbleSection from '../UI/BumbleSection';
 import BumbleItemContainer from '../UI/BumbleItemContainer';
@@ -82,7 +83,11 @@ const Bumble = () => {
         <h3>Food I could eat everyday...</h3>
         <BumbleItemContainer>
           <BumbleItem>🍣&nbsp;&nbsp;Sushi</BumbleItem>
-          <BumbleItem>🍨&nbsp;&nbsp;Ice Cream</BumbleItem>
+          <div id='bumble-icecream'>
+            <Link to='/icecream'>
+              <BumbleItem>🍨&nbsp;&nbsp;Ice Cream</BumbleItem>
+            </Link>
+          </div>
           <BumbleItem>🍳&nbsp;&nbsp;Brunch</BumbleItem>
           <BumbleItem>🍔&nbsp;&nbsp;Shake Shack</BumbleItem>
           <BumbleItem>🍟&nbsp;&nbsp;Yeet Hay (熱氣) food</BumbleItem>

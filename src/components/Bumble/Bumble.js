@@ -44,7 +44,7 @@ const Bumble = () => {
       <BumbleSection>
         <h3>Binge-watch recommendations...</h3>
         <BumbleItemContainer>
-          <BumbleItem>🪄&nbsp;&nbsp;Harry Potter</BumbleItem>
+          <BumbleItem>🧙&nbsp;&nbsp;Harry Potter</BumbleItem>
           <BumbleItem>🌱&nbsp;&nbsp;Studio Ghibli</BumbleItem>
           <BumbleItem>☕️&nbsp;&nbsp;Friends</BumbleItem>
         </BumbleItemContainer>

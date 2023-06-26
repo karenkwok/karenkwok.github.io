@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8b914fac.css",
-    "main.js": "/static/js/main.8d242eeb.js",
+    "main.js": "/static/js/main.78431a7d.js",
     "static/js/787.29e3d873.chunk.js": "/static/js/787.29e3d873.chunk.js",
     "static/media/wonderland.jpg": "/static/media/wonderland.858e13df4761b9a53e16.jpg",
     "static/media/soul_cafe.jpg": "/static/media/soul_cafe.e1878e3cb2ac0b333c32.jpg",
@@ -44,15 +44,16 @@
     "static/media/dippin_dots.jpg": "/static/media/dippin_dots.c6e0cf6d42e7b0f88af7.jpg",
     "static/media/turn_dough.jpg": "/static/media/turn_dough.712a335950798fb4aad8.jpg",
     "static/media/somisomi.jpg": "/static/media/somisomi.716d306d3660e8fd7ed2.jpg",
+    "static/media/shucake.jpg": "/static/media/shucake.06a2be110dae0811f704.jpg",
     "static/media/mochacat-icecream.png": "/static/media/mochacat-icecream.a5ef8b37b9ea0e7f7327.png",
     "static/media/utsearch.png": "/static/media/utsearch.0e5511c7ec9fa1cc73bd.png",
     "index.html": "/index.html",
     "main.8b914fac.css.map": "/static/css/main.8b914fac.css.map",
-    "main.8d242eeb.js.map": "/static/js/main.8d242eeb.js.map",
+    "main.78431a7d.js.map": "/static/js/main.78431a7d.js.map",
     "787.29e3d873.chunk.js.map": "/static/js/787.29e3d873.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8b914fac.css",
-    "static/js/main.8d242eeb.js"
+    "static/js/main.78431a7d.js"
   ]
 }

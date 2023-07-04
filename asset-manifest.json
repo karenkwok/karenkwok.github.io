@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cdef48a5.css",
-    "main.js": "/static/js/main.540ed334.js",
+    "main.js": "/static/js/main.de333fe3.js",
     "static/js/787.29e3d873.chunk.js": "/static/js/787.29e3d873.chunk.js",
     "static/media/wonderland.jpg": "/static/media/wonderland.858e13df4761b9a53e16.jpg",
     "static/media/soul_cafe.jpg": "/static/media/soul_cafe.e1878e3cb2ac0b333c32.jpg",
@@ -37,6 +37,7 @@
     "static/media/social_blend.jpg": "/static/media/social_blend.202d2408a8b31d937a99.jpg",
     "static/media/taiyaki_nyc.jpg": "/static/media/taiyaki_nyc.96a187ab93684665f89a.jpg",
     "static/media/mochacat-sleep.png": "/static/media/mochacat-sleep.35a1218845f438eecfcb.png",
+    "static/media/funnel_cakes.jpg": "/static/media/funnel_cakes.1546787a80e9329539ef.jpg",
     "static/media/mochacat-pooped.png": "/static/media/mochacat-pooped.73fc8e3e72a8eba49853.png",
     "static/media/snow_time2.jpg": "/static/media/snow_time2.393127f6c090606a6648.jpg",
     "static/media/snow_time.JPG": "/static/media/snow_time.68b3b06ca0434697dcee.JPG",
@@ -44,16 +45,17 @@
     "static/media/dippin_dots.jpg": "/static/media/dippin_dots.c6e0cf6d42e7b0f88af7.jpg",
     "static/media/turn_dough.jpg": "/static/media/turn_dough.712a335950798fb4aad8.jpg",
     "static/media/somisomi.jpg": "/static/media/somisomi.716d306d3660e8fd7ed2.jpg",
+    "static/media/ruru_baked.jpg": "/static/media/ruru_baked.3f5924e09e7bde855358.jpg",
     "static/media/shucake.jpg": "/static/media/shucake.06a2be110dae0811f704.jpg",
     "static/media/mochacat-icecream.png": "/static/media/mochacat-icecream.a5ef8b37b9ea0e7f7327.png",
     "static/media/utsearch.png": "/static/media/utsearch.0e5511c7ec9fa1cc73bd.png",
     "index.html": "/index.html",
     "main.cdef48a5.css.map": "/static/css/main.cdef48a5.css.map",
-    "main.540ed334.js.map": "/static/js/main.540ed334.js.map",
+    "main.de333fe3.js.map": "/static/js/main.de333fe3.js.map",
     "787.29e3d873.chunk.js.map": "/static/js/787.29e3d873.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cdef48a5.css",
-    "static/js/main.540ed334.js"
+    "static/js/main.de333fe3.js"
   ]
 }

@@ -1,0 +1,249 @@
+#page-not-found {
+  height: 65vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  img {
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 1170px) {
+  #page-not-found {
+    h2 {
+      font-size: 3.5rem;
+    }
+  }
+}
+
+@media (max-width: 1110px) {
+  #page-not-found {
+    h2 {
+      font-size: 3.2rem;
+    }
+  }
+}
+
+@media (max-width: 1075px) {
+  #page-not-found {
+    h2 {
+      font-size: 3rem;
+    }
+  }
+}
+
+@media (max-width: 1050px) {
+  #page-not-found {
+    h2 {
+      font-size: 2.7rem;
+    }
+  }
+}
+
+@media (max-width: 1015px) {
+  #page-not-found {
+    h1 {
+      font-size: 7.5rem;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+@media (max-width: 990px) {
+  #page-not-found {
+    h1 {
+      font-size: 7.2rem;
+    }
+
+    h2 {
+      font-size: 2.7rem;
+    }
+  }
+}
+
+@media (max-width: 970px) {
+  #page-not-found {
+    h1 {
+      font-size: 7rem;
+    }
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  #page-not-found {
+    h1 {
+      font-size: 6.7rem;
+    }
+    h2 {
+      font-size: 3rem;
+    }
+  }
+}
+
+@media (max-width: 940px) {
+  #page-not-found {
+    h1 {
+      font-size: 6.5rem;
+    }
+  }
+}
+
+@media (max-width: 930px) {
+  #page-not-found {
+    h1 {
+      font-size: 6.2rem;
+    }
+
+    h2 {
+      font-size: 2.7rem;
+    }
+  }
+}
+
+@media (max-width: 920px) {
+  #page-not-found {
+    h1 {
+      font-size: 6rem;
+    }
+  }
+}
+
+@media (max-width: 910px) {
+  #page-not-found {
+    h1 {
+      font-size: 5.7rem;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  #page-not-found {
+    h1 {
+      font-size: 5.5rem;
+    }
+  }
+}
+
+@media (max-width: 890px) {
+  #page-not-found {
+    h1 {
+      font-size: 5.2rem;
+    }
+  }
+}
+
+@media (max-width: 880px) {
+  #page-not-found {
+    h1 {
+      font-size: 5rem;
+    }
+  }
+}
+
+@media (max-width: 870px) {
+  #page-not-found {
+    h1 {
+      font-size: 4.7rem;
+    }
+  }
+}
+
+@media (max-width: 860px) {
+  #page-not-found {
+    h1 {
+      font-size: 4.5rem;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  #page-not-found {
+    h1 {
+      font-size: 4.2rem;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+@media (max-width: 840px) {
+  #page-not-found {
+    h1 {
+      font-size: 4rem;
+    }
+
+    h2 {
+      font-size: 2.2rem;
+    }
+  }
+}
+
+@media (max-width: 830px) {
+  #page-not-found {
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+      font-size: 7rem;
+    }
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    img {
+      margin-left: 0;
+      margin-top: 2rem;
+    }
+  }
+}
+
+@media (max-width: 660px) {
+  #page-not-found {
+    h1 {
+      font-size: 6.5rem;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+    }
+  }
+}
+
+@media (max-width: 560px) {
+  #page-not-found {
+    h1 {
+      font-size: 6rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #page-not-found {
+    h1 {
+      font-size: 4rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+}

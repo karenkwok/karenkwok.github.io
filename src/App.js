@@ -11,6 +11,7 @@ import Projects from './components/Home/Projects';
 import Footer from './components/Home/Footer';
 import Icecream from './components/Icecream/Icecream';
 import Bumble from './components/Bumble/Bumble';
+import PageNotFound from './components/PageNotFound/PageNotFound';
 import './App.scss';
 
 const App = () => {
@@ -168,6 +169,16 @@ const App = () => {
               element={
                 <>
                   <Bumble />
+                </>
+              }
+            />
+            <Route
+              path='*'
+              element={
+                <>
+                  <Header />
+                  <PageNotFound />
+                  <Footer />
                 </>
               }
             />

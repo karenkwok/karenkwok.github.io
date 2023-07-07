@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.cdef48a5.css",
+    "main.css": "/static/css/main.899bc30d.css",
     "main.js": "/static/js/main.d1ed56a3.js",
     "static/js/787.29e3d873.chunk.js": "/static/js/787.29e3d873.chunk.js",
     "static/media/wonderland.jpg": "/static/media/wonderland.858e13df4761b9a53e16.jpg",
@@ -48,12 +48,12 @@
     "static/media/mochacat-icecream.png": "/static/media/mochacat-icecream.a5ef8b37b9ea0e7f7327.png",
     "static/media/utsearch.png": "/static/media/utsearch.0e5511c7ec9fa1cc73bd.png",
     "index.html": "/index.html",
-    "main.cdef48a5.css.map": "/static/css/main.cdef48a5.css.map",
+    "main.899bc30d.css.map": "/static/css/main.899bc30d.css.map",
     "main.d1ed56a3.js.map": "/static/js/main.d1ed56a3.js.map",
     "787.29e3d873.chunk.js.map": "/static/js/787.29e3d873.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdef48a5.css",
+    "static/css/main.899bc30d.css",
     "static/js/main.d1ed56a3.js"
   ]
 }

@@ -35,90 +35,91 @@ const Bumble = () => {
       <BumbleSection>
         <h3>My basics</h3>
         <BumbleItemContainer>
-          <BumbleItem>💻&nbsp;&nbsp;Software Developer</BumbleItem>
-          <BumbleItem>🎓&nbsp;&nbsp;University of Toronto</BumbleItem>
-          <BumbleItem>🎹&nbsp;&nbsp;Amateur Pianist</BumbleItem>
-          <BumbleItem>🐢&nbsp;&nbsp;Turtle Mom</BumbleItem>
+          <BumbleItem emoji={'💻'} text={'Software Developer'} />
+          <BumbleItem emoji={'🎓'} text={'University of Toronto'} />
+          <BumbleItem emoji={'🎹'} text={'Amateur Pianist'} />
+          <BumbleItem emoji={'🐢'} text={'Turtle Mom'} />
         </BumbleItemContainer>
       </BumbleSection>
       <img src={mochacat2Img} alt='Cat licking ice cream' />
       <BumbleSection>
         <h3>Binge-watch recommendations...</h3>
         <BumbleItemContainer>
-          <BumbleItem>🧙&nbsp;&nbsp;Harry Potter</BumbleItem>
-          <BumbleItem>🌱&nbsp;&nbsp;Studio Ghibli</BumbleItem>
-          <BumbleItem>☕️&nbsp;&nbsp;Friends</BumbleItem>
+          <BumbleItem emoji={'🧙'} text={'Harry Potter'} />
+          <BumbleItem emoji={'🌱'} text={'Studio Ghibli'} />
+          <BumbleItem emoji={'☕️'} text={'Friends'} />
         </BumbleItemContainer>
       </BumbleSection>
       <BumbleSection>
         <h3>My Hogwarts House is...</h3>
         <BumbleItemContainer>
-          <BumbleItem>🐍&nbsp;&nbsp;Slytherin</BumbleItem>
+          <BumbleItem emoji={'🐍'} text={'Slytherin'} />
         </BumbleItemContainer>
       </BumbleSection>
       <img src={mochacat3Img} alt='Winking cat with rainbow' />
       <BumbleSection>
         <h3>My top 5 fav anime...</h3>
         <BumbleItemContainer>
-          <BumbleItem>🖤&nbsp;&nbsp;Bleach</BumbleItem>
-          <BumbleItem>❤️&nbsp;&nbsp;InuYasha</BumbleItem>
-          <BumbleItem>🧡&nbsp;&nbsp;Naruto</BumbleItem>
-          <BumbleItem>💙&nbsp;&nbsp;Samurai Champloo</BumbleItem>
-          <BumbleItem>💚&nbsp;&nbsp;Chainsaw Man</BumbleItem>
+          <BumbleItem emoji={'🖤'} text={'Bleach'} />
+          <BumbleItem emoji={'❤️'} text={'InuYasha'} />
+          <BumbleItem emoji={'🧡'} text={'Naruto'} />
+          <BumbleItem emoji={'💙'} text={'Samurai Champloo'} />
+          <BumbleItem emoji={'💚'} text={'Chainsaw Man'} />
         </BumbleItemContainer>
       </BumbleSection>
       <BumbleSection>
         <h3>My Pokémon team...</h3>
         <BumbleItemContainer>
-          <BumbleItem>🔵&nbsp;&nbsp;Squirtle</BumbleItem>
-          <BumbleItem>⚫️&nbsp;&nbsp;Houndoom</BumbleItem>
-          <BumbleItem>🟡&nbsp;&nbsp;Flaaffy</BumbleItem>
-          <BumbleItem>⚪️&nbsp;&nbsp;Teddiursa</BumbleItem>
-          <BumbleItem>🔴&nbsp;&nbsp;Arcanine</BumbleItem>
-          <BumbleItem>🟤&nbsp;&nbsp;Flygon</BumbleItem>
+          <BumbleItem emoji={'🔵'} text={'Squirtle'} />
+          <BumbleItem emoji={'⚫️'} text={'Houndoom'} />
+          <BumbleItem emoji={'🟡'} text={'Flaaffy'} />
+          <BumbleItem emoji={'⚪️'} text={'Teddiursa'} />
+          <BumbleItem emoji={'🔴'} text={'Arcanine'} />
+          <BumbleItem emoji={'🟤'} text={'Flygon'} />
         </BumbleItemContainer>
       </BumbleSection>
       <img src={mochacat4Img} alt='Sleeping cat' />
       <BumbleSection>
         <h3>Food I could eat everyday...</h3>
         <BumbleItemContainer>
-          <BumbleItem>🍣&nbsp;&nbsp;Sushi</BumbleItem>
+          <BumbleItem emoji={'🍣'} text={'Sushi'} />
           <div id='bumble-icecream'>
             <Link to='/icecream'>
-              <BumbleItem>🍨&nbsp;&nbsp;Ice Cream</BumbleItem>
+              <BumbleItem emoji={'🍨'} text={'Ice Cream'} />
             </Link>
           </div>
-          <BumbleItem>🍳&nbsp;&nbsp;Brunch</BumbleItem>
-          <BumbleItem>🍔&nbsp;&nbsp;Shake Shack</BumbleItem>
-          <BumbleItem>🍟&nbsp;&nbsp;Yeet Hay (熱氣) food</BumbleItem>
-          <BumbleItem>🧀&nbsp;&nbsp;anything cheesy</BumbleItem>
+          <BumbleItem emoji={'🍳'} text={'Brunch'} />
+          <BumbleItem emoji={'🍔'} text={'Shake Shack'} />
+          <BumbleItem emoji={'🍟'} text={'Yeet Hay (熱氣) food'} />
+          <BumbleItem emoji={'🧀'} text={'anything cheesy'} />
         </BumbleItemContainer>
       </BumbleSection>
       <BumbleSection>
         <h3>Best ice cream flavours...</h3>
         <BumbleItemContainer>
-          <BumbleItem>🍪&nbsp;&nbsp;Cookies 'n Cream / Oreo</BumbleItem>
-          <BumbleItem>🍵&nbsp;&nbsp;Matcha</BumbleItem>
-          <BumbleItem>🍫&nbsp;&nbsp;White Chocolate</BumbleItem>
-          <BumbleItem>🫐&nbsp;&nbsp;Blueberry</BumbleItem>
-          <BumbleItem>🥜&nbsp;&nbsp;Pistachio</BumbleItem>
+          <BumbleItem emoji={'🍪'} text={"Cookies 'n Cream / Oreo"} />
+          <BumbleItem emoji={'🍵'} text={'Matcha'} />
+          <BumbleItem emoji={'🍫'} text={'White Chocolate'} />
+          <BumbleItem emoji={'🫐'} text={'Blueberry'} />
+          <BumbleItem emoji={'🥜'} text={'Pistachio'} />
         </BumbleItemContainer>
       </BumbleSection>
       <img src={mochacat5Img} alt='Cat riding unicorn' />
       <BumbleSection>
         <h3>Cool place I've been...</h3>
         <BumbleItemContainer>
-          <BumbleItem>🇺🇸&nbsp;&nbsp;Los Angeles, CA</BumbleItem>
+          <BumbleItem emoji={'🇺🇸'} text={'Los Angeles, CA'} />
         </BumbleItemContainer>
       </BumbleSection>
       <BumbleSection>
         <h3>Weird flex but ok...</h3>
         <BumbleItemContainer>
-          <BumbleItem>😎&nbsp;&nbsp;I have a lot of Pokémon cards</BumbleItem>
-          <BumbleItem>✌️&nbsp;&nbsp;Level 43 on Pokémon GO</BumbleItem>
-          <BumbleItem>
-            🏆&nbsp;&nbsp;Can list the first 51 Pokémon in order
-          </BumbleItem>
+          <BumbleItem emoji={'😎'} text={'I have a lot of Pokémon cards'} />
+          <BumbleItem emoji={'✌️'} text={'Level 43 on Pokémon GO'} />
+          <BumbleItem
+            emoji={'🏆'}
+            text={'Can list the first 51 Pokémon in order'}
+          />
         </BumbleItemContainer>
       </BumbleSection>
       <img src={mochacat6Img} alt='Pooped cat' />

@@ -8,6 +8,9 @@
   padding-right: 0.8rem;
   padding-top: 0.4rem;
   padding-bottom: 0.4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   border-radius: 1rem;
 
   font-size: 1.25rem;
@@ -15,6 +18,10 @@
 
   background-color: $yellow;
   color: $dark-gray;
+
+  .item-emoji {
+    margin-right: 0.5rem;
+  }
 }
 
 @media (max-width: 1400px) {

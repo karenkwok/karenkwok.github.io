@@ -18,9 +18,7 @@ import hanabusaImg from '../../assets/hanabusa.jpg';
 import soulCafeImg from '../../assets/soul_cafe.jpg';
 import tbearImg from '../../assets/tbear.jpg';
 import mcdsImg from '../../assets/mcds.jpg';
-import cafePrincessImg from '../../assets/cafe_princess.jpg';
 import dutchDreamsImg from '../../assets/dutch_dreams.jpg';
-import koishiImg from '../../assets/koishi.jpg';
 import pabloCheeseImg from '../../assets/pablo_cheese.jpg';
 import utscImg from '../../assets/utsc.jpg';
 import peaceTreatsImg from '../../assets/peace_treats.jpg';
@@ -45,123 +43,111 @@ import './Icecream.scss';
 const Icecream = () => {
   const icecreams = [
     {
-      id: 39,
+      id: 37,
       image: ruruBakedImg,
       name: 'Ruru Baked',
       location: 'Markham, ON',
     },
     {
-      id: 38,
+      id: 36,
       image: funnelCakesImg,
       name: 'Funnel Cakes',
       location: 'Niagara Falls, ON',
     },
     {
-      id: 37,
+      id: 35,
       image: shucakeImg,
       name: 'Shu Cake',
       location: 'Toronto, ON',
     },
     {
-      id: 36,
+      id: 34,
       image: socialBlendImg,
       name: 'The Social Blend',
       location: 'Scarborough, ON',
     },
     {
-      id: 35,
+      id: 33,
       image: dspotImg,
       name: 'D Spot Dessert Café',
       location: 'Toronto, ON',
     },
     {
-      id: 34,
+      id: 32,
       image: dippinDotsImg,
       name: "Dippin' Dots",
       location: 'Santa Monica, CA',
     },
     {
-      id: 33,
+      id: 31,
       image: littleDamageImg,
       name: 'Little Damage',
       location: 'Los Angeles, CA',
     },
     {
-      id: 32,
+      id: 30,
       image: somisomiImg,
       name: 'SomiSomi',
       location: 'Los Angeles, CA',
     },
     {
-      id: 31,
+      id: 29,
       image: turnDoughImg,
       name: 'Turn Dough',
       location: 'Los Angeles, CA',
     },
     {
-      id: 30,
+      id: 28,
       image: qq3Img,
       name: 'QQ Thai Ice Cream',
       location: 'Scarborough, ON',
     },
     {
-      id: 29,
+      id: 27,
       image: wonderlandImg,
       name: "Canada's Wonderland",
       location: 'Vaughan, ON',
     },
     {
-      id: 28,
+      id: 26,
       image: mandarin2Img,
       name: 'Mandarin',
       location: 'Markham, ON',
     },
     {
-      id: 27,
+      id: 25,
       image: fugo3Img,
       name: 'Fugo Desserts',
       location: 'Toronto, ON',
     },
     {
-      id: 26,
+      id: 24,
       image: hanabusaImg,
       name: 'Hanabusa Cafe',
       location: 'Toronto, ON',
     },
     {
-      id: 25,
+      id: 23,
       image: soulCafeImg,
       name: 'Soul Cafe',
       location: 'North York, ON',
     },
     {
-      id: 24,
+      id: 22,
       image: tbearImg,
       name: 'T-Bear',
       location: 'Scarborough, ON',
     },
     {
-      id: 23,
+      id: 21,
       image: mcdsImg,
       name: "McDonald's",
       location: 'Scarborough, ON',
     },
     {
-      id: 22,
-      image: cafePrincessImg,
-      name: 'Café Princess',
-      location: 'North York, ON',
-    },
-    {
-      id: 21,
+      id: 20,
       image: dutchDreamsImg,
       name: 'Dutch Dreams',
-      location: 'Toronto, ON',
-    },
-    {
-      id: 20,
-      image: koishiImg,
-      name: 'Koishi',
       location: 'Toronto, ON',
     },
     {

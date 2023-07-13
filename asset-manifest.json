@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.28f03c2f.css",
-    "main.js": "/static/js/main.938978a6.js",
+    "main.js": "/static/js/main.3ce35702.js",
     "static/js/787.29e3d873.chunk.js": "/static/js/787.29e3d873.chunk.js",
     "static/media/wonderland.jpg": "/static/media/wonderland.858e13df4761b9a53e16.jpg",
     "static/media/soul_cafe.jpg": "/static/media/soul_cafe.e1878e3cb2ac0b333c32.jpg",
@@ -19,6 +19,7 @@
     "static/media/pablo_cheese.jpg": "/static/media/pablo_cheese.f04482ec2079ab8bd784.jpg",
     "static/media/dearfro.jpg": "/static/media/dearfro.3377f7e3f855ab35860b.jpg",
     "static/media/peace_treats.jpg": "/static/media/peace_treats.627f0d116342a886beaf.jpg",
+    "static/media/baskin_robbins.jpg": "/static/media/baskin_robbins.cdf00c4ff7029a924dbe.jpg",
     "static/media/fuwafuwa.jpg": "/static/media/fuwafuwa.c058390bd9960659e853.jpg",
     "static/media/qq3.jpg": "/static/media/qq3.289604e30580fc4eae47.jpg",
     "static/media/utsc.jpg": "/static/media/utsc.bcfe2483b5cb2b8b6205.jpg",
@@ -50,11 +51,11 @@
     "static/media/utsearch.png": "/static/media/utsearch.0e5511c7ec9fa1cc73bd.png",
     "index.html": "/index.html",
     "main.28f03c2f.css.map": "/static/css/main.28f03c2f.css.map",
-    "main.938978a6.js.map": "/static/js/main.938978a6.js.map",
+    "main.3ce35702.js.map": "/static/js/main.3ce35702.js.map",
     "787.29e3d873.chunk.js.map": "/static/js/787.29e3d873.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28f03c2f.css",
-    "static/js/main.938978a6.js"
+    "static/js/main.3ce35702.js"
   ]
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Card from '../UI/Card';
+import wilmotOrchardsImg from '../../assets/wilmot_orchards.jpg';
 import baskinRobbinsImg from '../../assets/baskin_robbins.jpg';
 import arcticBitesImg from '../../assets/arctic_bites.jpg';
 import ruruBakedImg from '../../assets/ruru_baked.jpg';
@@ -44,6 +45,12 @@ import './Icecream.scss';
 
 const Icecream = () => {
   const icecreams = [
+    {
+      id: 40,
+      image: wilmotOrchardsImg,
+      name: 'Wilmot Orchards',
+      location: 'Newcastle, ON',
+    },
     {
       id: 39,
       image: baskinRobbinsImg,

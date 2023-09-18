@@ -1,6 +1,9 @@
 import React from 'react';
 
 import Card from '../UI/Card';
+import pragueryImg from '../../assets/praguery.jpg';
+import pervertedImg from '../../assets/perverted.jpg';
+import rainOrShineImg from '../../assets/rain_or_shine.jpg';
 import cerealBoxImg from '../../assets/cereal_box.jpg';
 import wilmotOrchardsImg from '../../assets/wilmot_orchards.jpg';
 import baskinRobbinsImg from '../../assets/baskin_robbins.jpg';
@@ -46,6 +49,24 @@ import './Icecream.scss';
 
 const Icecream = () => {
   const icecreams = [
+    {
+      id: 44,
+      image: pragueryImg,
+      name: 'The Praguery',
+      location: 'Squamish, BC',
+    },
+    {
+      id: 43,
+      image: pervertedImg,
+      name: 'PERVERTED',
+      location: 'Vancouver, BC',
+    },
+    {
+      id: 42,
+      image: rainOrShineImg,
+      name: 'Rain or Shine Ice Cream',
+      location: 'Vancouver, BC',
+    },
     {
       id: 41,
       image: cerealBoxImg,

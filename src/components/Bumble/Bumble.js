@@ -106,8 +106,9 @@ const Bumble = () => {
       </BumbleSection>
       <img src={mochacat5Img} alt='Cat riding unicorn' />
       <BumbleSection>
-        <h3>Cool place I've been...</h3>
+        <h3>Cool places I've been...</h3>
         <BumbleItemContainer>
+          <BumbleItem emoji={'🇨🇦'} text={'Vancouver, BC'} />
           <BumbleItem emoji={'🇺🇸'} text={'Los Angeles, CA'} />
         </BumbleItemContainer>
       </BumbleSection>

@@ -27,9 +27,7 @@ const Bumble = () => {
           play Pokémon GO.
         </p>
         <p>I also like ice cream, anime, and playing the piano.</p>
-        <p>
-          I deleted my Bumble account so I thought it'd be fun to make this. 🤪
-        </p>
+        <p>Inspired by Bumble. 🤪</p>
         <p>⚡️ 💫 ✨</p>
       </BumbleSection>
       <BumbleSection>

@@ -8,8 +8,8 @@ import './Projects.scss';
 const Projects = () => {
   const projects = [
     {
-      image: utsearchImg,
-      imageAlt: 'UTSearch Image',
+      // image: utsearchImg,
+      // imageAlt: 'UTSearch Image',
       title: 'UTSearCh',
       startDate: 'Feb 2021',
       endDate: 'Apr 2021',
@@ -27,8 +27,8 @@ const Projects = () => {
         'Express.js',
         'GraphQL',
         'MongoDB',
-        'PeerJS',
-        'Socket.IO',
+        // 'PeerJS',
+        // 'Socket.IO',
         'Google Maps API',
         'Heroku',
         'HTML',
@@ -47,8 +47,8 @@ const Projects = () => {
           return (
             <Project
               key={index}
-              image={project.image}
-              imageAlt={project.imageAlt}
+              // image={project.image}
+              // imageAlt={project.imageAlt}
               title={project.title}
               startDate={project.startDate}
               endDate={project.endDate}

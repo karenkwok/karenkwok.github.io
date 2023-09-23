@@ -55,12 +55,12 @@ const Icecream = () => {
       name: 'The Praguery',
       location: 'Squamish, BC',
     },
-    {
-      id: 43,
-      image: pervertedImg,
-      name: 'PERVERTED',
-      location: 'Vancouver, BC',
-    },
+    // {
+    //   id: 43,
+    //   image: pervertedImg,
+    //   name: 'PERVERTED',
+    //   location: 'Vancouver, BC',
+    // },
     {
       id: 42,
       image: rainOrShineImg,

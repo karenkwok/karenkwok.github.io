@@ -6,34 +6,56 @@ import Skill from '../UI/Skill';
 import './Skills.scss';
 
 const Skills = () => {
+  // const frontend = [
+  //   'React',
+  //   'JavaScript',
+  //   'Node.js',
+  //   'Express.js',
+  //   'Angular',
+  //   'TypeScript',
+  //   'Redux',
+  //   'Next.js',
+  //   'GraphQL',
+  //   'Sass',
+  //   'styled-components',
+  //   'HTML',
+  //   'CSS',
+  // ];
   const frontend = [
     'React',
     'JavaScript',
-    'Node.js',
-    'Express.js',
-    'Angular',
-    'TypeScript',
     'Redux',
     'Next.js',
     'GraphQL',
     'Sass',
+    'Tailwind CSS',
     'styled-components',
     'HTML',
     'CSS',
   ];
 
+  // const backend = [
+  //   'Python',
+  //   'Django',
+  //   'C#',
+  //   '.NET',
+  //   'Java',
+  //   'MySQL',
+  //   'PostgreSQL',
+  //   'MongoDB',
+  // ];
   const backend = [
     'Python',
-    'Django',
     'C#',
-    '.NET',
     'Java',
+    'Node.js',
+    'Express.js',
     'MySQL',
-    'PostgreSQL',
     'MongoDB',
   ];
 
-  const other = ['AWS', 'Unity', 'Canva'];
+  // const other = ['AWS', 'Unity', 'Canva'];
+  const other = ['Git', 'Firebase', 'Vercel', 'Unity'];
 
   return (
     <div id='skills'>

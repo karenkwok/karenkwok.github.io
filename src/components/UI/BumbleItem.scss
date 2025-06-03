@@ -1,7 +1,7 @@
 @import '../../Colours.scss';
 
 .item {
-  margin-right: 0.7rem;
+  margin-right: 0.6rem;
   margin-top: 0.4rem;
   margin-bottom: 0.4rem;
   padding-left: 0.8rem;
@@ -16,8 +16,8 @@
   font-size: 1.25rem;
   font-weight: 600;
 
-  background-color: $yellow;
-  color: $dark-gray;
+  background-color: $bumble-item;
+  color: $bumble-text;
 
   .item-emoji {
     margin-right: 0.5rem;
@@ -36,81 +36,81 @@
   }
 }
 
-@media (max-width: 1105px) {
+@media (max-width: 1110px) {
   .item {
     font-size: 0.8rem;
   }
 }
 
-@media (max-width: 1020px) {
-  .item {
-    font-size: 0.7rem;
-  }
-}
-
-@media (max-width: 930px) {
-  .item {
-    font-size: 0.8rem;
-  }
-}
-
-@media (max-width: 800px) {
-  .item {
-    font-size: 1.25rem;
-  }
-}
-
-@media (max-width: 665px) {
+@media (max-width: 1100px) {
   .item {
     font-size: 1rem;
   }
 }
 
-@media (max-width: 565px) {
+@media (max-width: 933px) {
   .item {
     font-size: 0.9rem;
   }
 }
 
-@media (max-width: 525px) {
+@media (max-width: 868px) {
+  .item {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 834px) {
+  .item {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 522px) {
+  .item {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 477px) {
+  .item {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 447px) {
+  .item {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 416px) {
   .item {
     font-size: 0.8rem;
   }
 }
 
-@media (max-width: 485px) {
+@media (max-width: 385px) {
   .item {
     font-size: 0.7rem;
   }
 }
 
-@media (max-width: 445px) {
+@media (max-width: 352px) {
   .item {
-    font-size: 0.8rem;
+    font-size: 0.65rem;
   }
 }
 
-@media (max-width: 435px) {
-  .item {
-    font-size: 0.7rem;
-  }
-}
-
-@media (max-width: 400px) {
-  .item {
-    font-size: 0.8rem;
-  }
-}
-
-@media (max-width: 375px) {
-  .item {
-    font-size: 0.7rem;
-  }
-}
-
-@media (max-width: 340px) {
+@media (max-width: 336px) {
   .item {
     font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 322px) {
+  .item {
+    font-size: 0.55rem;
   }
 }
 
@@ -120,8 +120,14 @@
   }
 }
 
-@media (max-width: 270px) {
+@media (max-width: 289px) {
   .item {
-    font-size: 0.4rem;
+    font-size: 0.45rem;
+  }
+}
+
+@media (max-width: 271px) {
+  .item {
+    font-size: 1rem;
   }
 }

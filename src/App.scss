@@ -67,6 +67,13 @@ a:-webkit-any-link {
   }
 }
 
+@media (max-width: 834px) {
+  #App {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 @media (max-width: 600px) {
   h1 {
     font-size: 7rem;

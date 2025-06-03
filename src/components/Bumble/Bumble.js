@@ -17,108 +17,142 @@ const Bumble = () => {
     <div id='bumble'>
       <img src={mochacat1Img} alt='Double peace sign cat' />
       <BumbleSection>
-        <h3>About me</h3>
-        <p>
-          Hey!&nbsp;&nbsp;<span className='wave'>👋</span>
+        <p id='large-text'>
+          oh hii~&nbsp;&nbsp;<span className='wave'>👋</span>
         </p>
-        <p>I'm a software developer based in Toronto.</p>
+        <p>i'm a software developer based in toronto.</p>
         <p>
-          Huuuge Pokémon nerd. I obsessively collect Pokémon cards. Sometimes I
-          play Pokémon GO.
+          i like pokémon. a lot. pls ask me about it. <br />
+          currently hunting for hundos on pogo and grinding ranked on pocket.
         </p>
-        <p>I also like ice cream, anime, and playing the piano.</p>
-        <p>Inspired by Bumble. 🤪</p>
-        <p>⚡️ 💫 ✨</p>
+        <p>
+          i also like collecting cute stickers+charms, tcg, and figurines i have
+          no space for.
+        </p>
+        <p>-karen:) ♡</p>
       </BumbleSection>
       <BumbleSection>
-        <h3>My basics</h3>
+        <h2 className='title-text'>about me</h2>
         <BumbleItemContainer>
           <BumbleItem emoji={'💻'} text={'Software Developer'} />
           <BumbleItem emoji={'🎓'} text={'University of Toronto'} />
-          <BumbleItem emoji={'🎹'} text={'Amateur Pianist'} />
-          <BumbleItem emoji={'🐢'} text={'Turtle Mom'} />
+          <BumbleItem emoji={'📍'} text={'Toronto'} />
+          <div className='bumble-clickable'>
+            <Link
+              to='https://www.youtube.com/watch?v=jMq42GoCKVo'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <BumbleItem emoji={'🩵'} text={'Pokémon Addict'} />
+            </Link>
+          </div>
         </BumbleItemContainer>
       </BumbleSection>
       <img src={mochacat2Img} alt='Cat licking ice cream' />
       <BumbleSection>
-        <h3>Binge-watch recommendations...</h3>
+        <h2 className='title-text'>my binge-watch reccs...</h2>
         <BumbleItemContainer>
-          <BumbleItem emoji={'🧙'} text={'Harry Potter'} />
+          <BumbleItem emoji={'🪄'} text={'Harry Potter'} />
           <BumbleItem emoji={'🌱'} text={'Studio Ghibli'} />
-          <BumbleItem emoji={'☕️'} text={'Friends'} />
+          <div className='bumble-clickable'>
+            <Link
+              to='https://www.youtube.com/watch?v=CvjoXdC-WkM'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <BumbleItem emoji={'☕️'} text={'Friends'} />
+            </Link>
+          </div>
         </BumbleItemContainer>
       </BumbleSection>
       <BumbleSection>
-        <h3>My Hogwarts House is...</h3>
+        <h2 className='title-text'>my hogwarts house is...</h2>
         <BumbleItemContainer>
           <BumbleItem emoji={'🐍'} text={'Slytherin'} />
         </BumbleItemContainer>
       </BumbleSection>
       <img src={mochacat3Img} alt='Winking cat with rainbow' />
       <BumbleSection>
-        <h3>My top 5 fav anime...</h3>
+        <h2 className='title-text'>my top 5 fav animes...</h2>
         <BumbleItemContainer>
-          <BumbleItem emoji={'🖤'} text={'Bleach'} />
-          <BumbleItem emoji={'❤️'} text={'InuYasha'} />
-          <BumbleItem emoji={'🧡'} text={'Naruto'} />
+          <div className='bumble-clickable'>
+            <Link
+              to='https://www.youtube.com/watch?v=6m_NwZYVefo'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <BumbleItem emoji={'🖤'} text={'Psycho-Pass'} />
+            </Link>
+          </div>
           <BumbleItem emoji={'💙'} text={'Samurai Champloo'} />
+          <div className='bumble-clickable'>
+            <Link
+              to='https://www.youtube.com/watch?v=UQpIXNb1rKQ'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <BumbleItem emoji={'🧡'} text={'Bleach'} />
+            </Link>
+          </div>
           <BumbleItem emoji={'💚'} text={'Chainsaw Man'} />
+          <BumbleItem emoji={'❤️'} text={'InuYasha'} />
         </BumbleItemContainer>
       </BumbleSection>
       <BumbleSection>
-        <h3>My Pokémon team...</h3>
+        <h2 className='title-text'>my pink pilates princess playlist...</h2>
         <BumbleItemContainer>
-          <BumbleItem emoji={'🔵'} text={'Squirtle'} />
-          <BumbleItem emoji={'⚫️'} text={'Houndoom'} />
-          <BumbleItem emoji={'🟡'} text={'Flaaffy'} />
-          <BumbleItem emoji={'⚪️'} text={'Teddiursa'} />
-          <BumbleItem emoji={'🔴'} text={'Arcanine'} />
-          <BumbleItem emoji={'🟤'} text={'Flygon'} />
+          <div className='bumble-clickable'>
+            <Link
+              to='https://open.spotify.com/track/1BxfuPKGuaTgP7aM0Bbdwr?si=d8d7d99069c54407'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <BumbleItem emoji={'🎀'} text={'Taylor Swift'} />
+            </Link>
+          </div>
+          <div className='bumble-clickable'>
+            <Link
+              to='https://open.spotify.com/track/2HRqTpkrJO5ggZyyK6NPWz?si=32002d5ae5b842b4'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <BumbleItem emoji={'🎀'} text={'Sabrina Carpenter'} />
+            </Link>
+          </div>
+          <div className='bumble-clickable'>
+            <Link
+              to='https://open.spotify.com/track/2bl81llf715VEEbAx03yvB?si=52c16ed49f71460d'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <BumbleItem emoji={'🎀'} text={'Gracie Abrams'} />
+            </Link>
+          </div>
+          <BumbleItem emoji={'🎀'} text={'One Direction'} />
         </BumbleItemContainer>
       </BumbleSection>
       <img src={mochacat4Img} alt='Sleeping cat' />
       <BumbleSection>
-        <h3>Food I could eat everyday...</h3>
+        <h2 className='title-text'>cool places i've been...</h2>
         <BumbleItemContainer>
-          <BumbleItem emoji={'🍣'} text={'Sushi'} />
-          <div id='bumble-icecream'>
-            <Link to='/icecream'>
-              <BumbleItem emoji={'🍨'} text={'Ice Cream'} />
-            </Link>
-          </div>
-          <BumbleItem emoji={'🍳'} text={'Brunch'} />
-          <BumbleItem emoji={'🍔'} text={'Shake Shack'} />
-          <BumbleItem emoji={'🍟'} text={'Yeet Hay (熱氣) food'} />
-          <BumbleItem emoji={'🧀'} text={'anything cheesy'} />
-        </BumbleItemContainer>
-      </BumbleSection>
-      <BumbleSection>
-        <h3>Best ice cream flavours...</h3>
-        <BumbleItemContainer>
-          <BumbleItem emoji={'🍪'} text={"Cookies 'n Cream / Oreo"} />
-          <BumbleItem emoji={'🍵'} text={'Matcha'} />
-          <BumbleItem emoji={'🍫'} text={'White Chocolate'} />
-          <BumbleItem emoji={'🫐'} text={'Blueberry'} />
-          <BumbleItem emoji={'🥜'} text={'Pistachio'} />
+          <BumbleItem emoji={'🇯🇵'} text={'Tokyo'} />
+          <BumbleItem emoji={'🇨🇦'} text={'Vancouver'} />
+          <BumbleItem emoji={'🇺🇸'} text={'Los Angeles'} />
         </BumbleItemContainer>
       </BumbleSection>
       <img src={mochacat5Img} alt='Cat riding unicorn' />
       <BumbleSection>
-        <h3>Cool places I've been...</h3>
+        <h2 className='title-text'>i like ice cream</h2>
         <BumbleItemContainer>
-          <BumbleItem emoji={'🇨🇦'} text={'Vancouver, BC'} />
-          <BumbleItem emoji={'🇺🇸'} text={'Los Angeles, CA'} />
-        </BumbleItemContainer>
-      </BumbleSection>
-      <BumbleSection>
-        <h3>Weird flex but ok...</h3>
-        <BumbleItemContainer>
-          <BumbleItem emoji={'😎'} text={'I have a lot of Pokémon cards'} />
-          <BumbleItem emoji={'✌️'} text={'Level 43 on Pokémon GO'} />
-          <BumbleItem
-            emoji={'🏆'}
-            text={'Can list the first 51 Pokémon in order'}
-          />
+          <div className='bumble-clickable'>
+            <Link to='/icecream'>
+              <BumbleItem emoji={'🍪'} text={"Cookies 'n Cream"} />
+            </Link>
+          </div>
+          <BumbleItem emoji={'🍵'} text={'Matcha'} />
+          <BumbleItem emoji={'🫐'} text={'Blueberry'} />
+          <BumbleItem emoji={'🍰'} text={'Strawberry Cheesecake'} />
+          <BumbleItem emoji={'🥜'} text={'Pistachio'} />
         </BumbleItemContainer>
       </BumbleSection>
       <img src={mochacat6Img} alt='Pooped cat' />

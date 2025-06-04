@@ -165,7 +165,7 @@ const App = () => {
               }
             />
             <Route
-              path='/bumble'
+              path='/meow'
               element={
                 <>
                   <Bumble />

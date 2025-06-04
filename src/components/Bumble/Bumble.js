@@ -4,18 +4,15 @@ import { Link } from 'react-router-dom';
 import BumbleSection from '../UI/BumbleSection';
 import BumbleItemContainer from '../UI/BumbleItemContainer';
 import BumbleItem from '../UI/BumbleItem';
-import mochacat1Img from '../../assets/mochacat-purple.png';
-import mochacat2Img from '../../assets/mochacat-icecream.png';
-import mochacat3Img from '../../assets/mochacat-rainbow.png';
-import mochacat4Img from '../../assets/mochacat-sleep.png';
-import mochacat5Img from '../../assets/mochacat-unicorn.png';
-import mochacat6Img from '../../assets/mochacat-pooped.png';
+import image1 from '../../assets/jiji.jpg';
+import image2 from '../../assets/mochacat-unicorn.png';
+import image3 from '../../assets/hapidanbui.jpeg';
 import './Bumble.scss';
 
 const Bumble = () => {
   return (
     <div id='bumble'>
-      <img src={mochacat1Img} alt='Double peace sign cat' />
+      <img src={image1} alt='Jiji' />
       <BumbleSection>
         <p id='large-text'>
           oh hii~&nbsp;&nbsp;<span className='wave'>👋</span>
@@ -31,6 +28,7 @@ const Bumble = () => {
         </p>
         <p>-karen:) ♡</p>
       </BumbleSection>
+      <img src={image2} alt='Peach' />
       <BumbleSection>
         <h2 className='title-text'>about me</h2>
         <BumbleItemContainer>
@@ -48,7 +46,6 @@ const Bumble = () => {
           </div>
         </BumbleItemContainer>
       </BumbleSection>
-      <img src={mochacat2Img} alt='Cat licking ice cream' />
       <BumbleSection>
         <h2 className='title-text'>my binge-watch reccs...</h2>
         <BumbleItemContainer>
@@ -71,7 +68,6 @@ const Bumble = () => {
           <BumbleItem emoji={'🐍'} text={'Slytherin'} />
         </BumbleItemContainer>
       </BumbleSection>
-      <img src={mochacat3Img} alt='Winking cat with rainbow' />
       <BumbleSection>
         <h2 className='title-text'>my top 5 fav animes...</h2>
         <BumbleItemContainer>
@@ -131,7 +127,6 @@ const Bumble = () => {
           <BumbleItem emoji={'🎀'} text={'One Direction'} />
         </BumbleItemContainer>
       </BumbleSection>
-      <img src={mochacat4Img} alt='Sleeping cat' />
       <BumbleSection>
         <h2 className='title-text'>cool places i've been...</h2>
         <BumbleItemContainer>
@@ -140,7 +135,6 @@ const Bumble = () => {
           <BumbleItem emoji={'🇺🇸'} text={'Los Angeles'} />
         </BumbleItemContainer>
       </BumbleSection>
-      <img src={mochacat5Img} alt='Cat riding unicorn' />
       <BumbleSection>
         <h2 className='title-text'>i like ice cream</h2>
         <BumbleItemContainer>
@@ -155,7 +149,7 @@ const Bumble = () => {
           <BumbleItem emoji={'🥜'} text={'Pistachio'} />
         </BumbleItemContainer>
       </BumbleSection>
-      <img src={mochacat6Img} alt='Pooped cat' />
+      <img src={image3} alt='Sanrio' />
     </div>
   );
 };

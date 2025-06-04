@@ -5,7 +5,7 @@ import './Header.scss';
 
 const Header = () => {
   const location = useLocation();
-  const destination = location.pathname === '/' ? '/icecream' : '/';
+  const destination = location.pathname === '/' ? '/meow' : '/';
 
   return (
     <header>

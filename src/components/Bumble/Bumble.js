@@ -50,7 +50,6 @@ const Bumble = () => {
         <h2 className='title-text'>my binge-watch reccs...</h2>
         <BumbleItemContainer>
           <BumbleItem emoji={'🪄'} text={'Harry Potter'} />
-          <BumbleItem emoji={'🌱'} text={'Studio Ghibli'} />
           <div className='bumble-clickable'>
             <Link
               to='https://www.youtube.com/watch?v=CvjoXdC-WkM'
@@ -60,6 +59,7 @@ const Bumble = () => {
               <BumbleItem emoji={'☕️'} text={'Friends'} />
             </Link>
           </div>
+          <BumbleItem emoji={'🌱'} text={'Studio Ghibli'} />
         </BumbleItemContainer>
       </BumbleSection>
       <BumbleSection>
@@ -90,8 +90,8 @@ const Bumble = () => {
               <BumbleItem emoji={'🧡'} text={'Bleach'} />
             </Link>
           </div>
-          <BumbleItem emoji={'💚'} text={'Chainsaw Man'} />
           <BumbleItem emoji={'❤️'} text={'InuYasha'} />
+          <BumbleItem emoji={'💚'} text={'Chainsaw Man'} />
         </BumbleItemContainer>
       </BumbleSection>
       <BumbleSection>
@@ -108,20 +108,20 @@ const Bumble = () => {
           </div>
           <div className='bumble-clickable'>
             <Link
-              to='https://open.spotify.com/track/2HRqTpkrJO5ggZyyK6NPWz?si=32002d5ae5b842b4'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <BumbleItem emoji={'🎀'} text={'Sabrina Carpenter'} />
-            </Link>
-          </div>
-          <div className='bumble-clickable'>
-            <Link
               to='https://open.spotify.com/track/2bl81llf715VEEbAx03yvB?si=52c16ed49f71460d'
               target='_blank'
               rel='noopener noreferrer'
             >
               <BumbleItem emoji={'🎀'} text={'Gracie Abrams'} />
+            </Link>
+          </div>
+          <div className='bumble-clickable'>
+            <Link
+              to='https://open.spotify.com/track/2HRqTpkrJO5ggZyyK6NPWz?si=32002d5ae5b842b4'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <BumbleItem emoji={'🎀'} text={'Sabrina Carpenter'} />
             </Link>
           </div>
           <BumbleItem emoji={'🎀'} text={'One Direction'} />
@@ -145,7 +145,7 @@ const Bumble = () => {
           </div>
           <BumbleItem emoji={'🍵'} text={'Matcha'} />
           <BumbleItem emoji={'🫐'} text={'Blueberry'} />
-          <BumbleItem emoji={'🍰'} text={'Strawberry Cheesecake'} />
+          <BumbleItem emoji={'🍰'} text={'Cheesecake'} />
           <BumbleItem emoji={'🥜'} text={'Pistachio'} />
         </BumbleItemContainer>
         <p className='section-bottom' />

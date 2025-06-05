@@ -15,7 +15,7 @@ const Bumble = () => {
       <img src={image1} alt='Jiji' />
       <BumbleSection>
         <p id='large-text'>
-          oh hii~&nbsp;&nbsp;<span className='wave'>👋</span>
+          Oh hii~&nbsp;&nbsp;<span className='wave'>👋</span>
         </p>
         <p>i'm a software developer based in toronto.</p>
         <p>
@@ -30,7 +30,7 @@ const Bumble = () => {
       </BumbleSection>
       <img src={image2} alt='Peach' />
       <BumbleSection>
-        <h2 className='title-text'>about me</h2>
+        <h2 className='title-text'>I am...</h2>
         <BumbleItemContainer>
           <BumbleItem emoji={'💻'} text={'Software Developer'} />
           <BumbleItem emoji={'🎓'} text={'University of Toronto'} />
@@ -47,7 +47,7 @@ const Bumble = () => {
         </BumbleItemContainer>
       </BumbleSection>
       <BumbleSection>
-        <h2 className='title-text'>my binge-watch reccs...</h2>
+        <h2 className='title-text'>My binge-watch reccs...</h2>
         <BumbleItemContainer>
           <BumbleItem emoji={'🪄'} text={'Harry Potter'} />
           <div className='bumble-clickable'>
@@ -63,13 +63,13 @@ const Bumble = () => {
         </BumbleItemContainer>
       </BumbleSection>
       <BumbleSection>
-        <h2 className='title-text'>my hogwarts house is...</h2>
+        <h2 className='title-text'>My hogwarts house is...</h2>
         <BumbleItemContainer>
           <BumbleItem emoji={'🐍'} text={'Slytherin'} />
         </BumbleItemContainer>
       </BumbleSection>
       <BumbleSection>
-        <h2 className='title-text'>my top 5 fav animes...</h2>
+        <h2 className='title-text'>My top 5 fav animes...</h2>
         <BumbleItemContainer>
           <div className='bumble-clickable'>
             <Link
@@ -95,7 +95,7 @@ const Bumble = () => {
         </BumbleItemContainer>
       </BumbleSection>
       <BumbleSection>
-        <h2 className='title-text'>my pink pilates princess playlist...</h2>
+        <h2 className='title-text'>My pink pilates princess playlist...</h2>
         <BumbleItemContainer>
           <div className='bumble-clickable'>
             <Link
@@ -128,7 +128,7 @@ const Bumble = () => {
         </BumbleItemContainer>
       </BumbleSection>
       <BumbleSection>
-        <h2 className='title-text'>cool places i've been...</h2>
+        <h2 className='title-text'>Cool places I've been...</h2>
         <BumbleItemContainer>
           <BumbleItem emoji={'🇯🇵'} text={'Tokyo'} />
           <BumbleItem emoji={'🇨🇦'} text={'Vancouver'} />

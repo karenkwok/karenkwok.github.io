@@ -11,3 +11,17 @@
   background-color: $bumble-section-background;
   color: $bumble-text;
 }
+
+@media (max-width: 861px) {
+  .bumble-section {
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .bumble-section {
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+}

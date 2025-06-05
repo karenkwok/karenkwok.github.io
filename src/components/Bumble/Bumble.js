@@ -26,7 +26,7 @@ const Bumble = () => {
           i also like collecting cute stickers+charms, tcg, and figurines i have
           no space for.
         </p>
-        <p>-karen:) ♡</p>
+        <p className='section-bottom'>-karen:) ♡</p>
       </BumbleSection>
       <img src={image2} alt='Peach' />
       <BumbleSection>
@@ -148,6 +148,7 @@ const Bumble = () => {
           <BumbleItem emoji={'🍰'} text={'Strawberry Cheesecake'} />
           <BumbleItem emoji={'🥜'} text={'Pistachio'} />
         </BumbleItemContainer>
+        <p className='section-bottom' />
       </BumbleSection>
       <img src={image3} alt='Sanrio' />
     </div>

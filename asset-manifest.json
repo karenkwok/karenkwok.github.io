@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e828df44.css",
-    "main.js": "/static/js/main.444eae62.js",
+    "main.css": "/static/css/main.62b51cd4.css",
+    "main.js": "/static/js/main.3a11aefe.js",
     "static/js/453.1d84ebcd.chunk.js": "/static/js/453.1d84ebcd.chunk.js",
     "static/media/wonderland.jpg": "/static/media/wonderland.858e13df4761b9a53e16.jpg",
     "static/media/soul_cafe.jpg": "/static/media/soul_cafe.e1878e3cb2ac0b333c32.jpg",
@@ -54,12 +54,12 @@
     "static/media/jiji.jpg": "/static/media/jiji.a258f7a503b87a0b57f7.jpg",
     "static/media/utsearch.png": "/static/media/utsearch.0e5511c7ec9fa1cc73bd.png",
     "index.html": "/index.html",
-    "main.e828df44.css.map": "/static/css/main.e828df44.css.map",
-    "main.444eae62.js.map": "/static/js/main.444eae62.js.map",
+    "main.62b51cd4.css.map": "/static/css/main.62b51cd4.css.map",
+    "main.3a11aefe.js.map": "/static/js/main.3a11aefe.js.map",
     "453.1d84ebcd.chunk.js.map": "/static/js/453.1d84ebcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e828df44.css",
-    "static/js/main.444eae62.js"
+    "static/css/main.62b51cd4.css",
+    "static/js/main.3a11aefe.js"
   ]
 }

@@ -1,11 +1,17 @@
 import React from 'react';
+import { Link, useLocation } from 'react-router-dom';
 
 import './Title.scss';
 
 const Title = () => {
+  const location = useLocation();
+  const destination = location.pathname === '/' ? '/meow' : '/';
+
   return (
     <div id='title'>
-      <h1>Karen Kwok</h1>
+      <h1>
+        Karen Kwo<Link to={destination}>k</Link>
+      </h1>
       <div id='title-subtext'>
         <div id='emoji-1'>💻</div>
         <div id='emoji-2'>🎓</div>

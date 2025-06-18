@@ -9,9 +9,9 @@ const Header = () => {
 
   return (
     <header>
-      <div id='logo'>
+      {/* <div id='logo'>
         <Link to={destination}>Kk</Link>
-      </div>
+      </div> */}
     </header>
   );
 };

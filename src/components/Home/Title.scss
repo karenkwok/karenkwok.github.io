@@ -1,6 +1,16 @@
 #title {
   margin-bottom: 20rem;
 
+  h1 a {
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+
+    &:hover {
+      transform: rotate(-5deg);
+      cursor: pointer;
+    }
+  }
+
   #title-subtext {
     margin-top: 12rem;
     display: grid;

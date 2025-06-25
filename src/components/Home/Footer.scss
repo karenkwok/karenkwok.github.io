@@ -35,12 +35,40 @@ footer {
   }
 
   #footer-email {
+    position: relative;
     font-size: 2rem;
     font-weight: lighter;
+    color: $white;
 
     &:hover {
       color: $purple;
       cursor: pointer;
+    }
+
+    // Tooltip styling
+    &::after {
+      content: attr(data-tooltip);
+      position: absolute;
+      top: -2.5rem; // Adjusted for smaller text
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(0, 0, 0, 0.9); // Slightly darker for better contrast
+      color: rgba(255, 255, 255, 0.8); // Softer white for the tooltip text
+      font-size: 0.8rem; // Super tiny font size
+      font-weight: bold; // Matches h1 styling
+      font-family: 'Roboto', sans-serif; // Use same font as your h1
+      padding: 0.3rem 0.6rem; // Smaller padding for tiny text
+      border-radius: 6px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s ease, transform 0.3s ease;
+      white-space: nowrap;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); // Slightly stronger shadow
+    }
+
+    &:hover::after {
+      opacity: 1;
+      transform: translateX(-50%) translateY(-4px);
     }
   }
 }

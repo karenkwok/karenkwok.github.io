@@ -1,27 +1,8 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn, faGithubAlt } from '@fortawesome/free-brands-svg-icons';
-import { styled } from '@mui/material/styles';
-import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
-import Zoom from '@mui/material/Zoom';
 
 import './Footer.scss';
-
-const CustomTooltip = styled(({ className, ...props }) => (
-  <Tooltip {...props} arrow classes={{ popper: className }} />
-))(({ theme }) => ({
-  [`& .${tooltipClasses.arrow}`]: {
-    color: '#ffffff1f', // gray
-  },
-  [`& .${tooltipClasses.tooltip}`]: {
-    padding: theme.spacing(2),
-    borderRadius: '10px',
-    fontSize: 20,
-    fontWeight: 'lighter',
-    backgroundColor: '#ffffff1f', // gray
-    color: '#fcf5e7', // white
-  },
-}));
 
 const Footer = () => {
   const email = 'karenkwok013@gmail.com';
@@ -58,20 +39,14 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <CustomTooltip
-        title={tooltipText}
-        placement='top'
-        TransitionComponent={Zoom}
-        arrow
+      <div
+        id='footer-email'
+        onClick={updateTooltipText}
+        onMouseOut={resetTooltipText}
+        data-tooltip={tooltipText}
       >
-        <div
-          id='footer-email'
-          onClick={updateTooltipText}
-          onMouseOut={resetTooltipText}
-        >
-          karenkwok013@gmail.com
-        </div>
-      </CustomTooltip>
+        {email}
+      </div>
     </footer>
   );
 };

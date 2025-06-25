@@ -80,7 +80,15 @@ const Bumble = () => {
               <BumbleItem emoji={'🖤'} text={'Psycho-Pass'} />
             </Link>
           </div>
-          <BumbleItem emoji={'💙'} text={'Samurai Champloo'} />
+          <div className='bumble-clickable'>
+            <Link
+              to='https://youtu.be/Eq6EYcpWB_c?si=ku1s9UYFo3QR3-LI'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <BumbleItem emoji={'💙'} text={'Samurai Champloo'} />
+            </Link>
+          </div>
           <div className='bumble-clickable'>
             <Link
               to='https://www.youtube.com/watch?v=UQpIXNb1rKQ'
@@ -124,6 +132,7 @@ const Bumble = () => {
               <BumbleItem emoji={'🎀'} text={'Sabrina Carpenter'} />
             </Link>
           </div>
+          <BumbleItem emoji={'🎀'} text={'BLACKPINK'} />
           <BumbleItem emoji={'🎀'} text={'One Direction'} />
         </BumbleItemContainer>
       </BumbleSection>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d43143be.css",
-    "main.js": "/static/js/main.c6c54e6a.js",
+    "main.js": "/static/js/main.d3b75fdf.js",
     "static/js/453.1d84ebcd.chunk.js": "/static/js/453.1d84ebcd.chunk.js",
     "static/media/wonderland.jpg": "/static/media/wonderland.858e13df4761b9a53e16.jpg",
     "static/media/soul_cafe.jpg": "/static/media/soul_cafe.e1878e3cb2ac0b333c32.jpg",
@@ -55,11 +55,11 @@
     "static/media/utsearch.png": "/static/media/utsearch.0e5511c7ec9fa1cc73bd.png",
     "index.html": "/index.html",
     "main.d43143be.css.map": "/static/css/main.d43143be.css.map",
-    "main.c6c54e6a.js.map": "/static/js/main.c6c54e6a.js.map",
+    "main.d3b75fdf.js.map": "/static/js/main.d3b75fdf.js.map",
     "453.1d84ebcd.chunk.js.map": "/static/js/453.1d84ebcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d43143be.css",
-    "static/js/main.c6c54e6a.js"
+    "static/js/main.d3b75fdf.js"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d43143be.css",
-    "main.js": "/static/js/main.d3b75fdf.js",
+    "main.js": "/static/js/main.5f226081.js",
     "static/js/453.1d84ebcd.chunk.js": "/static/js/453.1d84ebcd.chunk.js",
     "static/media/wonderland.jpg": "/static/media/wonderland.858e13df4761b9a53e16.jpg",
     "static/media/soul_cafe.jpg": "/static/media/soul_cafe.e1878e3cb2ac0b333c32.jpg",
@@ -32,11 +32,11 @@
     "static/media/mcds.jpg": "/static/media/mcds.7c2dd8ed9bbebd68a35a.jpg",
     "static/media/ihalo_krunch.JPG": "/static/media/ihalo_krunch.538fdef594d720a355e5.JPG",
     "static/media/hapidanbui.jpeg": "/static/media/hapidanbui.15811bd2e1c3dfe89266.jpeg",
+    "static/media/quagsire.webp": "/static/media/quagsire.f49eb4644a2d6e8aae59.webp",
     "static/media/dspot.jpg": "/static/media/dspot.c63db68977278a041891.jpg",
     "static/media/social_blend.jpg": "/static/media/social_blend.202d2408a8b31d937a99.jpg",
     "static/media/taiyaki_nyc.jpg": "/static/media/taiyaki_nyc.96a187ab93684665f89a.jpg",
     "static/media/funnel_cakes.jpg": "/static/media/funnel_cakes.1546787a80e9329539ef.jpg",
-    "static/media/mochacat-pooped.png": "/static/media/mochacat-pooped.73fc8e3e72a8eba49853.png",
     "static/media/snow_time2.jpg": "/static/media/snow_time2.393127f6c090606a6648.jpg",
     "static/media/snow_time.JPG": "/static/media/snow_time.68b3b06ca0434697dcee.JPG",
     "static/media/cereal_box.jpg": "/static/media/cereal_box.d5b40de19dbebc1f6ed3.jpg",
@@ -55,11 +55,11 @@
     "static/media/utsearch.png": "/static/media/utsearch.0e5511c7ec9fa1cc73bd.png",
     "index.html": "/index.html",
     "main.d43143be.css.map": "/static/css/main.d43143be.css.map",
-    "main.d3b75fdf.js.map": "/static/js/main.d3b75fdf.js.map",
+    "main.5f226081.js.map": "/static/js/main.5f226081.js.map",
     "453.1d84ebcd.chunk.js.map": "/static/js/453.1d84ebcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d43143be.css",
-    "static/js/main.d3b75fdf.js"
+    "static/js/main.5f226081.js"
   ]
 }

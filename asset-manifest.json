@@ -1,14 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.6663b30d.css",
-    "main.js": "/static/js/main.5f226081.js",
+    "main.js": "/static/js/main.1a21b2f6.js",
     "static/js/453.1d84ebcd.chunk.js": "/static/js/453.1d84ebcd.chunk.js",
     "static/media/wonderland.jpg": "/static/media/wonderland.858e13df4761b9a53e16.jpg",
+    "static/media/nanasgreentea.jpg": "/static/media/nanasgreentea.998b255fd538bf379126.jpg",
     "static/media/soul_cafe.jpg": "/static/media/soul_cafe.e1878e3cb2ac0b333c32.jpg",
+    "static/media/ihalokrunch2.jpg": "/static/media/ihalokrunch2.4599ef56a5c801655e2d.jpg",
+    "static/media/shirohigecreampuff.jpg": "/static/media/shirohigecreampuff.560cb1d2a290da9a8f5f.jpg",
     "static/media/petit_potato.jpg": "/static/media/petit_potato.ce440a5c7ca24a018fbb.jpg",
+    "static/media/tokyodisneysea.jpg": "/static/media/tokyodisneysea.c7b6e31e68fcb6290c0d.jpg",
     "static/media/matcha_tea.jpg": "/static/media/matcha_tea.a9c501c34be945f76704.jpg",
+    "static/media/tokyobaskinrobbins.jpg": "/static/media/tokyobaskinrobbins.314eddde0da960960105.jpg",
     "static/media/snow_time3.jpg": "/static/media/snow_time3.6ad31d0fa4878e1c55dd.jpg",
     "static/media/hanabusa.jpg": "/static/media/hanabusa.f4da39dc9a7a12452eac.jpg",
+    "static/media/arcticbites2.jpg": "/static/media/arcticbites2.74087dce5e60b31aa1f0.jpg",
     "static/media/qq.jpg": "/static/media/qq.0a954d9ad3c30484ca25.jpg",
     "static/media/sugar_marmalade.jpg": "/static/media/sugar_marmalade.c1bf92497045c8435875.jpg",
     "static/media/qq2.jpg": "/static/media/qq2.8d0a7b40b7facd945a30.jpg",
@@ -55,11 +61,11 @@
     "static/media/utsearch.png": "/static/media/utsearch.0e5511c7ec9fa1cc73bd.png",
     "index.html": "/index.html",
     "main.6663b30d.css.map": "/static/css/main.6663b30d.css.map",
-    "main.5f226081.js.map": "/static/js/main.5f226081.js.map",
+    "main.1a21b2f6.js.map": "/static/js/main.1a21b2f6.js.map",
     "453.1d84ebcd.chunk.js.map": "/static/js/453.1d84ebcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6663b30d.css",
-    "static/js/main.5f226081.js"
+    "static/js/main.1a21b2f6.js"
   ]
 }

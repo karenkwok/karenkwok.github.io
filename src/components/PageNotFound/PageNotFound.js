@@ -1,6 +1,6 @@
 import React from 'react';
 
-import mochacatImg from '../../assets/mochacat-pooped.png';
+import notFoundImage from '../../assets/quagsire.webp';
 import './PageNotFound.scss';
 
 const PageNotFound = () => {
@@ -10,7 +10,7 @@ const PageNotFound = () => {
         <h1>404</h1>
         <h2>That page doesn't exist.</h2>
       </div>
-      <img src={mochacatImg} alt='Pooped cat' />
+      <img src={notFoundImage} alt='Quagsire' />
     </div>
   );
 };

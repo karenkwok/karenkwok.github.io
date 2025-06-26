@@ -1,6 +1,13 @@
 import React from 'react';
 
 import Card from '../UI/Card';
+
+import ihaloKrunch2Img from '../../assets/ihalokrunch2.jpg';
+import arcticBites2Img from '../../assets/arcticbites2.jpg';
+import shirohigecreampuffImg from '../../assets/shirohigecreampuff.jpg';
+import tokyobaskinrobbinsImg from '../../assets/tokyobaskinrobbins.jpg';
+import tokyodisneyseaImg from '../../assets/tokyodisneysea.jpg';
+import nanasgreenteaImg from '../../assets/nanasgreentea.jpg';
 import daigyoImg from '../../assets/daigyo.jpg';
 import pragueryImg from '../../assets/praguery.jpg';
 import pervertedImg from '../../assets/perverted.jpg';
@@ -51,6 +58,42 @@ import './Icecream.scss';
 const Icecream = () => {
   const icecreams = [
     {
+      id: 51,
+      image: ihaloKrunch2Img,
+      name: 'iHalo Krunch',
+      location: 'Markham, ON',
+    },
+    {
+      id: 50,
+      image: arcticBites2Img,
+      name: 'Arctic Bites',
+      location: 'Toronto, ON',
+    },
+    {
+      id: 49,
+      image: shirohigecreampuffImg,
+      name: 'Shirohige’s Cream Puff Factory',
+      location: 'Setagaya, Tokyo',
+    },
+    {
+      id: 48,
+      image: tokyobaskinrobbinsImg,
+      name: 'Baskin-Robbins',
+      location: 'Toshima, Tokyo',
+    },
+    {
+      id: 47,
+      image: tokyodisneyseaImg,
+      name: 'Tokyo DisneySea',
+      location: 'Urayasu, Chiba',
+    },
+    {
+      id: 46,
+      image: nanasgreenteaImg,
+      name: 'nana’s green tea',
+      location: 'Shimogyo, Kyoto',
+    },
+    {
       id: 45,
       image: daigyoImg,
       name: 'Daigyo',
@@ -62,12 +105,12 @@ const Icecream = () => {
       name: 'The Praguery',
       location: 'Squamish, BC',
     },
-    // {
-    //   id: 43,
-    //   image: pervertedImg,
-    //   name: 'PERVERTED',
-    //   location: 'Vancouver, BC',
-    // },
+    {
+      id: 43,
+      image: pervertedImg,
+      name: 'PERVERTED',
+      location: 'Vancouver, BC',
+    },
     {
       id: 42,
       image: rainOrShineImg,

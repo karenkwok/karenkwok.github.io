@@ -80,33 +80,20 @@
   }
 }
 
-@media (max-width: 900px) {
-  #icecream-gallery {
-    .icecream-block {
-      .icecream-info {
-        .icecream-name {
-          font-size: 1.4rem;
-        }
-      }
-    }
-  }
-}
-
 @media (max-width: 850px) {
+  #icecream .card {
+    padding: 1rem;
+  }
+
   #icecream-gallery {
     .icecream-block {
       .icecream-info {
         .icecream-name {
           width: 12rem;
+          font-size: 1.4rem;
         }
       }
     }
-  }
-}
-
-@media (max-width: 800px) {
-  #icecream .card {
-    padding: 1rem;
   }
 }
 
@@ -144,6 +131,12 @@
   }
 }
 
+@media (max-width: 700px) {
+  #icecream-gallery {
+    column-count: 2;
+  }
+}
+
 @media (max-width: 650px) {
   #icecream-gallery {
     .icecream-block {
@@ -161,15 +154,28 @@
   }
 }
 
-@media (max-width: 600px) {
-  #icecream-gallery {
-    column-count: 2;
-  }
-}
-
 @media (max-width: 550px) {
   #icecream-title {
     font-size: 3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  #icecream-gallery {
+    column-count: 1;
+
+    .icecream-block {
+      .icecream-info {
+        .icecream-name {
+          width: 10rem;
+          font-size: 1.2rem;
+        }
+
+        .icecream-location {
+          font-size: 1rem;
+        }
+      }
+    }
   }
 }
 
@@ -179,50 +185,8 @@
   }
 }
 
-@media (max-width: 450px) {
-  #icecream-gallery {
-    .icecream-block {
-      .icecream-info {
-        .icecream-name {
-          width: 8rem;
-          font-size: 0.9rem;
-        }
-
-        .icecream-location {
-          font-size: 0.7rem;
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 420px) {
-  #icecream-title {
-    font-size: 2rem;
-  }
-}
-
-@media (max-width: 400px) {
-  #icecream-gallery {
-    .icecream-block {
-      .icecream-info {
-        .icecream-name {
-          width: 6.5rem;
-          font-size: 0.8rem;
-        }
-
-        .icecream-location {
-          font-size: 0.6rem;
-        }
-      }
-    }
-  }
-}
-
 @media (max-width: 300px) {
   #icecream-gallery {
-    column-count: 1;
-
     .icecream-block {
       .icecream-info {
         .icecream-name {

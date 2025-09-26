@@ -2,6 +2,7 @@ import React from 'react';
 
 import Card from '../UI/Card';
 
+import cowsImg from '../../assets/cowsImg.png';
 import ihaloKrunch2Img from '../../assets/ihalokrunch2.jpg';
 import arcticBites2Img from '../../assets/arcticbites2.jpg';
 import shirohigecreampuffImg from '../../assets/shirohigecreampuff.jpg';
@@ -57,6 +58,12 @@ import './Icecream.scss';
 
 const Icecream = () => {
   const icecreams = [
+    {
+      id: 52,
+      image: cowsImg,
+      name: 'COWS',
+      location: 'Banff, AB',
+    },
     {
       id: 51,
       image: ihaloKrunch2Img,

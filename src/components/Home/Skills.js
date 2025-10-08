@@ -23,13 +23,14 @@ const Skills = () => {
   // ];
   const frontend = [
     'React',
+    'TypeScript',
     'JavaScript',
-    'Redux',
     'Next.js',
+    'Redux',
     'GraphQL',
-    'Sass',
     'Tailwind CSS',
     'styled-components',
+    'Sass',
     'HTML',
     'CSS',
   ];
@@ -46,16 +47,17 @@ const Skills = () => {
   // ];
   const backend = [
     'Python',
-    'C#',
-    'Java',
     'Node.js',
     'Express.js',
-    'MySQL',
+    'PHP',
+    'C#',
+    'Java',
     'MongoDB',
+    'MySQL',
   ];
 
   // const other = ['AWS', 'Unity', 'Canva'];
-  const other = ['Git', 'Firebase', 'Vercel', 'Unity'];
+  const other = ['Git', 'Firebase', 'Vercel', 'WordPress', 'Unity'];
 
   return (
     <div id='skills'>

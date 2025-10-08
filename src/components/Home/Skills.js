@@ -49,15 +49,15 @@ const Skills = () => {
     'Python',
     'Node.js',
     'Express.js',
-    'PHP',
     'C#',
     'Java',
+    'PHP',
     'MongoDB',
     'MySQL',
   ];
 
   // const other = ['AWS', 'Unity', 'Canva'];
-  const other = ['Git', 'Firebase', 'Vercel', 'WordPress', 'Unity'];
+  const other = ['Git', 'Vercel', 'Firebase', 'WordPress', 'Unity'];
 
   return (
     <div id='skills'>

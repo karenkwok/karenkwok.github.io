@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.31d70148.css",
-    "main.js": "/static/js/main.5769e17b.js",
+    "main.js": "/static/js/main.a6d36308.js",
     "static/js/453.1d84ebcd.chunk.js": "/static/js/453.1d84ebcd.chunk.js",
     "static/media/wonderland.jpg": "/static/media/wonderland.858e13df4761b9a53e16.jpg",
     "static/media/nanasgreentea.jpg": "/static/media/nanasgreentea.998b255fd538bf379126.jpg",
@@ -62,11 +62,11 @@
     "static/media/utsearch.png": "/static/media/utsearch.0e5511c7ec9fa1cc73bd.png",
     "index.html": "/index.html",
     "main.31d70148.css.map": "/static/css/main.31d70148.css.map",
-    "main.5769e17b.js.map": "/static/js/main.5769e17b.js.map",
+    "main.a6d36308.js.map": "/static/js/main.a6d36308.js.map",
     "453.1d84ebcd.chunk.js.map": "/static/js/453.1d84ebcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d70148.css",
-    "static/js/main.5769e17b.js"
+    "static/js/main.a6d36308.js"
   ]
 }
